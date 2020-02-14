@@ -4,7 +4,6 @@ Sys.setenv(TZ='America/Recife')
 
 tryCatch(
   {
-    adkadjajdjkaj
     message(date(), " - Executando crawler de Parlamentares...\n")
     source(here::here("crawler/parlamentares/export_parlamentares.R"))
   },
