@@ -1,0 +1,21 @@
+{
+  "name": "log_server",
+  "version": "1.0.0",
+  "description": "Servidor de arquivos do módulo Radar do Congresso Dados",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Congresso-em-Foco/radar-do-congresso-dados.git"
+  },
+  "keywords": [],
+  "author": "Radar do Congresso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-index": "^1.9.1"
+  }
+}
