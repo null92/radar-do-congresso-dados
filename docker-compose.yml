@@ -1,0 +1,39 @@
+version: '3.5'
+
+services:    
+
+  radar-updater:
+    build: .
+    container_name: radar-updater-container
+    restart: always
+    environment:
+      - PASSWORD=${PASSWORD:-secret}      
+      - PGHOST=${PGHOST:-postgres}
+      - PGUSER=${PGUSER:-postgres}
+      - PGDATABASE=${PGDATABASE:-radar}
+      - PGPASSWORD=${PGPASSWORD:-secret}
+    volumes:
+      - ./bd:/app/bd
+      - ./crawler:/app/crawler      
+    networks:
+      - radar-network
+
+  radar-log-server:
+    build: ./bd/server/  
+    container_name: radar-log-server-container
+    restart: always
+    volumes:
+      - ./bd:/log-server/bd
+      - ./bd/server/server.js:/log-server/bd/server/server.js
+      - /log-server/bd/server/node_modules/
+    ports:
+      - "5421:5421"
+
+networks:
+  radar-network:
+    external:
+      name: radar_network
+  
+volumes:
+  bd:
+  crawler:

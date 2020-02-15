@@ -1,0 +1,30 @@
+version: '3.5'
+
+services:    
+
+  radar-db:
+    image: postgres:11.1-alpine
+    container_name: radar-db-container
+    restart: always
+    environment:
+      - POSTGRES_DB=radar
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-secret}
+      - TZ=GMT
+    volumes:
+      - radar_data:/var/lib/postgresql/data/
+      - ./data:/data
+      - ./scripts:/scripts
+    ports:
+      - 5432:5432
+    networks:
+      - proxynet
+
+networks:
+  proxynet:
+    name: radar_network
+    
+volumes:
+  radar_data:
+  data:
+  scripts:
