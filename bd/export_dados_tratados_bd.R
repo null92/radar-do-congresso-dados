@@ -31,8 +31,12 @@ parlamentares <- processa_parlamentares()
 source(here("bd/processor/partidos/processa_partidos.R"))
 partidos <- processa_partidos()
 
+source(here("bd/processor/gastos_ceap/processa_gastos_ceap.R"))
+gastos_ceap <- processa_gastos_ceap()
+
 message("Escrevendo dados em csv...")	
 write_csv(parlamentares, paste0(output, "parlamentares.csv"))
 write_csv(partidos, paste0(output, "partidos.csv"))
+write_csv(gastos_ceap, paste0(output, "gastos_ceap_congresso.csv"))
 
 message("Concluído")
