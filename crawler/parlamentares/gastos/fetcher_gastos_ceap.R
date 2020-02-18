@@ -19,7 +19,8 @@ fetch_gastos_ceap_camara <- function(ano = 2019,
     download.file(url, zip_filepath, mode="wb")
   }
   
-  gastos_ceap <- read_csv2(zip_filepath, col_types = cols(.default = "c"))
+  gastos_ceap <- read_delim(zip_filepath, delim = ";", locale = locale(decimal_mark = "."), 
+                            col_types = cols(vlrRestituicao = "d"))
   
   gastos_ceap_alt <- gastos_ceap %>% 
     filter(!is.na(ideCadastro)) %>% 
@@ -58,7 +59,9 @@ fetch_gastos_ceap_senado <- function(ano = 2019) {
   
   url <- paste0("http://www.senado.gov.br/transparencia/LAI/verba/", ano, ".csv")
   
-  gastos_ceap <- read_csv2(url, col_types = cols(.default = "c"), locale = locale(encoding = "latin1"), skip = 1)
+  gastos_ceap <- read_delim(url, delim = ";", locale = locale(decimal_mark = ",", encoding = "latin1"),
+                            skip = 1,
+                            col_types = cols(FORNECEDOR = "c"))
   
   names(gastos_ceap) <- names(gastos_ceap) %>% tolower()
   gastos_ceap_alt <- gastos_ceap %>% 
@@ -75,10 +78,7 @@ fetch_gastos_ceap_senado <- function(ano = 2019) {
            fornecedor, 
            cnpj_cpf_fornecedor = cnpj_cpf,
            valor_reembolsado) %>% 
-    mutate(data_emissao = lubridate::dmy(data_emissao),
-           valor_reembolsado = str_replace(valor_reembolsado, "^,", "0."), # ',1' passa a ser '0.1'
-           valor_reembolsado = str_replace(valor_reembolsado, ",", "."), # Substitui vírgula por ponto
-           valor_reembolsado = as.numeric(valor_reembolsado))
+    mutate(data_emissao = lubridate::dmy(data_emissao))
   
   return(gastos_ceap_alt)
 }

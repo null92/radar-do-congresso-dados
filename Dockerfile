@@ -15,7 +15,7 @@ RUN apt-get install -y libpoppler-cpp-dev
 RUN touch .here
 
 ## Instala dependências
-RUN R -e "install.packages(c('here', 'optparse', 'RCurl', 'xml2', 'ellipsis'), repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('here', 'optparse', 'RCurl', 'xml2', 'ellipsis', 'fuzzyjoin'), repos='http://cran.rstudio.com/')"
 
 ## Configura cron para execução automática da atualização
 ENV TZ=America/Recife

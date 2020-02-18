@@ -35,7 +35,7 @@ adiciona_id_senador_dados_ceap <- function(gastos_senado,
   library(tidyverse)
   library(fuzzyjoin)
   
-  senadores <- read_csv(parlamentares_datapath, col_types = cols("id" = "c")) %>% 
+  senadores <- read_csv(parlamentares_datapath) %>% 
     filter(casa == 'senado') %>% 
     mutate(nome_regex = paste0(padroniza_nome(nome_eleitoral), "|", padroniza_nome(nome_civil))) %>% 
     select(id, nome_eleitoral, nome_regex)
