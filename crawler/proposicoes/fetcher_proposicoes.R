@@ -38,11 +38,12 @@ fetcher_proposicoes_por_ano_camara <- function(ano) {
   
   proposicoes_alt <- proposicoes %>% 
     mutate(nome = paste0(siglaTipo, " ", numero, "/", ano),
-           casa = "camara") %>% 
+           casa = "camara",
+           ano = ano) %>% 
     select(id_proposicao = id,
            casa,
            nome,
-           data_apresentacao = dataApresentacao,
+           ano,
            ementa,
            url = uri) %>% 
     left_join(parlamentares_proposicoes,
