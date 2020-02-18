@@ -38,11 +38,12 @@ fetcher_proposicoes_por_ano_camara <- function(ano) {
 
   proposicoes_alt <- proposicoes %>%
     mutate(nome = paste0(siglaTipo, " ", numero, "/", ano),
-           casa = "camara") %>%
+           casa = "camara",
+           ano = ano) %>% 
     select(id_proposicao = id,
            casa,
            nome,
-           data_apresentacao = dataApresentacao,
+           ano,
            ementa,
            url = uri) %>%
     left_join(parlamentares_proposicoes,
@@ -52,7 +53,12 @@ fetcher_proposicoes_por_ano_camara <- function(ano) {
   return(proposicoes_alt)
 }
 
-
+#' @title Baixa dados de proposições apresentadas no Senado
+#' @description Baixa as proposições que foram aprensentadas por Senadores na 56ª legislatura
+#' @param anos Lista com anos de interesse
+#' @return Dataframe contendo informações sobre as proposições
+#' @examples
+#' fetcher_proposicoes_senado(anos = c(2019, 2020))
 fetcher_proposicoes_senado <- function(anos = seq(2019, 2020)) {
   library(tidyverse)
   library(here)
@@ -61,19 +67,25 @@ fetcher_proposicoes_senado <- function(anos = seq(2019, 2020)) {
                         col_types = cols(id = "c")) %>%
     filter(casa == "senado")
 
-  date()
   proposicoes_autores <- tibble(id_request = senadores$id) %>%
     mutate(dados = map(
       id_request,
-      fetcher_proposicoes_senador_anos,
+      fetcher_proposicoes_senador,
       anos
     )) %>%
-    unnest(dados)
-  date()
-
+    unnest(dados) %>% 
+    select(-id_request)
+  
+  return(proposicoes_autores)
 }
 
-fetcher_proposicoes_senador_anos <- function(id_senador, anos) {
+#' @title Baixa dados de proposições apresentadas no Senado por um senador em um conjunto de anos
+#' @description Baixa as proposições que foram apresentadas por um senador em um conjunto de anos
+#' @param anos Lista com anos de interesse
+#' @return Dataframe contendo informações sobre as proposições
+#' @examples
+#' fetcher_proposicoes_senador(4981, c(2019, 2020))
+fetcher_proposicoes_senador <- function(id_senador, anos) {
   library(tidyverse)
 
   proposicoes <- tibble(ano_request = anos) %>%
@@ -125,7 +137,7 @@ fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
             xml2::xml_text()
         )
       }) %>%
-      mutate(casa = "camara") %>%
+      mutate(casa = "senado") %>%
       mutate(url = paste0("https://www25.senado.leg.br/web/atividade/materias/-/materia/",
                                      id_proposicao)) %>%
       mutate(id_parlamentar = id_senador) %>%
