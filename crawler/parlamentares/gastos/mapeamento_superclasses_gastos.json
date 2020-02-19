@@ -1,0 +1,22 @@
+{
+  "superclasses_camara": {
+    "superclasses" : [
+      {"nome": "Alimentação", "subclasse": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR"},
+      {"nome": "Combustíveis", "subclasse": "COMBUSTÍVEIS E LUBRIFICANTES."},
+      {"nome": "Locação de veículos", "subclasse": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES|LOCAÇÃO OU FRETAMENTO DE AERONAVES|LOCAÇÃO OU FRETAMENTO DE EMBARCAÇÕES"},
+      {"nome": "Passagens aéreas", "subclasse": "Emissão Bilhete Aéreo|PASSAGENS AÉREAS"},
+      {"nome": "Escritório", "subclasse": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR"},
+      {"nome": "Divulgação", "subclasse": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR."}
+    ]
+  },
+  "superclasses_senado": {
+    "superclasses": [
+      {"nome": "Alimentação", "subclasse": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR"},
+      {"nome": "Combustíveis", "subclasse": "COMBUSTÍVEIS E LUBRIFICANTES."},
+      {"nome": "Locação de veículos", "subclasse": ""},
+      {"nome": "Passagens aéreas", "subclasse": "Emissão Bilhete Aéreo"},
+      {"nome": "Escritório", "subclasse": "Aluguel de imóveis para escritório político.*|Aquisição de material de consumo para uso no escritório político.*"},
+      {"nome": "Divulgação", "subclasse": "Divulgação da atividade parlamentar"}
+    ] 
+  }
+}
