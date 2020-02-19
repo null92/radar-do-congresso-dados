@@ -8,9 +8,8 @@ processa_dados_proposicoes <- function(anos = c(2019, 2020)) {
   library(tidyverse)
   source(here::here("crawler/proposicoes/fetcher_proposicoes.R"))
   
-  # TODO: Implementar fetcher_proposicoes_senado()
-  proposicoes <- fetcher_proposicoes_camara(anos) # %>%
-  # rbind(fetcher_proposicoes_senado(anos))
+  proposicoes <- fetcher_proposicoes_camara(anos) %>%
+    rbind(fetcher_proposicoes_senado(anos))
   
   return(proposicoes)
 }
