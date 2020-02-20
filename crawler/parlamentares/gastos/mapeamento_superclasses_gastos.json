@@ -11,7 +11,7 @@
   "superclasses_senado":[
     {"categoria": "Alimentação", "subclasse": "alimenta(ca|çã|ça)o|refei(ca|ça|çã)o|bebidas|agua|almoço|suco|café da manhã"},
     {"categoria": "Combustíveis", "subclasse": "combust(i|í)ve(l|is)|(ó|o)leo|diesel|gasolina|abasteci(mento|do)"},
-    {"categoria": "Locação de veículos", "subclasse": "((locação|aluguel) de (um |)(ve(í|i)culo(s|)|carro|automóve(l|is))|locação de meios de transporte|deslocamento)(?=escritório)"},
+    {"categoria": "Locação de veículos", "subclasse": "((locação|aluguel) de (um |)(ve(í|i)culo(s|)|carro|automóve(l|is))|locação de meios de transporte|deslocamento)(?=escritório|)"},
     {"categoria": "Passagens aéreas", "subclasse": "a(é|e)rea"},
     {"categoria": "Escritório", "subclasse": "escritório"},
     {"categoria": "Divulgação", "subclasse": "divulgação"}
