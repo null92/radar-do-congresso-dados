@@ -12,13 +12,17 @@ processa_gastos_ceap <- function(ano = 2019) {
   source(here("crawler/parlamentares/gastos/fetcher_gastos_ceap.R"))
   source(here("crawler/utils/utils.R"))
   
-  gastos_camara <- fetch_gastos_ceap_camara(ano) %>% 
+  gastos_camara <- fetch_gastos_ceap_camara(ano)
+  
+  gastos_camara <- gastos_camara %>% 
     classifica_classes_gastos_ceap_camara() %>% 
     select(id_parlamentar, casa, ano, mes, data_emissao, documento, categoria, especificacao,
            fornecedor, cnpj_cpf_fornecedor, valor_gasto = valor_liquido) %>% 
     distinct()
   
-  gastos_senado <- fetch_gastos_ceap_senado(ano) %>%
+  gastos_senado <- fetch_gastos_ceap_senado(ano)
+  
+  gastos_senado <- gastos_senado %>%
     adiciona_id_senador_dados_ceap() %>% 
     classifica_classes_gastos_ceap_senado() %>% 
     select(id_parlamentar, casa, ano, mes, data_emissao, documento, categoria, especificacao,
