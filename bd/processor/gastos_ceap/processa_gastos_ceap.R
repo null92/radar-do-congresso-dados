@@ -9,7 +9,7 @@ processa_gastos_ceap <- function(
   library(tidyverse)
   library(here)
   
-  gastos_ceap <- read_csv(gastos_data_path, col_types = cols(valor_reembolsado = "d"))
+  gastos_ceap <- read_csv(gastos_data_path, col_types = cols(valor_gasto = "d"))
   
   parlamentares_processados <- read_csv(parlamentares_data_path, 
                                         col_types = cols(id_parlamentar_voz = "c")) %>% 
@@ -27,16 +27,12 @@ processa_gastos_ceap <- function(
       ano,
       mes,
       documento,
-      descricao,
+      categoria,
       especificacao,
       data_emissao,
       fornecedor,
       cnpj_cpf_fornecedor,
-      valor_documento,
-      valor_glosa,
-      valor_liquido,
-      num_parcela,
-      valor_reembolsado
+      valor_gasto
     )
   
   return(gastos_ceap_alt)
