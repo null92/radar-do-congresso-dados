@@ -27,6 +27,6 @@ message("Baixando dados...")
 proposicoes <- processa_dados_proposicoes()
 
 message(paste0("Salvando o resultado em ", saida))
-write.csv(proposicoes, saida, row.names = FALSE)
+write_csv(proposicoes, saida)
 
 message("Concluído!")
