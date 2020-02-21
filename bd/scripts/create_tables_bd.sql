@@ -53,5 +53,6 @@ CREATE TABLE IF NOT EXISTS "proposicoes" (
 CREATE TABLE IF NOT EXISTS "parlamentares_proposicoes" (
   "id_proposicao_voz" VARCHAR(40) REFERENCES "proposicoes" ("id_proposicao_voz") ON DELETE CASCADE ON UPDATE CASCADE,
   "id_parlamentar_voz" VARCHAR(40) REFERENCES "parlamentares" ("id_parlamentar_voz") ON DELETE CASCADE ON UPDATE CASCADE,
+  "ordem_assinatura" INTEGER,
   PRIMARY KEY("id_proposicao_voz", "id_parlamentar_voz")
 );

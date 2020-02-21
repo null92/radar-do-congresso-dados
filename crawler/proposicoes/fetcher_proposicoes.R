@@ -28,7 +28,8 @@ fetcher_proposicoes_por_ano_camara <- function(ano) {
 
   parlamentares_proposicoes <- parlamentares_proposicoes %>%
     select(id_proposicao = idProposicao,
-           id_parlamentar = idDeputadoAutor) %>%
+           id_parlamentar = idDeputadoAutor,
+           ordem_assinatura = ordemAssinatura) %>%
     distinct()
 
   url_proposicoes <- paste0("https://dadosabertos.camara.leg.br/arquivos/proposicoes/csv/proposicoes-", ano, ".csv")
@@ -48,7 +49,8 @@ fetcher_proposicoes_por_ano_camara <- function(ano) {
            url = uri) %>%
     left_join(parlamentares_proposicoes,
               by = "id_proposicao") %>%
-    distinct()
+    distinct() %>% 
+    select(id_proposicao, casa, nome, ano, ementa, url, id_parlamentar, ordem_assinatura)
 
   return(proposicoes_alt)
 }
@@ -105,7 +107,7 @@ fetcher_proposicoes_senador <- function(id_senador, anos) {
 #' @param ano Ano de interesse
 #' @return Dataframe contendo informações sobre as proposições
 #' @examples
-#' fetcher_proposicoes_senador_por_ano(4981, 2019)
+#' fetcher_proposicoes_senador_por_ano(2019, 4981)
 fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
   library(tidyverse)
 
@@ -122,7 +124,8 @@ fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
                     ano = character(),
                     ementa = character(),
                     url = character(),
-                    id_parlamentar = character()))
+                    id_parlamentar = character(),
+                    ordem_assinatura = character()))
     }
     proposicoes <- xml2::xml_find_all(xml, ".//Materia") %>%
       map_df(function(x) {
@@ -134,6 +137,8 @@ fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
           ano = xml2::xml_find_first(x, ".//IdentificacaoMateria//AnoMateria") %>%
             xml2::xml_text(),
           ementa = xml2::xml_find_first(x, ".//EmentaMateria") %>%
+            xml2::xml_text(),
+          ordem_assinatura = xml2::xml_find_first(x, ".//NumeroOrdemAutor") %>%
             xml2::xml_text()
         )
       }) %>%
@@ -141,7 +146,7 @@ fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
       mutate(url = paste0("https://www25.senado.leg.br/web/atividade/materias/-/materia/",
                                      id_proposicao)) %>%
       mutate(id_parlamentar = id_senador) %>%
-      select(id_proposicao, casa, nome, ano, ementa, url, id_parlamentar)
+      select(id_proposicao, casa, nome, ano, ementa, url, id_parlamentar, ordem_assinatura)
 
     return(proposicoes)
 
@@ -153,7 +158,8 @@ fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
                    ano = character(),
                    ementa = character(),
                    url = character(),
-                   id_parlamentar = character())
+                   id_parlamentar = character(),
+                   ordem_assinatura = character())
     return(data)
   })
 }
