@@ -16,7 +16,7 @@ processa_gastos_ceap <- function(ano = 2019) {
   
   gastos_camara <- gastos_camara %>% 
     classifica_classes_gastos_ceap_camara() %>% 
-    select(id_parlamentar, casa, ano, mes, data_emissao, documento, categoria, especificacao,
+    select(id_parlamentar, casa, ano, mes, data_emissao, documento, categoria, especificacao = descricao,
            fornecedor, cnpj_cpf_fornecedor, valor_gasto = valor_liquido) %>% 
     distinct()
   
@@ -95,14 +95,15 @@ classifica_classes_gastos_ceap_camara <- function(gastos_camara) {
   
   gastos_camara_alt <- fuzzyjoin::regex_left_join(
     gastos_camara %>% 
-      mutate(descricao = tolower(descricao)),
+      mutate(descricao_alt = tolower(descricao)),
     mapeamento_classes$superclasses_camara %>% 
       mutate(subclasse = tolower(subclasse)),
-    by = c("descricao" = "subclasse")
+    by = c("descricao_alt" = "subclasse")
   ) %>%
     mutate(categoria = if_else(is.na(categoria),
                                "Outros",
-                               categoria))
+                               categoria)) %>% 
+    select(-descricao_alt)
   
   return(gastos_camara_alt)
   
