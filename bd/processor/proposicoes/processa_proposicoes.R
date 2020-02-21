@@ -32,7 +32,7 @@ processa_proposicoes <- function(
     distinct()
   
   parlamentares_proposicoes_alt <- parlamentares_proposicoes %>% 
-    select(id_proposicao_voz, id_parlamentar_voz)
+    select(id_proposicao_voz, id_parlamentar_voz, ordem_assinatura)
   
   
   return(list(proposicoes_alt, parlamentares_proposicoes_alt))
