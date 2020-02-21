@@ -1,0 +1,27 @@
+{
+  "superclasses_camara": [
+    {"categoria": "Alimentação", "subclasse": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR"},
+    {"categoria": "Combustíveis", "subclasse": "COMBUSTÍVEIS E LUBRIFICANTES."},
+    {"categoria": "Locação de veículos", "subclasse": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES|LOCAÇÃO OU FRETAMENTO DE AERONAVES|LOCAÇÃO OU FRETAMENTO DE EMBARCAÇÕES"},
+    {"categoria": "Passagens aéreas", "subclasse": "Emissão Bilhete Aéreo|PASSAGENS AÉREAS"},
+    {"categoria": "Escritório", "subclasse": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR"},
+    {"categoria": "Divulgação", "subclasse": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR."}
+    ],
+    
+  "superclasses_senado":[
+    {"categoria": "Alimentação", "subclasse": "alimenta(ca|çã|ça)o|refei(ca|ça|çã)o|bebidas|^agua.|almoço|suco|café da manhã"},
+    {"categoria": "Combustíveis", "subclasse": "combust(i|í)ve(l|is)|(ó|o)leo|diesel|gasolina|abasteci(mento|do)"},
+    {"categoria": "Locação de veículos", "subclasse": "(locação|aluguel) de (um |)(ve(í|i)culo(s|)|carro|automóve(l|is))|locação de meios de transporte|deslocamento"},
+    {"categoria": "Passagens aéreas", "subclasse": "a(é|e)rea"},
+    {"categoria": "Escritório", "subclasse": "escritório"},
+    {"categoria": "Divulgação", "subclasse": "divulgação"}
+  ],
+  "ordem_precedencia_superclasses_senado":[
+    {"categoria": "Alimentação", "ordem": 1},
+    {"categoria": "Combustíveis", "ordem": 1},
+    {"categoria": "Locação de veículos", "ordem": 2},
+    {"categoria": "Passagens aéreas", "ordem": 1},
+    {"categoria": "Escritório", "ordem": 3},
+    {"categoria": "Divulgação", "ordem": 3}
+  ]
+}

@@ -30,7 +30,7 @@ file = here::here("bd/scripts/migrations/migration_parlamentares.sql")
 execute_migration(file, log_file)
 
 ## GASTOS CEAP
-file = here::here("bd/scripts/migrations/migration_gastos.sql")
+file = here::here("bd/scripts/migrations/migration_gastos_ceap.sql")
 execute_migration(file, log_file)
 
 ## PROPOSIÇÕES
