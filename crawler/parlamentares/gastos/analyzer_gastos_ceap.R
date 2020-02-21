@@ -118,30 +118,54 @@ classifica_classes_gastos_ceap_camara <- function(gastos_camara) {
 classifica_classes_gastos_ceap_senado <- function(gastos_senado) {
   library(tidyverse)
   
-  mapeamento_classes <- jsonlite::fromJSON(
-    here::here(
-      "crawler/parlamentares/gastos/mapeamento_superclasses_gastos.json"
-    )
-  )
+  mapeamento_classes <- jsonlite::fromJSON(here::here(
+    "crawler/parlamentares/gastos/mapeamento_superclasses_gastos.json"
+  ))
   
   # Existe uma descrição muito genérica que engloba várias categorias,
   # então usaremos a especificação nesse caso.
-  gastos_senado <- gastos_senado %>% 
-    mutate(descricao = if_else(descricao == "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-                               especificacao,
-                               descricao)) %>% 
+  gastos_senado <- gastos_senado %>%
+    mutate(
+      descricao = if_else(
+        descricao == "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
+        especificacao,
+        descricao
+      )
+    ) %>%
     filter(descricao != '-')
   
   gastos_senado_alt <- fuzzyjoin::regex_left_join(
-    gastos_senado %>% 
+    gastos_senado %>%
       mutate(descricao = tolower(descricao)),
-    mapeamento_classes$superclasses_senado %>% 
+    mapeamento_classes$superclasses_senado %>%
       mutate(subclasse = tolower(subclasse)),
     by = c("descricao" = "subclasse")
   ) %>%
     mutate(categoria = if_else(is.na(categoria),
                                "Outros",
                                categoria))
+  
+  gastos_senado_alt <- gastos_senado_alt %>%
+    left_join(mapeamento_classes$ordem_precedencia_superclasses_senado,
+              by = "categoria") %>%
+    group_by(
+      id_parlamentar,
+      casa,
+      ano,
+      mes,
+      documento,
+      descricao,
+      especificacao,
+      data_emissao,
+      fornecedor,
+      cnpj_cpf_fornecedor,
+      valor_reembolsado
+    ) %>%
+    mutate(min_ordem = min(ordem)) %>%
+    filter(ordem == min_ordem) %>%
+    ungroup() %>%
+    distinct() %>%
+    select(-c(subclasse, ordem, min_ordem))
   
   return(gastos_senado_alt)
   
