@@ -10,6 +10,7 @@ processa_discursos <- function(
   discursos <- read_csv(discursos_data_path, col_types = cols(.default = "c"))
   
   discursos_alt <- discursos %>%
+    mutate(resumo = trimws(resumo, which = "both")) %>% 
     mutate(id_parlamentar_voz = paste0(dplyr::if_else(casa == "camara", 1, 2), 
                                        id_parlamentar)) %>% 
     rowid_to_column(var = "id_discurso") %>% 
