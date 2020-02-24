@@ -14,8 +14,7 @@ processa_dados_discursos <- function() {
   
   discursos <- discursos_camara %>%
     rbind(discursos_senado) %>% 
-    select(-id_discurso) %>% 
-    tibble::rowid_to_column(var = "id_discurso")
+    select(-id_discurso)
   
   return(discursos)
 }
