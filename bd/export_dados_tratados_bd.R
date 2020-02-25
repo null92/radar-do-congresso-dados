@@ -39,11 +39,15 @@ proposicoes_processadas <- processa_proposicoes()
 proposicoes <- proposicoes_processadas[[1]]
 parlamentares_proposicoes <- proposicoes_processadas[[2]]
 
+source(here("bd/processor/patrimonio/processa_patrimonio.R"))
+patrimonio <- processa_patrimonio()
+
 message("Escrevendo dados em csv...")	
 write_csv(parlamentares, paste0(output, "parlamentares.csv"))
 write_csv(partidos, paste0(output, "partidos.csv"))
 write_csv(gastos_ceap, paste0(output, "gastos_ceap_congresso.csv"))
 write_csv(proposicoes, paste0(output, "proposicoes.csv"))
 write_csv(parlamentares_proposicoes, paste0(output, "parlamentares_proposicoes.csv"))
+write_csv(patrimonio, paste0(output, "patrimonio.csv"))
 
 message("Concluído")
