@@ -69,6 +69,32 @@ tryCatch(
 
 tryCatch(
   {
+    message(date(), " - Executando crawler de Mandatos...\n")
+    source(here::here("crawler/parlamentares/mandatos/export_mandatos_senadores.R"))
+  },
+  error=function(cond) {
+    log_error <- paste(cond, "Um erro ocorreu durante a execução do crawler de Mandatos")
+    message(log_error)
+    stop("A execução foi interrompida", call. = FALSE)
+    return(NA)
+  }
+)
+
+tryCatch(
+  {
+    message(date(), " - Executando crawler de Votos...\n")
+    source(here::here("crawler/votacoes/votos/export_votos.R"))
+  },
+  error=function(cond) {
+    log_error <- paste(cond, "Um erro ocorreu durante a execução do crawler de Votos")
+    message(log_error)
+    stop("A execução foi interrompida", call. = FALSE)
+    return(NA)
+  }
+)
+
+tryCatch(
+  {
     message(date(), " - Executando processamento dos dados para o formato do BD...\n")
     source(here::here("bd/export_dados_tratados_bd.R"))
   },
