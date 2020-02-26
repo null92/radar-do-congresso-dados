@@ -27,7 +27,7 @@ proposicoes <- votacoes_e_proposicoes[[1]]
 votacoes <- votacoes_e_proposicoes[[2]]
 
 message(paste0("Salvando o resultado no diretório ", output_folderpath))
-write_csv(proposicoes, paste0(output_folderpath, "proosicoes_votadas.csv"))
+write_csv(proposicoes, paste0(output_folderpath, "proposicoes_votadas.csv"))
 write_csv(votacoes, paste0(output_folderpath, "votacoes.csv"))
 
 message("Concluído!")
