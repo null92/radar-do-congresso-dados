@@ -13,7 +13,8 @@ INSERT INTO votacoes
     SET 
       obj_votacao = EXCLUDED.obj_votacao,
       data_hora = EXCLUDED.data_hora,
-      votacao_secreta = EXCLUDED.votacao_secreta;
+      votacao_secreta = EXCLUDED.votacao_secreta,
+      url_votacao = EXCLUDED.url_votacao;
 
 DELETE FROM votacoes
  WHERE (id_proposicao_voz, id_votacao) NOT IN 

@@ -38,7 +38,8 @@ process_proposicoes_votadas_e_votacoes <-
              casa,
              obj_votacao = objeto_votacao,
              data_hora,
-             votacao_secreta)
+             votacao_secreta,
+             url_votacao = link_votacao)
     
     votacoes <- bind_rows(votacoes_camara, votacoes_senado)
     
