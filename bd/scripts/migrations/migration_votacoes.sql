@@ -16,7 +16,7 @@ INSERT INTO votacoes
       votacao_secreta = EXCLUDED.votacao_secreta;
 
 DELETE FROM votacoes
- WHERE id_proposicao_voz, id_votacao NOT IN 
+ WHERE (id_proposicao_voz, id_votacao) NOT IN 
  (SELECT id_proposicao_voz, id_votacao FROM temp_votacoes);
 
 DROP TABLE temp_votacoes;

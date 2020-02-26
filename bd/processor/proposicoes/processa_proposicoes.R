@@ -39,7 +39,7 @@ processa_proposicoes <- function(parlamentares_data_path = here::here("crawler/r
   proposicoes_alt <-
     bind_rows(proposicoes_alt, proposicoes_votadas_alt) %>%
     select(id_proposicao_voz, id_proposicao, casa, nome, ano, ementa, url) %>%
-    distinct()
+    distinct(id_proposicao_voz, .keep_all = T)
   
   return(proposicoes_alt)
 }
