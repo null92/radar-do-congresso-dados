@@ -65,5 +65,18 @@ CREATE TABLE IF NOT EXISTS "patrimonio" (
     "ds_cargo" VARCHAR(40),
     "ds_tipo_bem" VARCHAR(255),
     "ds_bem" TEXT,
-    "valor_bem" DECIMAL(15, 2)
+    "valor_bem" DECIMAL(15, 2),
+    PRIMARY KEY("id_patrimonio")
+);
+
+CREATE TABLE IF NOT EXISTS "discursos" (
+  "id_discurso" SERIAL,
+  "id_parlamentar_voz" VARCHAR(40) REFERENCES "parlamentares" ("id_parlamentar_voz") ON DELETE CASCADE ON UPDATE CASCADE,
+  "casa" VARCHAR(40),
+  "tipo" VARCHAR(255),
+  "data" DATE,
+  "local" VARCHAR(255),
+  "resumo" TEXT,
+  "link" VARCHAR(255),
+  PRIMARY KEY("id_discurso")
 );

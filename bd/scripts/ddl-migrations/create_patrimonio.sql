@@ -10,7 +10,8 @@ CREATE TABLE IF NOT EXISTS "patrimonio" (
     "ds_cargo" VARCHAR(40),
     "ds_tipo_bem" VARCHAR(255),
     "ds_bem" TEXT,
-    "valor_bem" DECIMAL(15, 2)
+    "valor_bem" DECIMAL(15, 2),
+    PRIMARY KEY("id_patrimonio")
 );
 
 COMMIT;

@@ -43,6 +43,9 @@ execute_migration(file, log_file)
 
 ## PATRIMONIO
 file = here::here("bd/scripts/migrations/migration_patrimonio.sql")
+
+## DISCURSOS
+file = here::here("bd/scripts/migrations/migration_discursos.sql")
 execute_migration(file, log_file)
 
 if (length(grep("ROLLBACK", readLines(log_file), value = TRUE)) > 0) {
