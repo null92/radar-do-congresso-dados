@@ -65,5 +65,6 @@ CREATE TABLE IF NOT EXISTS "discursos" (
   "data" DATE,
   "local" VARCHAR(255),
   "resumo" TEXT,
-  "link" VARCHAR(255)
+  "link" VARCHAR(255),
+  PRIMARY KEY("id_discurso")
 );
