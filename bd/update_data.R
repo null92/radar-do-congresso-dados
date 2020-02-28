@@ -95,6 +95,19 @@ tryCatch(
 
 tryCatch(
   {
+    message(date(), " - Executando crawler de Patrimônio\n")
+    source(here::here("crawler/parlamentares/patrimonio/export_patrimonio.R"))
+  },
+  error=function(cond) {
+    log_error <- paste(cond, "Um erro ocorreu durante a execução do crawler de Patrimônio")
+    message(log_error)
+    stop("A execução foi interrompida", call. = FALSE)
+    return(NA)
+  }
+)
+
+tryCatch(
+  {
     message(date(), " - Executando crawler de Discursos...\n")
     source(here::here("crawler/parlamentares/discursos/export_discursos.R"))
   },
@@ -105,6 +118,7 @@ tryCatch(
     return(NA)
   }
 )
+
 
 tryCatch(
   {

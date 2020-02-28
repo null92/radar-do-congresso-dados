@@ -5,8 +5,8 @@
 #' @param parlamentares_path Caminho para o arquivo de dados de parlamentares
 #' @return Dataframe com informações das votos
 processa_votos <- function(votos_data_path = here::here("crawler/raw_data/votos.csv"),
-                           votacoes_data_path = here::here("crawler/raw_data/votacoes.csv"),
-                           parlamentares_path = here::here("crawler/raw_data/parlamentares.csv")) {
+                           votacoes_data_path = here::here("bd/data/votacoes.csv"),
+                           parlamentares_path = here::here("bd/data/parlamentares.csv")) {
   library(tidyverse)
   library(here)
   
@@ -17,15 +17,13 @@ processa_votos <- function(votos_data_path = here::here("crawler/raw_data/votos.
     distinct(id_votacao) %>% 
     pull(id_votacao)
   
-  parlamentares <- read_csv(parlamentares_path, col_types = cols(id = "c")) %>% 
-    filter(em_exercicio == 1) %>% 
-    pull(id)
+  parlamentares <- read_csv(parlamentares_path, col_types = cols(id_parlamentar_voz = "c")) %>% 
+    pull(id_parlamentar_voz)
   
   votos_select <- votos %>%
-    filter(id_parlamentar %in% parlamentares) %>%
     mutate(id_parlamentar_voz = paste0(dplyr::if_else(casa == "camara", 1, 2), 
                                               id_parlamentar)) %>% 
-    filter(id_votacao %in% votacoes) %>% 
+    filter(id_votacao %in% votacoes, id_parlamentar_voz %in%  parlamentares) %>% 
     select(id_votacao, id_parlamentar_voz, voto)
   
   return(votos_select)
