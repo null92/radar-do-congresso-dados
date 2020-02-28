@@ -46,12 +46,16 @@ votacoes <- processa_votacoes()
 source(here("bd/processor/votos/processa_votos.R"))
 votos <- processa_votos()
 
+source(here("bd/processor/discursos/processa_discursos.R"))
+discursos <- processa_discursos()
+
 message("Escrevendo dados em csv...")	
 write_csv(parlamentares, paste0(output, "parlamentares.csv"))
 write_csv(partidos, paste0(output, "partidos.csv"))
 write_csv(gastos_ceap, paste0(output, "gastos_ceap_congresso.csv"))
 write_csv(proposicoes, paste0(output, "proposicoes.csv"))
 write_csv(parlamentares_proposicoes, paste0(output, "parlamentares_proposicoes.csv"))
+write_csv(discursos, paste0(output, "discursos.csv"))
 write_csv(votacoes, paste0(output, "votacoes.csv"))
 write_csv(votos, paste0(output, "votos.csv"))
 

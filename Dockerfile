@@ -16,6 +16,7 @@ RUN touch .here
 
 ## Instala dependências
 RUN R -e "install.packages(c('here', 'optparse', 'RCurl', 'xml2', 'ellipsis', 'fuzzyjoin'), repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('lubridate'), repos='http://cran.rstudio.com/')"
 
 RUN apt-get install -y libjpeg-dev
 RUN R -e "install.packages('pdftools')"

@@ -13,10 +13,6 @@ INSERT INTO votos
     SET 
       voto = EXCLUDED.voto;
 
-DELETE FROM votos
- WHERE (id_votacao, id_parlamentar_voz) NOT IN 
- (SELECT id_votacao, id_parlamentar_voz FROM temp_votos);
-
 DROP TABLE temp_votos;
 
 COMMIT;
