@@ -20,7 +20,6 @@ RUN R -e "install.packages(c('lubridate'), repos='http://cran.rstudio.com/')"
 
 RUN apt-get install -y libjpeg-dev
 RUN R -e "install.packages('pdftools')"
-RUN R -e "install.packages('eeptools')"
 
 ## Configura cron para execução automática da atualização
 ENV TZ=America/Recife

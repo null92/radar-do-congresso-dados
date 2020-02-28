@@ -1,10 +1,3 @@
-#!/usr/bin/env Rscript
-source(here::here("crawler/votacoes/utils/constants.R"))
-source(here::here("crawler/parlamentares/deputados/fetcher_deputado.R"))
-
-# Bibliotecas
-library(tidyverse)
-
 #' @title Processa votos dos deputados
 #' @description O processamento consiste em mapear as votações dos deputados (caso tenha votado) e tratar os casos quando ele não votou
 #' @param votacoes Dataframe com informações das votações para captura dos votos
@@ -12,7 +5,6 @@ library(tidyverse)
 #' @examples
 #' processa_votos_camara(votacoes)
 processa_votos_camara <- function(votacoes) {
-  source(here::here("crawler/votacoes/utils_votacoes.R"))
   source(here::here("crawler/votacoes/votos/fetcher_votos_camara.R"))
   
   votacoes_alt <- votacoes %>% 
@@ -126,8 +118,10 @@ processa_votacoes_com_votos_incompletos <- function(
 #' votos <- process_votos_senado(votacoes)
 process_votos_senado <- function(votacoes) {
   library(tidyverse)
-  source(here::here("crawler/votacoes/utils_votacoes.R"))
-  source(here::here("crawler/votacoes/votos/fetcher_votos_senado.R"))
+  library(here)
+  source(here("crawler/votacoes/utils_votacoes.R"))
+  source(here("crawler/parlamentares/partidos/utils_partidos.R"))
+  source(here("crawler/votacoes/votos/fetcher_votos_senado.R"))
   
   votos <- fetch_all_votos_senado(votacoes)
   
