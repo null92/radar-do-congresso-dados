@@ -1,4 +1,4 @@
-#' @title Processa dados do patrimônio dosparlamentares
+#' @title Processa dados do patrimônio dos parlamentares
 #' @description Processa os dados de patriônio dos parlamentares e retorna no formato correto para o banco de dados
 #' @param patrimônio_datapath Caminho para o arquivo de dados de patrimônio sem tratamento
 #' @return Dataframe com informações detalhadas dos patrimônios
