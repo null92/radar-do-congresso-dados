@@ -43,7 +43,7 @@ execute_migration(file, log_file)
 
 ## PATRIMONIO
 file = here::here("bd/scripts/migrations/migration_patrimonio.sql")
-
+execute_migration(file, log_file)
 ## DISCURSOS
 file = here::here("bd/scripts/migrations/migration_discursos.sql")
 execute_migration(file, log_file)
