@@ -80,3 +80,22 @@ CREATE TABLE IF NOT EXISTS "discursos" (
   "link" VARCHAR(255),
   PRIMARY KEY("id_discurso")
 );
+
+CREATE TABLE IF NOT EXISTS "votacoes" (
+    "id_proposicao_voz" VARCHAR(40) REFERENCES "proposicoes" ("id_proposicao_voz") ON DELETE CASCADE ON UPDATE CASCADE,
+    "id_votacao" VARCHAR(40) UNIQUE,
+    "casa" VARCHAR(255),
+    "obj_votacao" VARCHAR(500),
+    "data_hora" DATE,
+    "votacao_secreta" BOOLEAN,
+    "url_votacao" VARCHAR(500),
+    PRIMARY KEY("id_votacao")
+);
+
+CREATE TABLE IF NOT EXISTS "votos" (
+    "id_votacao" VARCHAR(40) REFERENCES "votacoes"("id_votacao") ON DELETE CASCADE ON UPDATE CASCADE,
+    "id_parlamentar_voz" VARCHAR(40) REFERENCES "parlamentares" ("id_parlamentar_voz") ON DELETE CASCADE ON UPDATE CASCADE,
+    "voto" INTEGER,
+    PRIMARY KEY("id_votacao", "id_parlamentar_voz")
+);
+

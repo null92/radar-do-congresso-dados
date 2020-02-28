@@ -163,3 +163,120 @@ fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
     return(data)
   })
 }
+
+#' @title Baixa dados de uma proposição pelo seu id
+#' @description Baixa as informações sobre uma proposição a partir do seu id
+#' @param id_proposicao ID da proposição na Câmara
+#' @return Dataframe contendo informações sobre a proposição
+#' @examples
+#' fetcher_proposicao_por_id_camara(212142)
+fetcher_proposicao_por_id_camara <- function(id) {
+  library(tidyverse)
+  
+  print(paste0("Baixando informações da proposição de id ", id))
+  
+  url <- paste0("https://dadosabertos.camara.leg.br/api/v2/proposicoes/", id)
+  
+  proposicao <- tryCatch({
+    dados <- (RCurl::getURL(url) %>% 
+                jsonlite::fromJSON())$dados
+    prop <-
+      tribble(
+        ~ id_proposicao,
+        ~ casa,
+        ~ nome,
+        ~ ano,
+        ~ ementa,
+        ~ url,
+        dados$id,
+        "camara",
+        paste0(dados$siglaTipo,
+               " ",
+               dados$numero,
+               "/",
+               dados$ano),
+        dados$ano,
+        dados$ementa,
+        dados$uri
+      )
+    
+    return(prop)
+  }, 
+  error = function(e) {
+    print(e)
+    return(tibble(id_proposicao = character(),
+                   casa = character(),
+                   nome = character(),
+                   ano = character(),
+                   ementa = character(),
+                   url = character()))
+  })
+  
+  return(proposicao)
+}
+
+#' @title Baixa dados de uma proposição pelo seu id
+#' @description Baixa as informações sobre uma proposição a partir do seu id
+#' @param id_proposicao ID da proposição no Senado
+#' @return Dataframe contendo informações sobre a proposição
+#' @examples
+#' fetcher_proposicao_por_id_senado(91341)
+fetcher_proposicao_por_id_senado <- function(id) {
+  library(tidyverse)
+  library(xml2)
+  
+  print(paste0("Baixando informações da proposição de id ", id))
+  
+  url <- paste0("http://legis.senado.leg.br/dadosabertos/materia/", id)
+  
+  proposicao <- tryCatch({
+    xml <- RCurl::getURL(url) %>% xml2::read_xml()
+    dado <- xml_find_first(xml, ".//Materia")
+    if (dado %>% rlang::is_empty()) {
+      return(tibble(id_proposicao = character(),
+                    casa = character(),
+                    nome = character(),
+                    ano = character(),
+                    ementa = character(),
+                    url = character()))
+    }
+    prop <- tribble(
+      ~ id_proposicao,
+      ~ casa,
+      ~ nome,
+      ~ ano,
+      ~ ementa,
+      xml_find_first(dado, ".//IdentificacaoMateria//CodigoMateria") %>%
+        xml2::xml_text(),
+      "senado",
+      xml_find_first(
+        dado,
+        ".//IdentificacaoMateria//DescricaoIdentificacaoMateria"
+      ) %>%
+        xml2::xml_text(),
+      xml_find_first(dado, ".//IdentificacaoMateria//AnoMateria") %>%
+        xml2::xml_text(),
+      xml2::xml_find_first(dado, ".//EmentaMateria") %>%
+        xml2::xml_text()
+    ) %>%
+      mutate(
+        url = paste0(
+          "https://www25.senado.leg.br/web/atividade/materias/-/materia/",
+          id_proposicao
+        )
+      )
+    
+    return(prop)
+  }, 
+  error = function(e){
+    print(e)
+    return(tibble(id_proposicao = character(),
+                  casa = character(),
+                  nome = character(),
+                  ano = character(),
+                  ementa = character(),
+                  url = character()))
+  })
+  
+  return(proposicao)
+}

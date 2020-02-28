@@ -35,9 +35,16 @@ source(here("bd/processor/gastos_ceap/processa_gastos_ceap.R"))
 gastos_ceap <- processa_gastos_ceap()
 
 source(here("bd/processor/proposicoes/processa_proposicoes.R"))
-proposicoes_processadas <- processa_proposicoes()
-proposicoes <- proposicoes_processadas[[1]]
-parlamentares_proposicoes <- proposicoes_processadas[[2]]
+proposicoes <- processa_proposicoes()
+
+source(here("bd/processor/parlamentares_proposicoes/processa_parlamentares_proposicoes.R"))
+parlamentares_proposicoes <- processa_parlamentares_proposicoes()
+
+source(here("bd/processor/votacoes/processa_votacoes.R"))
+votacoes <- processa_votacoes()
+
+source(here("bd/processor/votos/processa_votos.R"))
+votos <- processa_votos()
 
 source(here("bd/processor/patrimonio/processa_patrimonio.R"))
 patrimonio <- processa_patrimonio()
@@ -53,5 +60,7 @@ write_csv(proposicoes, paste0(output, "proposicoes.csv"))
 write_csv(parlamentares_proposicoes, paste0(output, "parlamentares_proposicoes.csv"))
 write_csv(patrimonio, paste0(output, "patrimonio.csv"))
 write_csv(discursos, paste0(output, "discursos.csv"))
+write_csv(votacoes, paste0(output, "votacoes.csv"))
+write_csv(votos, paste0(output, "votos.csv"))
 
 message("Concluído")
