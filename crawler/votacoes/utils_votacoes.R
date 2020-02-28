@@ -100,7 +100,8 @@ get_sigla_by_id_camara <- function(id_proposicao) {
 mapeia_nome_eleitoral_to_id_senado <- function(target_df) {
   library(tidyverse)
   
-  senadores_df <- read_csv(here::here("crawler/raw_data/senadores.csv"))
+  senadores_df <- read_csv(here::here("crawler/raw_data/parlamentares.csv")) %>% 
+    filter(casa == "senado")
   
   result <- 
     target_df %>% 
