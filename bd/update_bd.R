@@ -56,10 +56,6 @@ execute_migration(file, log_file)
 file = here::here("bd/scripts/migrations/migration_votos.sql")
 execute_migration(file, log_file)
 
-## VOTOS ELEIÇÃO
-file = here::here("bd/scripts/migrations/migration_votos_eleicao.sql")
-execute_migration(file, log_file)
-
 if (length(grep("ROLLBACK", readLines(log_file), value = TRUE)) > 0) {
   error <- paste0('Um erro ocorreu durante a execução das migrações. Mais informações em ', log_file)  
   print(error)
