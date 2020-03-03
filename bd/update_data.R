@@ -119,6 +119,18 @@ tryCatch(
   }
 )
 
+tryCatch(
+  {
+    message(date(), " - Executando crawler de Assiduidade...\n")
+    source(here::here("crawler/parlamentares/assiduidade/export_assiduidade.R"))
+  },
+  error=function(cond) {
+    log_error <- paste(cond, "Um erro ocorreu durante a execução do crawler de Assiduidade")
+    message(log_error)
+    stop("A execução foi interrompida", call. = FALSE)
+    return(NA)
+  }
+)
 
 tryCatch(
   {
