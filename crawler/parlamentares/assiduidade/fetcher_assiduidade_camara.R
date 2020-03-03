@@ -8,9 +8,8 @@ fetch_assiduidade_camara <- function(anos = c(2019, 2020)) {
   assiduidade <- map_df(anos, ~ fetch_assiduidade_camara_por_ano(.x))
   
   assiduidade <- assiduidade %>% 
-    mutate(total = as.numeric(total), 
-           percentual = as.numeric(percentual)) %>% 
-    select(id_parlamentar, ano, metrica, total, percentual)
+    mutate(total = as.numeric(total)) %>% 
+    select(id_parlamentar, ano, metrica, total)
   
   return(assiduidade)
 }
@@ -77,7 +76,8 @@ fetch_assiduidade_camara_por_ano_e_parlamentar <- function(ano, id_parlamentar) 
   
   assiduidade <- assiduidade %>% 
     mutate(ano = ano,
-           id_parlamentar = id_parlamentar)
+           id_parlamentar = id_parlamentar,
+           metrica = trimws(metrica, which = "both"))
   
   return(assiduidade)
 }
