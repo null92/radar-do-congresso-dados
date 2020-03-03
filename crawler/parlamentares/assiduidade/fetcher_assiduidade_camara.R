@@ -8,8 +8,9 @@ fetch_assiduidade_camara <- function(anos = c(2019, 2020)) {
   assiduidade <- map_df(anos, ~ fetch_assiduidade_camara_por_ano(.x))
   
   assiduidade <- assiduidade %>% 
-    mutate(total = as.numeric(total)) %>% 
-    select(id_parlamentar, ano, metrica, total)
+    mutate(total = as.numeric(total),
+           casa = "camara") %>% 
+    select(id_parlamentar, casa, ano, metrica, total)
   
   return(assiduidade)
 }
