@@ -56,7 +56,7 @@ process_votos_parlamentares <- function() {
     left_join(candidatos_group, by = c("uf", "ano", "codigo_cargo")) %>% 
     mutate(proporcao_votos = total_votos / total_votos_uf) %>% 
     mutate(proporcao_votos = if_else(is.na(proporcao_votos), 0, proporcao_votos)) %>% 
-    select(ano, cpf, nome, total_votos, total_votos_uf, proporcao_votos)
+    select(ano, cpf, nome, uf, partido_eleicao, total_votos, total_votos_uf, proporcao_votos)
   
   parlamentares_alt <- parlamentares %>% 
     select(id, casa, cpf, nome_eleitoral, condicao_eleitoral, em_exercicio) %>% 

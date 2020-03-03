@@ -13,13 +13,13 @@ fetch_votos_eleicao_por_uf <- function(uf, codigo_cargo, ano) {
   message(paste0("Baixando dados para UF: ", uf, " Cargo: ", codigo_cargo, " Ano: ", ano))
   url <- paste0("https://eleicoes.datapedia.info/api/candidates/post/", codigo_cargo, "/", ano, "/", uf, "/0")
   
-  info_candidatos <- (RCurl::getURL(url) %>% jsonlite::fromJSON())$rows %>% 
+  info_candidatos <- (RCurl::getURL(url) %>% jsonlite::fromJSON(flatten = T))$rows %>% 
     unnest(candidate_status) %>%
     mutate(electoral_id = as.character(electoral_id),
            codigo_cargo = codigo_cargo,
            ano = ano) %>% 
     select(id_tse = electoral_id, ano, codigo_cargo, cpf, nome = name, uf = state, resultado_eleicao = result, 
-           total_votos = sum_votes)
+           partido_eleicao = party.abbreviation, total_votos = sum_votes)
   
   return(info_candidatos)
 }

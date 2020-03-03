@@ -12,6 +12,8 @@ DO
   UPDATE
   SET 
     casa = EXCLUDED.casa,
+    uf = EXCLUDED.id_partido,
+    id_partido = EXCLUDED.id_partido,
     total_votos = EXCLUDED.total_votos,
     total_votos_uf = EXCLUDED.total_votos_uf,
     proporcao_votos = EXCLUDED.proporcao_votos;
