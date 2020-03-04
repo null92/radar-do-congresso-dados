@@ -8,3 +8,4 @@
 \copy votacoes FROM './data/votacoes.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
 \copy votos FROM './data/votos.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
 \copy votos_eleicao FROM './data/votos_eleicao.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
+\copy assiduidade FROM './data/assiduidade.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;

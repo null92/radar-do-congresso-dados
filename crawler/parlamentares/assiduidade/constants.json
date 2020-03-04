@@ -1,0 +1,8 @@
+{
+  "assiduidade": [
+    {"regex_assiduidade":"total de dias com sessões deliberativas realizadas no período", "texto_assiduidade":"dias_com_sessoes_deliberativas"},
+    {"regex_assiduidade":"total de dias com presença nas sessões deliberativas", "texto_assiduidade":"dias_presentes"},
+    {"regex_assiduidade":"total de dias com ausências justificadas em sessões deliberativas", "texto_assiduidade":"dias_ausencias_justificadas"},
+    {"regex_assiduidade":"total de dias com ausências não justificadas em sessões deliberativas", "texto_assiduidade":"dias_ausencias_nao_justificadas"}
+  ]
+}
