@@ -36,7 +36,7 @@ fetch_senadores_legislatura <- function(legislatura = 56) {
     dados_senador <- pmap_dfr(
       list(data %>% distinct(id) %>% pull(id)),
       ~ fetch_info_por_senador(..1)) %>% 
-      select(id, data_nascimento)
+      select(-nome_eleitoral)
     
     data <- data %>% 
       left_join(dados_senador, by = c("id"))
@@ -79,7 +79,7 @@ fetch_senadores_atuais <- function(legislatura_atual = 56) {
   }, error = function(e) {
     print(e)
     data <- tribble(
-      ~ id, ~ nome_eleitoral, ~ legislatura_atual, ~ em_exercicio)
+      ~ id, ~ nome_eleitoral, ~ data_nascimento, ~ endereco, ~ email, ~ telefone, ~ naturalidade)
     return(data)
   })
   
@@ -108,14 +108,26 @@ fetch_info_por_senador <- function(id_senador) {
           nome_eleitoral = xml2::xml_find_first(x, ".//IdentificacaoParlamentar/NomeParlamentar") %>% 
             xml2::xml_text(),
           data_nascimento = xml2::xml_find_first(x, ".//DadosBasicosParlamentar/DataNascimento") %>% 
-            xml2::xml_text() ## yyyy-mm-dd
-        )
+            xml2::xml_text(), ## yyyy-mm-dd
+          cidade = xml2::xml_find_first(x, ".//DadosBasicosParlamentar/Naturalidade") %>% 
+            xml2::xml_text(),
+          estado = xml2::xml_find_first(x, ".//DadosBasicosParlamentar/UfNaturalidade") %>% 
+            xml2::xml_text(),
+          endereco = xml2::xml_find_first(x, ".//DadosBasicosParlamentar/EnderecoParlamentar") %>% 
+            xml2::xml_text(),
+          email = xml2::xml_find_first(x, ".//IdentificacaoParlamentar/EmailParlamentar") %>% 
+            xml2::xml_text(),
+          telefone = xml2::xml_find_first(x, ".//Telefones/Telefone/NumeroTelefone") %>% 
+            xml2::xml_text()
+          )
       }) %>% 
-      dplyr::distinct()
+      dplyr::distinct() %>% 
+      mutate(naturalidade = paste0(cidade, " - ", estado)) %>% 
+      select(-c(cidade, estado))
   }, error = function(e) {
     print(e)
     data <- tribble(
-      ~ id, ~ nome_eleitoral, ~ data_nascimento)
+      ~ id, ~ nome_eleitoral, ~ data_nascimento, ~ endereco, ~ email, ~ telefone, ~ naturalidade)
     return(data)
   })
   
