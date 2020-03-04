@@ -52,6 +52,12 @@ patrimonio <- processa_patrimonio()
 source(here("bd/processor/discursos/processa_discursos.R"))
 discursos <- processa_discursos()
 
+source(here("bd/processor/eleicoes/processa_votos_eleicao.R"))
+votos_eleicao <- processa_votos_eleicao()
+
+source(here("bd/processor/assiduidade/processa_assiduidade.R"))
+assiduidade <- processa_assiduidade()
+
 message("Escrevendo dados em csv...")	
 write_csv(parlamentares, paste0(output, "parlamentares.csv"))
 write_csv(partidos, paste0(output, "partidos.csv"))
@@ -62,5 +68,7 @@ write_csv(patrimonio, paste0(output, "patrimonio.csv"))
 write_csv(discursos, paste0(output, "discursos.csv"))
 write_csv(votacoes, paste0(output, "votacoes.csv"))
 write_csv(votos, paste0(output, "votos.csv"))
+write_csv(votos_eleicao, paste0(output, "votos_eleicao.csv"))
+write_csv(assiduidade, paste0(output, "assiduidade.csv"))
 
 message("Concluído")
