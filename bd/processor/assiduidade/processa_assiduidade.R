@@ -11,7 +11,7 @@ processa_assiduidade <- function(assiduidade_data_path = here::here("crawler/raw
   assiduidade_alt <-  assiduidade %>%
     mutate(id_parlamentar_voz = paste0(dplyr::if_else(casa == "camara", 1, 2), 
                                        id_parlamentar)) %>% 
-    select(id_parlamentar_voz, ano, dias_com_sessoes_deliberativas, dias_presentes, dias_ausencias_justificadas, dias_ausencias_nao_justificadas)
+    select(id_parlamentar_voz, ano, casa, dias_com_sessoes_deliberativas, dias_presentes, dias_ausencias_justificadas, dias_ausencias_nao_justificadas)
   
   return(assiduidade_alt)
 }
