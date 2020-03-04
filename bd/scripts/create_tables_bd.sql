@@ -88,6 +88,8 @@ CREATE TABLE IF NOT EXISTS "votacoes" (
     "obj_votacao" VARCHAR(500),
     "data_hora" DATE,
     "votacao_secreta" BOOLEAN,
+    "apelido" VARCHAR(255),
+    "status_importante" BOOLEAN,
     "url_votacao" VARCHAR(500),
     PRIMARY KEY("id_votacao")
 );

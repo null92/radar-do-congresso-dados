@@ -3,13 +3,17 @@
 #' @param votacoes_data_path Caminho para o arquivo de dados das proposições sem tratamento
 #' @return Dataframe de Votações tratado no formato do banco de dados
 processa_votacoes <- function(
-  votacoes_data_path = here::here("crawler/raw_data/votacoes.csv")) {
+  votacoes_data_path = here::here("crawler/raw_data/votacoes.csv"),
+  proposicoes_votadas_data_path = here::here("crawler/raw_data/proposicoes_votadas.csv")) {
   library(tidyverse)
   library(here)
   
   votacoes <- read_csv(votacoes_data_path)
   
+  proposicoes_votadas <- read_csv(proposicoes_votadas_data_path)
+  
   votacoes_alt <- votacoes %>%
+    filter(id_proposicao %in% (proposicoes_votadas %>% pull(id_proposicao))) %>% 
     mutate(
       id_proposicao_voz = paste0(dplyr::if_else(casa == "camara", 1, 2),
                                  id_proposicao))

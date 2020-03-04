@@ -15,6 +15,8 @@ INSERT INTO votacoes
       obj_votacao = EXCLUDED.obj_votacao,
       data_hora = EXCLUDED.data_hora,
       votacao_secreta = EXCLUDED.votacao_secreta,
+      apelido = EXCLUDED.apelido,
+      status_importante = EXCLUDED.status_importante,
       url_votacao = EXCLUDED.url_votacao;
 
 DELETE FROM votacoes
