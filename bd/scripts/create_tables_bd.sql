@@ -99,6 +99,17 @@ CREATE TABLE IF NOT EXISTS "votos" (
     PRIMARY KEY("id_votacao", "id_parlamentar_voz")
 );
 
+CREATE TABLE IF NOT EXISTS "votos_eleicao" (
+  "id_parlamentar_voz" VARCHAR(40) REFERENCES "parlamentares" ("id_parlamentar_voz") ON DELETE CASCADE ON UPDATE CASCADE,
+  "casa" VARCHAR(40),
+  "ano" INTEGER,
+  "uf" VARCHAR(4),
+  "id_partido" INTEGER REFERENCES "partidos" ("id_partido") ON DELETE SET NULL ON UPDATE CASCADE,
+  "total_votos" INTEGER,
+  "total_votos_uf" INTEGER,
+  PRIMARY KEY ("id_parlamentar_voz", "ano")
+);
+
 CREATE TABLE IF NOT EXISTS "assiduidade" (
     "id_parlamentar_voz" VARCHAR(40) REFERENCES "parlamentares" ("id_parlamentar_voz") ON DELETE CASCADE ON UPDATE CASCADE,
     "ano" INTEGER,
