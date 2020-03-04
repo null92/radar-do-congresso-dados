@@ -6,7 +6,7 @@ processa_parlamentares <- function(parlamentares_data_path = here::here("crawler
   library(tidyverse)
   library(here)
   
-  source(here("crawler/parlamentares/partidos/utils_partidos.R"))
+  source(here::here("crawler/parlamentares/partidos/utils_partidos.R"))
   
   parlamentares <- read_csv(parlamentares_data_path, col_types = cols(cpf = "c", data_nascimento = "c"))
   
