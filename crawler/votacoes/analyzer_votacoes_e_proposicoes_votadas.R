@@ -12,7 +12,7 @@ process_votacoes_status_apelido <- function(votacoes) {
   source(here::here("crawler/votacoes/constants.R"))
   source(here::here("crawler/utils/utils.R"))
   
-  votacoes_importantes <- read_csv(.URL_VOTACOES_IMPORTANTES_COPIA) %>% 
+  votacoes_importantes <- read_csv(.URL_VOTACOES_IMPORTANTES) %>% 
     mutate(id_proposicao = as.character(ID)) %>%
     mutate(casa = padroniza_nome(Casa) %>% tolower()) %>% 
     select(nome_proposicao = `Proposição`,
@@ -20,7 +20,7 @@ process_votacoes_status_apelido <- function(votacoes) {
            casa,
            data = `Data da Votação`,
            objeto_votacao = ObjVotacao,
-           apelido = `Texto do Objeto da Votação Importante`) %>% 
+           apelido = `Descrição`) %>% 
     mutate(data = ifelse(casa == "camara", 
                              gsub( " -.*$", "", data),
                              data
