@@ -35,7 +35,12 @@ processa_parlamentares <- function(parlamentares_data_path = here::here("crawler
       situacao,
       condicao_eleitoral,
       ultima_legislatura,
-      em_exercicio
+      em_exercicio,
+      data_nascimento,
+      naturalidade,
+      endereco,
+      telefone,
+      email
     )
   
   return(parlamentares_alt)
