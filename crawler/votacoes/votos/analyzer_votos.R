@@ -119,9 +119,9 @@ processa_votacoes_com_votos_incompletos <- function(
 process_votos_senado <- function(votacoes) {
   library(tidyverse)
   library(here)
-  source(here("crawler/votacoes/utils_votacoes.R"))
-  source(here("crawler/parlamentares/partidos/utils_partidos.R"))
-  source(here("crawler/votacoes/votos/fetcher_votos_senado.R"))
+  source(here::here("crawler/votacoes/utils_votacoes.R"))
+  source(here::here("crawler/parlamentares/partidos/utils_partidos.R"))
+  source(here::here("crawler/votacoes/votos/fetcher_votos_senado.R"))
   
   votos <- fetch_all_votos_senado(votacoes)
   

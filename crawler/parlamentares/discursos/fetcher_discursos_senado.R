@@ -62,7 +62,7 @@ fetch_discursos_todos_senadores <- function() {
   library(tidyverse)
   library(here)
   
-  senadores <- read_csv(here("crawler/raw_data/parlamentares.csv")) %>% 
+  senadores <- read_csv(here::here("crawler/raw_data/parlamentares.csv")) %>% 
     filter(casa == "senado")
   
   discursos_senado <- purrr::map_df(senadores$id, ~ fetch_discursos_senador(.x))

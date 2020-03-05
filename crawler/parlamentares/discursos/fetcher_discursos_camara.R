@@ -118,7 +118,7 @@ fetch_discursos_todos_deputados <- function() {
   library(tidyverse)
   library(here)
   
-  deputados <- read_csv(here("crawler/raw_data/parlamentares.csv")) %>% 
+  deputados <- read_csv(here::here("crawler/raw_data/parlamentares.csv")) %>% 
     filter(casa == "camara")
   
   discursos_camara <- purrr::map_df(deputados$id, ~ fetch_discursos_deputado(.x)) %>% 

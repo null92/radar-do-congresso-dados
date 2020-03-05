@@ -9,8 +9,8 @@ processa_gastos_ceap <- function(ano = 2019) {
   library(tidyverse)
   library(here)
   
-  source(here("crawler/parlamentares/gastos/fetcher_gastos_ceap.R"))
-  source(here("crawler/utils/utils.R"))
+  source(here::here("crawler/parlamentares/gastos/fetcher_gastos_ceap.R"))
+  source(here::here("crawler/utils/utils.R"))
   
   gastos_camara <- fetch_gastos_ceap_camara(ano)
   

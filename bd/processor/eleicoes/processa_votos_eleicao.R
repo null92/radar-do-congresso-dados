@@ -6,7 +6,7 @@ processa_votos_eleicao <- function(
   votos_eleicoes_data_path = here::here("crawler/raw_data/votos_eleicao.csv")) {
   library(tidyverse)
   library(here)
-  source(here("crawler/parlamentares/partidos/utils_partidos.R"))
+  source(here::here("crawler/parlamentares/partidos/utils_partidos.R"))
   
   votos <- read_csv(votos_eleicoes_data_path, col_types = cols(.default = "c"))
   

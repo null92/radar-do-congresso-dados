@@ -25,37 +25,37 @@ output <- opt$output
 
 message("Processando dados...")	
 
-source(here("bd/processor/parlamentares/processa_parlamentares.R"))
+source(here::here("bd/processor/parlamentares/processa_parlamentares.R"))
 parlamentares <- processa_parlamentares()
 
-source(here("bd/processor/partidos/processa_partidos.R"))
+source(here::here("bd/processor/partidos/processa_partidos.R"))
 partidos <- processa_partidos()
 
-source(here("bd/processor/gastos_ceap/processa_gastos_ceap.R"))
+source(here::here("bd/processor/gastos_ceap/processa_gastos_ceap.R"))
 gastos_ceap <- processa_gastos_ceap()
 
-source(here("bd/processor/proposicoes/processa_proposicoes.R"))
+source(here::here("bd/processor/proposicoes/processa_proposicoes.R"))
 proposicoes <- processa_proposicoes()
 
-source(here("bd/processor/parlamentares_proposicoes/processa_parlamentares_proposicoes.R"))
+source(here::here("bd/processor/parlamentares_proposicoes/processa_parlamentares_proposicoes.R"))
 parlamentares_proposicoes <- processa_parlamentares_proposicoes()
 
-source(here("bd/processor/votacoes/processa_votacoes.R"))
+source(here::here("bd/processor/votacoes/processa_votacoes.R"))
 votacoes <- processa_votacoes()
 
-source(here("bd/processor/votos/processa_votos.R"))
+source(here::here("bd/processor/votos/processa_votos.R"))
 votos <- processa_votos()
 
-source(here("bd/processor/patrimonio/processa_patrimonio.R"))
+source(here::here("bd/processor/patrimonio/processa_patrimonio.R"))
 patrimonio <- processa_patrimonio()
 
-source(here("bd/processor/discursos/processa_discursos.R"))
+source(here::here("bd/processor/discursos/processa_discursos.R"))
 discursos <- processa_discursos()
 
-source(here("bd/processor/eleicoes/processa_votos_eleicao.R"))
+source(here::here("bd/processor/eleicoes/processa_votos_eleicao.R"))
 votos_eleicao <- processa_votos_eleicao()
 
-source(here("bd/processor/assiduidade/processa_assiduidade.R"))
+source(here::here("bd/processor/assiduidade/processa_assiduidade.R"))
 assiduidade <- processa_assiduidade()
 
 message("Escrevendo dados em csv...")	

@@ -6,8 +6,8 @@
 processa_partidos_blocos <- function() {
   library(tidyverse)
   library(here)
-  source(here("crawler/parlamentares/partidos/fetcher_partidos_camara.R"))
-  source(here("crawler/parlamentares/partidos/fetcher_partidos_senado.R"))
+  source(here::here("crawler/parlamentares/partidos/fetcher_partidos_camara.R"))
+  source(here::here("crawler/parlamentares/partidos/fetcher_partidos_senado.R"))
   
   partidos_camara <- process_partidos_por_leg()
   

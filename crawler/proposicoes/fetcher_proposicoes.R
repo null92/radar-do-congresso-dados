@@ -65,7 +65,7 @@ fetcher_proposicoes_senado <- function(anos = seq(2019, 2020)) {
   library(tidyverse)
   library(here)
 
-  senadores <- read_csv(here("crawler/raw_data/parlamentares.csv"),
+  senadores <- read_csv(here::here("crawler/raw_data/parlamentares.csv"),
                         col_types = cols(id = "c")) %>%
     filter(casa == "senado")
 
