@@ -66,7 +66,7 @@ map_sigla_id <- function(sigla_partido) {
   library(tidyverse)
   library(here)
   
-  partidos <- suppressWarnings(suppressMessages(read_csv(here("crawler/raw_data/partidos.csv"))))
+  partidos <- suppressWarnings(suppressMessages(read_csv(here::here("crawler/raw_data/partidos.csv"))))
   
   sigla_padronizada <- padroniza_sigla(sigla_partido) %>% 
     padroniza_string()
