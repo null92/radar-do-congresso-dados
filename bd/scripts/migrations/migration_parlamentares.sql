@@ -21,7 +21,12 @@ DO
     situacao = EXCLUDED.situacao,
     condicao_eleitoral = EXCLUDED.condicao_eleitoral,
     ultima_legislatura = EXCLUDED.ultima_legislatura,
-    em_exercicio = EXCLUDED.em_exercicio;
+    em_exercicio = EXCLUDED.em_exercicio,
+    data_nascimento = EXCLUDED.data_nascimento,
+    naturalidade = EXCLUDED.naturalidade,
+    endereco = EXCLUDED.endereco,
+    telefone = EXCLUDED.telefone,
+    email = EXCLUDED.email;
 
 DELETE FROM parlamentares
  WHERE id_parlamentar_voz NOT IN 

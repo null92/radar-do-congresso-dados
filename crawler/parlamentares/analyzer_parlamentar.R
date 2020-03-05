@@ -15,17 +15,26 @@ processa_dados_deputados <- function() {
   
   deputados <- purrr::map_df(legislaturas_list, ~ fetch_deputados_with_backoff(.x))
   
-  deputados <- deputados %>% 
+  deputados_alt <- deputados %>% 
     group_by(id) %>% 
     rename("ultima_legislatura" = "legislatura") %>% 
     mutate(ultima_legislatura = max(ultima_legislatura)) %>% 
     distinct() %>% 
     mutate(sg_partido = padroniza_sigla(sg_partido)) %>% 
     mutate(em_exercicio = dplyr::if_else(situacao == 'Exercício', 1, 0)) %>%
+    mutate(endereco =  if_else(!is.na(anexo) & !is.na(andar) & !is.na(sala), 
+                               paste0("Anexo ", 
+                                      anexo, 
+                                      ", ", 
+                                      andar,
+                                      "º andar, sala ",
+                                      sala), 
+                               as.character(NA))) %>% 
     select(id, casa, cpf, nome_civil, nome_eleitoral, genero, uf, sg_partido, situacao, 
-                  condicao_eleitoral, ultima_legislatura, em_exercicio, data_nascimento)
+           condicao_eleitoral, ultima_legislatura, em_exercicio, data_nascimento, 
+           naturalidade, endereco, telefone, email)
   
-  return(deputados)
+  return(deputados_alt)
 }
 
 #' @title Processa dados de senadores
@@ -45,7 +54,6 @@ processa_dados_senadores <- function() {
   
   senadores_merge <- senadores %>% 
     left_join(senadores_em_exercicio, by = c("id", "legislatura" = "legislatura_atual")) %>%
-    
     mutate(casa = "senado") %>% 
     mutate(cpf = NA) %>% # Senado não diponibiliza informação do cpf
     mutate(situacao = NA) %>% # Senado não diponibiliza informação da situação
@@ -58,7 +66,8 @@ processa_dados_senadores <- function() {
     
     filter(legislatura == ultima_legislatura) %>%
     select(id, casa, cpf, nome_civil, nome_eleitoral = nome_eleitoral.x, genero, uf, sg_partido, 
-           situacao, condicao_eleitoral, ultima_legislatura, em_exercicio, data_nascimento)
+           situacao, condicao_eleitoral, ultima_legislatura, em_exercicio, data_nascimento,
+           naturalidade, endereco, telefone, email)
   
   return(senadores_merge)
 }
