@@ -10,5 +10,7 @@ padroniza_nome <- function(nome) {
   return(nome %>% 
            iconv(to="ASCII//TRANSLIT") %>% 
            toupper() %>% 
-           trimws(which = c("both")))
+           trimws(which = c("both")) %>% 
+           gsub(pattern = "[\r\n]", replacement = ""))
+        
 }
