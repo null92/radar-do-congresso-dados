@@ -141,6 +141,7 @@ process_partidos_por_leg <- function(legislaturas = c(55, 56)) {
     bind_rows(governo, partidos) %>% 
     bind_rows(blocos) %>% 
     mutate(sigla = gsub("\\.", "", sigla)) %>% 
+    mutate(sigla = ifelse(sigla == "REPUBLICANOS", "Rep", sigla)) %>% 
     arrange(id)
   
   return(partidos)
