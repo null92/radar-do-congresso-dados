@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS "parlamentares" (
     "naturalidade" VARCHAR(255),
     "endereco" VARCHAR(255),
     "telefone" VARCHAR(20),
-    "email" VARCHAR(100)
+    "email" VARCHAR(100),
     PRIMARY KEY("id_parlamentar_voz")
 );  
 

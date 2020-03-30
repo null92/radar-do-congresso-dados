@@ -13,10 +13,10 @@ id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,stat
 516111,168281245,camara,EMENDA AGLUTINATIVA Nº 1,2019-06-05 12:45,0,NA,0,NA
 516111,168281334,camara,PROPOSTA DE EMENDA À CONSTITUIÇÃO - 2º TURNO,2019-06-05 13:34,0,NA,0,NA
 516111,168281322,camara,EMENDA DE REDAÇÃO Nº 1,2019-06-05 13:22,0,NA,0,NA
-946494,167612120,camara,PROPOSTA DE EMENDA À CONSTITUIÇÃO - SEGUNDO TURNO,2019-03-26 21:20,0,NA,0,NA
+946494,167612120,camara,PROPOSTA DE EMENDA À CONSTITUIÇÃO - SEGUNDO TURNO,2019-03-26 21:20,0,PEC do Orçamento Impositivo - 2º Turno,1,NA
 946494,167612104,camara,"DTQ. 1 - BLOCO PSL - §11 DO ART. 165, CONST. DO ART. 1º DO SUBSTITUTIVO",2019-03-26 21:04,0,NA,0,NA
 946494,167612109,camara,"DTQ. 2 - BLOCO PSL - EXP. ""NOS TERMOS DE LEI COMPLEMENTAR"", ...",2019-03-26 21:09,0,NA,0,NA
-946494,167612052,camara,SUBSTITUTIVO DA COMISSÃO ESPECIAL,2019-03-26 20:52,0,NA,0,NA
+946494,167612052,camara,SUBSTITUTIVO DA COMISSÃO ESPECIAL,2019-03-26 20:52,0,PEC do Orçamento Impositivo - 1º Turno,1,NA
 946494,167612117,camara,EMENDAS DE REDAÇÃO DE NºS 1 A 4,2019-03-26 21:17,0,NA,0,NA
 1672576,167541722,camara,REQUERIMENTO DE ADIAMENTO DA VOTAÇÃO POR 2 SESSÕES,2019-03-20 17:22,0,NA,0,NA
 1672576,167541738,camara,REQUERIMENTO DE VOTAÇÃO ARTIGO POR ARTIGO,2019-03-20 17:38,0,NA,0,NA
@@ -73,7 +73,7 @@ id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,stat
 2166600,170271627,camara,EMA 3: PSL: EMENDA AGLUTINATIVA Nº 3,2019-12-17 16:27,0,NA,0,NA
 2166600,170271644,camara,"DTQ 8: PSL: EXPRESSÃO ""DE ADOÇÃO FACULTATIVA PELOS MUNICÍPIOS...",2019-12-17 16:44,0,NA,0,NA
 2166600,170271639,camara,DTQ 9: PSL: ART. 2º DO SUBSTITUTIVO,2019-12-17 16:39,0,NA,0,NA
-2178170,170092033,camara,SUBSTITUTIVO DA COMISSÃO ESPECIAL,2019-12-04 20:33,0,NA,0,NA
+2178170,170092033,camara,SUBSTITUTIVO DA COMISSÃO ESPECIAL,2019-12-04 20:33,0,Pacote anticrime,1,NA
 2178170,170092132,camara,"DTQ 1 - NOVO - ART. 3º-B, CONST. ART. 3º DO SUBSTITUTIVO",2019-12-04 21:32,0,NA,0,NA
 2179189,167271611,camara,REQUERIMENTO DE RETIRADA DE PAUTA,2019-02-12 16:11,0,NA,0,NA
 2179189,167271717,camara,REQUERIMENTO DE ADIAMENTO DA DISCUSSÃO POR 2 SESSÕES,2019-02-12 17:17,0,NA,0,NA
@@ -93,7 +93,7 @@ id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,stat
 2187087,169312244,camara,DTQ 6: CIDADANIA - EMENDA DO SF QUE SUPRIME O PARÁGRAFO ÚNICO DO ART. 18-A...,2019-09-18 22:44,0,NA,0,NA
 2187087,169312306,camara,DTQ 7: PODEMOS - EMENDA SUPRESSIVA REFERENTE AO PARÁGRAFO ÚNICO DO ART. 3º...,2019-09-18 23:06,0,NA,0,NA
 2187087,169312059,camara,REQUERIMENTO DE RETIRADA DE PAUTA,2019-09-18 20:59,0,NA,0,NA
-2187087,169312143,camara,EMENDAS SUPRESSIVAS COM PARECER PELA REJEIÇÃO,2019-09-18 21:43,0,NA,0,NA
+2187087,169312143,camara,EMENDAS SUPRESSIVAS COM PARECER PELA REJEIÇÃO,2019-09-18 21:43,0,Novas regras para partidos e eleições,1,NA
 2188301,167992040,camara,REQUERIMENTO DE RETIRADA DE PAUTA,2019-05-07 20:40,0,NA,0,NA
 2188301,167992055,camara,PROJETO DE LEI DE CONVERSÃO Nº 5/2019,2019-05-07 20:55,0,NA,0,NA
 2188301,167981841,camara,PARECER DA C.M P/ ATEND. DOS PRESSUPOSTOS CONSTITUCIONAIS...,2019-05-07 18:41,0,NA,0,NA
@@ -196,9 +196,9 @@ id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,stat
 2194124,168321909,camara,SUBSTITUTIVO DA CMO,2019-06-11 19:09,0,NA,0,NA
 2194357,167601632,camara,URGÊNCIA PARA APRECIAÇÃO DO PL Nº 888/2019,2019-03-26 16:32,0,NA,0,NA
 2194540,167601719,camara,URGÊNCIA PARA APRECIAÇÃO DO PLP Nº 55/2019,2019-03-26 17:19,0,NA,0,NA
-2197160,168281347,camara,SUBSTITUTIVO DA COMISSÃO ESPECIAL - PRIMEIRO TURNO,2019-06-05 13:47,0,NA,0,NA
+2197160,168281347,camara,SUBSTITUTIVO DA COMISSÃO ESPECIAL - PRIMEIRO TURNO,2019-06-05 13:47,0,PEC do Orçamento Impositivo (novo texto) - 1º Turno,1,NA
 2197160,168281454,camara,"DTQ 3 - PDT - EXP: ""...DE INICIATIVA DO PRESIDENTE...""",2019-06-05 14:54,0,NA,0,NA
-2197160,168281500,camara,PROPOSTA DE EMENDA À CONSTITUIÇÃO - SEGUNDO TURNO,2019-06-05 15:00,0,NA,0,NA
+2197160,168281500,camara,PROPOSTA DE EMENDA À CONSTITUIÇÃO - SEGUNDO TURNO,2019-06-05 15:00,0,PEC do Orçamento Impositivo (novo texto) - 2º Turno,1,NA
 2197160,168281418,camara,DTQ 1 - PSOL - § 1º DO ART 167,2019-06-05 14:18,0,NA,0,NA
 2197160,168281357,camara,DTQ 2 - PRB - § 17 DO ART. 166,2019-06-05 13:57,0,NA,0,NA
 2197504,169912110,camara,PROPOSTA DE EMENDA À CONSTITUIÇÃO - SEGUNDO TURNO,2019-11-19 21:10,0,NA,0,NA
@@ -329,7 +329,7 @@ id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,stat
 2231930,170162208,camara,DTQ PSOL - EMENDA 7,2019-12-10 22:08,0,NA,0,NA
 2232173,170091916,camara,URGÊNCIA PARA APRECIAÇÃO DO PL Nº 10.372/18,2019-12-04 19:16,0,NA,0,NA
 2222884,170381909,camara,PARECER DA C.M P/ ATEND. DOS PRESSUPOSTOS CONSTITUCIONAIS...,2020-02-11 19:09,0,NA,0,NA
-2222884,170392035,camara,PROJETO DE LEI DE CONVERSÃO Nº 30/2019,2020-02-11 20:35,0,NA,0,NA
+2222884,170392035,camara,PROJETO DE LEI DE CONVERSÃO Nº 30/2019,2020-02-11 20:35,0,MP do Agro,1,NA
 2222884,170391959,camara,REQUERIMENTO DE RETIRADA DE PAUTA,2020-02-11 19:59,0,NA,0,NA
 2222884,170381659,camara,REQUERIMENTO DE ADIAMENTO DA VOTAÇÃO POR 2 SESSÕES,2020-02-11 16:59,0,NA,0,NA
 2222884,170392020,camara,DTQ 1 - PT - DESTAQUE DE PREFERÊNCIA PARA A MPV Nº 897/2019,2020-02-11 20:20,0,NA,0,NA
@@ -359,16 +359,16 @@ id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,stat
 135088,5950,senado,"Submete à apreciação do Senado Federal, de conformidade com o art. 52, inciso IV, da Constituição, e com o art. 39, combinado com o art. 46 da Lei nº 11.440, de 2006, o nome do Senhor OLYNTHO VIEIRA, Ministro de Segunda Classe da Carreira de Diplomata do Ministério das Relações Exteriores, para exercer o cargo de Embaixador do Brasil na República Islâmica do Paquistão e cumulativamente junto à República Islâmica do Afeganistão e à República do Tajiquistão.",2019-03-26,1,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135088&p_cod_materia_f=135088&p_cod_sessao_votacao_i=5950&p_cod_sessao_votacao_f=5950
 123903,5951,senado,"PEC nº 141, de 2015, com as Emendas nºs 1 e 2 - CCJ (redação), no termos do Parecer (1º Turno)",2019-04-02,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=123903&p_cod_materia_f=123903&p_cod_sessao_votacao_i=5951&p_cod_sessao_votacao_f=5951
 123903,5952,senado,"Proposta de Emenda à Constituição nº 141, de 2015 (2º Turno)",2019-04-03,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=123903&p_cod_materia_f=123903&p_cod_sessao_votacao_i=5952&p_cod_sessao_votacao_f=5952
-135983,5954,senado,"Emenda nº 10 - CCJ (Substitutivo) à PEC nº 34, de 2019, nos termos do Parecer (1º Turno)",2019-04-03,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135983&p_cod_materia_f=135983&p_cod_sessao_votacao_i=5954&p_cod_sessao_votacao_f=5954
-135983,5953,senado,"Proposta de Emenda à Constituição nº 34, de 2019 (2º Turno)",2019-04-03,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135983&p_cod_materia_f=135983&p_cod_sessao_votacao_i=5953&p_cod_sessao_votacao_f=5953
+135983,5954,senado,"Emenda nº 10 - CCJ (Substitutivo) à PEC nº 34, de 2019, nos termos do Parecer (1º Turno)",2019-04-03,0,PEC do Orçamento Impositivo - 1º Turno,1,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135983&p_cod_materia_f=135983&p_cod_sessao_votacao_i=5954&p_cod_sessao_votacao_f=5954
+135983,5953,senado,"Proposta de Emenda à Constituição nº 34, de 2019 (2º Turno)",2019-04-03,0,PEC do Orçamento Impositivo - 2º Turno,1,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135983&p_cod_materia_f=135983&p_cod_sessao_votacao_i=5953&p_cod_sessao_votacao_f=5953
 121353,5955,senado,"Emenda nº 6-Plen (Substitutivo) à Proposta de Emenda à Constituição nº 61, de 2015 (1º Turno)",2019-04-09,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=121353&p_cod_materia_f=121353&p_cod_sessao_votacao_i=5955&p_cod_sessao_votacao_f=5955
 121353,5956,senado,"Proposta de Emenda à Constituição nº 61, de 2015 (2º Turno)",2019-04-09,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=121353&p_cod_materia_f=121353&p_cod_sessao_votacao_i=5956&p_cod_sessao_votacao_f=5956
 136173,5957,senado,"Emenda nº 13-Plen ao Projeto de Lei nº 1321, de 2019",2019-04-16,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=136173&p_cod_materia_f=136173&p_cod_sessao_votacao_i=5957&p_cod_sessao_votacao_f=5957
 127414,5960,senado,"PEC nº 57, de 2016, com as Emendas nºs 1 a 6 - CCJ, nos termos do Parecer (1º Turno)",2019-05-07,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=127414&p_cod_materia_f=127414&p_cod_sessao_votacao_i=5960&p_cod_sessao_votacao_f=5960
 117839,5961,senado,"Emenda nº 1 - CAE ao Projeto de Lei do Senado nº 188, de 2014 - Complementar",2019-05-21,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=117839&p_cod_materia_f=117839&p_cod_sessao_votacao_i=5961&p_cod_sessao_votacao_f=5961
-135064,5962,senado,Estabelece a organização básica dos órgãos da Presidência da República e dos Ministérios.,2019-05-28,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135064&p_cod_materia_f=135064&p_cod_sessao_votacao_i=5962&p_cod_sessao_votacao_f=5962
+135064,5962,senado,Estabelece a organização básica dos órgãos da Presidência da República e dos Ministérios.,2019-05-28,0,MP da reforma administrativa,1,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135064&p_cod_materia_f=135064&p_cod_sessao_votacao_i=5962&p_cod_sessao_votacao_f=5962
 136357,5963,senado,"Mensagem nº 12, de 2019 - Davi Ferreira Gomes Barreto (ANTT)",2019-05-29,1,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=136357&p_cod_materia_f=136357&p_cod_sessao_votacao_i=5963&p_cod_sessao_votacao_f=5963
-135079,5964,senado,"Institui o Programa Especial para Análise de Benefícios com Indícios de Irregularidade, o Programa de Revisão de Benefícios por Incapacidade, o Bônus de Desempenho Institucional por Análise de Benefícios com Indícios de Irregularidade do Monitoramento Operacional de Benefícios e o Bônus de Desempenho Institucional por Perícia Médica em Benefícios por Incapacidade, e dá outras providências.",2019-06-03,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135079&p_cod_materia_f=135079&p_cod_sessao_votacao_i=5964&p_cod_sessao_votacao_f=5964
+135079,5964,senado,"Institui o Programa Especial para Análise de Benefícios com Indícios de Irregularidade, o Programa de Revisão de Benefícios por Incapacidade, o Bônus de Desempenho Institucional por Análise de Benefícios com Indícios de Irregularidade do Monitoramento Operacional de Benefícios e o Bônus de Desempenho Institucional por Perícia Médica em Benefícios por Incapacidade, e dá outras providências.",2019-06-03,0,MP do pente-fino no INSS,1,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135079&p_cod_materia_f=135079&p_cod_sessao_votacao_i=5964&p_cod_sessao_votacao_f=5964
 116081,5967,senado,"PLS nº 26, de 2014 - Complementar, com as Emendas nos termos dos Pareceres",2019-06-12,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=116081&p_cod_materia_f=116081&p_cod_sessao_votacao_i=5967&p_cod_sessao_votacao_f=5967
 132847,5968,senado,"Emenda nº 3 - CAE (Substitutivo) ao Projeto de Lei do Senado nº 163, de 2018 - Complementar",2019-06-12,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=132847&p_cod_materia_f=132847&p_cod_sessao_votacao_i=5968&p_cod_sessao_votacao_f=5968
 137178,5969,senado,"Proposta de Emenda à Constituição nº 91, de 2019, nos termos do Parecer de Plenário (1º Turno)",2019-06-12,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=137178&p_cod_materia_f=137178&p_cod_sessao_votacao_i=5969&p_cod_sessao_votacao_f=5969
@@ -379,7 +379,7 @@ id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,stat
 136995,5977,senado,"Mensagem nº 22, de 2019 - Antonio de Aguiar Patriota (Egito e Eritréia)",2019-06-18,1,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=136995&p_cod_materia_f=136995&p_cod_sessao_votacao_i=5977&p_cod_sessao_votacao_f=5977
 137061,5978,senado,"Mensagem nº 24, de 2019 - Carlos Alberto Simas Magalhães (Portugal)",2019-06-25,1,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=137061&p_cod_materia_f=137061&p_cod_sessao_votacao_i=5978&p_cod_sessao_votacao_f=5978
 137117,5979,senado,"Mensagem nº 26, de 2019 - Luís Fernando de Andrade Serra (França e Mônaco)",2019-06-25,1,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=137117&p_cod_materia_f=137117&p_cod_sessao_votacao_i=5979&p_cod_sessao_votacao_f=5979
-128634,5980,senado,"Projeto de Lei da Câmara nº 27, de 2017 e Emendas nos termos dos Pareceres, ressalvados os destaques",2019-06-26,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=128634&p_cod_materia_f=128634&p_cod_sessao_votacao_i=5980&p_cod_sessao_votacao_f=5980
+128634,5980,senado,"Projeto de Lei da Câmara nº 27, de 2017 e Emendas nos termos dos Pareceres, ressalvados os destaques",2019-06-26,0,Punição para abuso de autoridade,1,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=128634&p_cod_materia_f=128634&p_cod_sessao_votacao_i=5980&p_cod_sessao_votacao_f=5980
 130029,5982,senado,"PLS nº 224, de 2017, com a Emenda nº 1 - CCJ, nos termos do Parecer, ressalvado o destaque",2019-06-26,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=130029&p_cod_materia_f=130029&p_cod_sessao_votacao_i=5982&p_cod_sessao_votacao_f=5982
 137060,5983,senado,"Mensagem nº 23, de 2019 - Alexandre Ramagem Rodrigues (ABIN)",2019-06-26,1,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=137060&p_cod_materia_f=137060&p_cod_sessao_votacao_i=5983&p_cod_sessao_votacao_f=5983
 135594,5984,senado,"PEC nº 17, de 2019, com a Emenda nº 1 - CCJ (Redação), nos termos do Parecer (1º Turno)",2019-07-02,0,NA,0,http://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=135594&p_cod_materia_f=135594&p_cod_sessao_votacao_i=5984&p_cod_sessao_votacao_f=5984

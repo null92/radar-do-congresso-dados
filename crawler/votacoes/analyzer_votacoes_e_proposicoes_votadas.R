@@ -18,9 +18,9 @@ process_votacoes_status_apelido <- function(votacoes) {
     select(nome_proposicao = `Proposição`,
            id_proposicao,
            casa,
-           data = `Data da Votação`,
+           data = Data,
            objeto_votacao = ObjVotacao,
-           apelido = `Descrição`) %>% 
+           apelido = Apelido) %>%
     mutate(data = ifelse(casa == "camara", 
                              gsub( " -.*$", "", data),
                              data
