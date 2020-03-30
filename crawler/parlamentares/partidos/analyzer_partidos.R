@@ -9,10 +9,11 @@ processa_partidos_blocos <- function() {
   source(here::here("crawler/parlamentares/partidos/fetcher_partidos_camara.R"))
   source(here::here("crawler/parlamentares/partidos/fetcher_partidos_senado.R"))
   
-  partidos_camara <- process_partidos_por_leg()
+  partidos_camara <- process_partidos_por_leg() %>% 
+    filter(!str_detect(sigla, "SOLIDARIEDADE")) ## Apenas SD será mantido
   
   partidos_senado <- fetch_partidos_senado() %>%
-    filter(!str_detect(sigla, "PODEMOS"))
+    filter(!str_detect(sigla, "PODEMOS"), !str_detect(sigla, "REPUBLICANOS"))
 
   partidos_senado_filtrado <- partidos_senado %>%
     filter(!(sigla %in% (partidos_camara %>% pull(sigla))))

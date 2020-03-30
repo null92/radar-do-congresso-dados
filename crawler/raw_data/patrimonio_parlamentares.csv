@@ -89,16 +89,16 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204495,Airton Faleiro,18836178200,camara,140000627194,2018,Quotas ou quinhões de capital,COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DO ESTADO DO PARÁ - SICCOB COESA,19340.19,PT,DEPUTADO FEDERAL
 204495,Airton Faleiro,18836178200,camara,140000627194,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",VEICULO VITARA 4SPORT ANO2017 ADQUIRIDO DA DELTA VEICULOS,118990,PT,DEPUTADO FEDERAL
 204495,Airton Faleiro,18836178200,camara,140000627194,2018,"Aplicação de renda fixa (CDB, RDB e outros)",APLICAÇÃO NO BANCO: BANPARÁ,36110.93,PT,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,Depósito bancário em conta corrente no País,#NULO#,45386.32,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,Terreno,#NULO#,5000,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,2500,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,Quotas ou quinhões de capital,#NULO#,114000,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,Terreno,#NULO#,5000,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,Caderneta de poupança,#NULO#,409227.05,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,170000,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,Terreno,#NULO#,5000,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,Dinheiro em espécie - moeda estrangeira,#NULO#,30000,PP,DEPUTADO FEDERAL
-204549,Aj Albuquerque,97506060353,camara,60000611004,2018,"Aplicação de renda fixa (CDB, RDB e outros)",#NULO#,38857.67,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,Depósito bancário em conta corrente no País,#NULO#,45386.32,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,Terreno,#NULO#,5000,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,2500,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,Quotas ou quinhões de capital,#NULO#,114000,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,Terreno,#NULO#,5000,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,Caderneta de poupança,#NULO#,409227.05,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,170000,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,Terreno,#NULO#,5000,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,Dinheiro em espécie - moeda estrangeira,#NULO#,30000,PP,DEPUTADO FEDERAL
+204549,AJ Albuquerque,97506060353,camara,60000611004,2018,"Aplicação de renda fixa (CDB, RDB e outros)",#NULO#,38857.67,PP,DEPUTADO FEDERAL
 178836,Alan Rick,44726570234,camara,10000602509,2018,Outras participações societárias,#NULO#,5000,DEM,DEPUTADO FEDERAL
 178836,Alan Rick,44726570234,camara,10000602509,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,90000,DEM,DEPUTADO FEDERAL
 178836,Alan Rick,44726570234,camara,10000602509,2018,Casa,#NULO#,268166.11,DEM,DEPUTADO FEDERAL
@@ -1590,6 +1590,14 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204351,Dr. Luiz Ovando,05134552134,camara,120000615484,2018,Outras aplicações e Investimentos,Banco Itau Operações Compromissadas ,37027.34,PSL,DEPUTADO FEDERAL
 204351,Dr. Luiz Ovando,05134552134,camara,120000615484,2018,Depósito bancário em conta corrente no País,Saldo Conta Corrente Unicred,6774.9,PSL,DEPUTADO FEDERAL
 204351,Dr. Luiz Ovando,05134552134,camara,120000615484,2018,Outras aplicações e Investimentos,Banco Itau CDB/RDB,41475.75,PSL,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Quotas ou quinhões de capital,#NULO#,26354.36,PODE,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Quotas ou quinhões de capital,#NULO#,7000,PODE,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Quotas ou quinhões de capital,#NULO#,95000,PODE,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Sala ou conjunto,#NULO#,2970,PODE,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Outros créditos e poupança vinculados,#NULO#,8467.05,PODE,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Outros créditos e poupança vinculados,#NULO#,42.21,PODE,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Quotas ou quinhões de capital,#NULO#,899,PODE,DEPUTADO FEDERAL
+178830,Dr. Sinval Malheiros,88779254853,camara,250000613793,2018,Outros créditos e poupança vinculados,#NULO#,42.01,PODE,DEPUTADO FEDERAL
 204412,Dr. Zacharias Calil,11833050100,camara,90000616011,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,64000,DEM,DEPUTADO FEDERAL
 204412,Dr. Zacharias Calil,11833050100,camara,90000616011,2018,Casa,#NULO#,250000,DEM,DEPUTADO FEDERAL
 204412,Dr. Zacharias Calil,11833050100,camara,90000616011,2018,"Aplicação de renda fixa (CDB, RDB e outros)",#NULO#,87235.32,DEM,DEPUTADO FEDERAL
@@ -3732,10 +3740,10 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 212749,Marcão Gomes,09300885731,camara,190000604197,2018,Apartamento,"apartamento 1203 adquirido da Lorenge SPE empreendimentos Imobiliarios CNPJ 18.976.927/0001-27,na rua almirante wande nkolk 15, parque tamandaré , campos dos goytacazes - rj, em construção.",149872.94,PR,DEPUTADO FEDERAL
 212749,Marcão Gomes,09300885731,camara,190000604197,2018,Consórcio não contemplado,consórcio nacional embracon ( não contemplado).,204148.12,PR,DEPUTADO FEDERAL
 212749,Marcão Gomes,09300885731,camara,190000604197,2018,Terreno,"terreno no açu lote 13 quadra f, loteamento jardim novo açu, medindo 13x23,5 igual a 352m², adquirido em 2011.",35000,PR,DEPUTADO FEDERAL
-156190,Marcel Van Hattem,00731302060,camara,210000602609,2018,Depósito bancário em conta corrente no exterior,"País: Holanda | Banco: ABN AMRO| Dados: NL12 0402 7449 26 |¿ 57,00",249.45,NOVO,DEPUTADO FEDERAL
-156190,Marcel Van Hattem,00731302060,camara,210000602609,2018,Dinheiro em espécie - moeda nacional,Dinheiro em espécie   ,4700,NOVO,DEPUTADO FEDERAL
-156190,Marcel Van Hattem,00731302060,camara,210000602609,2018,Depósito bancário em conta corrente no País,"Banco do Brasil: AG: 2027-3 | CC: 24385-x | R$ 2.892,14",2892.14,NOVO,DEPUTADO FEDERAL
-156190,Marcel Van Hattem,00731302060,camara,210000602609,2018,Depósito bancário em conta corrente no País,"Banrisul AG: 0839 | CC: 351580520-0 | R$30,30",30.3,NOVO,DEPUTADO FEDERAL
+156190,Marcel van Hattem,00731302060,camara,210000602609,2018,Depósito bancário em conta corrente no exterior,"País: Holanda | Banco: ABN AMRO| Dados: NL12 0402 7449 26 |¿ 57,00",249.45,NOVO,DEPUTADO FEDERAL
+156190,Marcel van Hattem,00731302060,camara,210000602609,2018,Dinheiro em espécie - moeda nacional,Dinheiro em espécie   ,4700,NOVO,DEPUTADO FEDERAL
+156190,Marcel van Hattem,00731302060,camara,210000602609,2018,Depósito bancário em conta corrente no País,"Banco do Brasil: AG: 2027-3 | CC: 24385-x | R$ 2.892,14",2892.14,NOVO,DEPUTADO FEDERAL
+156190,Marcel van Hattem,00731302060,camara,210000602609,2018,Depósito bancário em conta corrente no País,"Banrisul AG: 0839 | CC: 351580520-0 | R$30,30",30.3,NOVO,DEPUTADO FEDERAL
 179000,Marcelo Álvaro Antônio,00649039661,camara,130000616635,2018,Outras participações societárias,"QUOTAS DE CAPITAL SOCIAL DA SOCIEDADE EMPRESARIA VOICELIDER SOLUCOES EM TECNOLOGIA LTDA- ME , INSCRITA NO - CNPJ SOB NO 28.349.217/0001-03.",13125,PSL,DEPUTADO FEDERAL
 179000,Marcelo Álvaro Antônio,00649039661,camara,130000616635,2018,Apartamento,APARTAMENTO RESIDENCIAL Logradouro: RUA STELLA HANRIOT N.: 200 - apto 301 - Buritis - CEP: 30575-120 - BELO HORIZONTE  / MG,360000,PSL,DEPUTADO FEDERAL
 179000,Marcelo Álvaro Antônio,00649039661,camara,130000616635,2018,Dinheiro em espécie - moeda nacional,DINHEIRO EM ESPÉCIE - MOEDA NACIONAL ,400000,PSL,DEPUTADO FEDERAL
@@ -4418,13 +4426,13 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204377,Paula Belmonte,57867100172,camara,70000618962,2018,"Aplicação de renda fixa (CDB, RDB e outros)",#NULO#,25752.27,PPS,DEPUTADO FEDERAL
 204377,Paula Belmonte,57867100172,camara,70000618962,2018,Outras aplicações e Investimentos,#NULO#,351162.75,PPS,DEPUTADO FEDERAL
 171617,Paulão,14433290459,camara,20000621937,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",NISSAN/XTERRA 2.8 SE CINZA ANO 2004/2005,40333.52,PT,DEPUTADO FEDERAL
-141516,Paulo Abi-ackel,30825628172,camara,130000613199,2018,Consórcio não contemplado,#NULO#,22633.31,PSDB,DEPUTADO FEDERAL
-141516,Paulo Abi-ackel,30825628172,camara,130000613199,2018,Casa,#NULO#,696780,PSDB,DEPUTADO FEDERAL
-141516,Paulo Abi-ackel,30825628172,camara,130000613199,2018,Outros bens imóveis,#NULO#,10000,PSDB,DEPUTADO FEDERAL
-141516,Paulo Abi-ackel,30825628172,camara,130000613199,2018,Quotas ou quinhões de capital,#NULO#,9000,PSDB,DEPUTADO FEDERAL
-141516,Paulo Abi-ackel,30825628172,camara,130000613199,2018,Dinheiro em espécie - moeda nacional,#NULO#,90000,PSDB,DEPUTADO FEDERAL
-141516,Paulo Abi-ackel,30825628172,camara,130000613199,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,5000,PSDB,DEPUTADO FEDERAL
-141516,Paulo Abi-ackel,30825628172,camara,130000613199,2018,Sala ou conjunto,#NULO#,349552.49,PSDB,DEPUTADO FEDERAL
+141516,Paulo Abi-Ackel,30825628172,camara,130000613199,2018,Consórcio não contemplado,#NULO#,22633.31,PSDB,DEPUTADO FEDERAL
+141516,Paulo Abi-Ackel,30825628172,camara,130000613199,2018,Casa,#NULO#,696780,PSDB,DEPUTADO FEDERAL
+141516,Paulo Abi-Ackel,30825628172,camara,130000613199,2018,Outros bens imóveis,#NULO#,10000,PSDB,DEPUTADO FEDERAL
+141516,Paulo Abi-Ackel,30825628172,camara,130000613199,2018,Quotas ou quinhões de capital,#NULO#,9000,PSDB,DEPUTADO FEDERAL
+141516,Paulo Abi-Ackel,30825628172,camara,130000613199,2018,Dinheiro em espécie - moeda nacional,#NULO#,90000,PSDB,DEPUTADO FEDERAL
+141516,Paulo Abi-Ackel,30825628172,camara,130000613199,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,5000,PSDB,DEPUTADO FEDERAL
+141516,Paulo Abi-Ackel,30825628172,camara,130000613199,2018,Sala ou conjunto,#NULO#,349552.49,PSDB,DEPUTADO FEDERAL
 178860,Paulo Azi,28870646572,camara,50000608640,2018,Outros bens imóveis,"AREA DE TERRA RURAL- FAZENDA OURO VERDE 180 HA, ENTRE RIOS-BA",54775,DEM,DEPUTADO FEDERAL
 178860,Paulo Azi,28870646572,camara,50000608640,2018,Consórcio não contemplado,BB CONSÓRCIO DE TRATORES/ CAMINHÃO,4071.97,DEM,DEPUTADO FEDERAL
 178860,Paulo Azi,28870646572,camara,50000608640,2018,Apartamento,"APARTAMENTO NO EDF. MORADA DA PRAÇA, ALAGOINHAS-BA",126161.41,DEM,DEPUTADO FEDERAL

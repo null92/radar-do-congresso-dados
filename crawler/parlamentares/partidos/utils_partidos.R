@@ -25,7 +25,8 @@ padroniza_sigla <- function(sigla) {
     str_detect(tolower(sigla), "pc do b") ~ "PCdoB",
     str_detect(tolower(sigla), "pt do b") ~ "PTdoB",
     tolower(sigla) == "pr" ~ "PL",
-    str_detect(sigla, "SOLID.*") ~ "SOLIDARIEDADE",
+    str_detect(sigla, "SOLID.*") ~ "SD",
+    str_detect(sigla, "REPUBLICANOS") ~ "Rep",
     str_detect(sigla, "PODE.*") ~ "PODEMOS",
     str_detect(sigla, "GOV.") ~ "GOVERNO",
     str_detect(sigla, "PHS.*") ~ "PHS",
@@ -50,6 +51,7 @@ map_sigla_padronizada_para_sigla <- function(sigla) {
   
   sigla_alt <- case_when(
     str_detect(sigla_clean, "PODEMOS") ~ "PODE",
+    str_detect(sigla_clean, "REPUBLICANOS") ~ "Rep",
     str_detect(sigla_clean, "BLOCO PP MDB PTB") ~ "BLOCO PP, MDB, PTB",
     str_detect(sigla_clean, "BLOCO PARLAMENTAR PSDBPSL") ~ "BLOCO PARLAMENTAR PSDB/PSL",
     TRUE ~ sigla_clean
