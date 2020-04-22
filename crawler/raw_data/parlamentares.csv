@@ -62,7 +62,7 @@
 "207176","camara","49200844120","BEATRIZ ROSALIA RIBEIRO CAVASSA DE OLIVEIRA","Bia Cavassa","F","MS","PSDB","Exercício","Suplente",56,1,"1969-01-14","Corumbá - MS","Anexo 4, 4º andar, sala 448","3215-5448","dep.biacavassa@camara.leg.br"
 "204374","camara","38567792134","BEATRIZ KICIS TORRENTS DE SORDI","Bia Kicis","F","DF","PSL","Exercício","Titular",56,1,"1961-09-19","Resende - RJ","Anexo 4, 3º andar, sala 309","3215-5309","dep.biakicis@camara.leg.br"
 "204388","camara","27236056049","ALCIBIO MESQUITA BIBO NUNES","Bibo Nunes","M","RS","PSL","Exercício","Titular",56,1,"1957-01-09","Cruz Alta - RS","Anexo 4, 5º andar, sala 518","3215-5518","dep.bibonunes@camara.leg.br"
-"141513","camara","45561699687","OLAVO BILAC PINTO NETO","Bilac Pinto","M","MG","DEM","Licença","Titular",56,0,"1963-06-08","Rio de Janeiro - RJ",NA,NA,NA
+"141513","camara","45561699687","OLAVO BILAC PINTO NETO","Bilac Pinto","M","MG","DEM","Exercício","Titular",56,1,"1963-06-08","Rio de Janeiro - RJ","Anexo 4, 8º andar, sala 806","3215-5806","dep.bilacpinto@camara.leg.br"
 "204561","camara","40903974304","UBIRAJARA DO PINDARÉ ALMEIDA SOUSA","Bira do Pindaré","M","MA","PSB","Exercício","Titular",56,1,"1968-11-01","Pindaré Mirim - MA",NA,"3215-5480","dep.biradopindare@camara.leg.br"
 "204397","camara","84116730904","EMERSON MIGUEL PETRIV","Boca Aberta","M","PR","PROS","Exercício","Titular",56,1,"1971-08-07","Londrina - PR",NA,"3215-5384","dep.bocaaberta@camara.leg.br"
 "160538","camara","12558206249","ELVINO JOSÉ BOHN GASS","Bohn Gass","M","RS","PT","Exercício","Titular",56,1,"1962-02-05","Santo Cristo - RS",NA,"3215-5469","dep.bohngass@camara.leg.br"
@@ -105,7 +105,7 @@
 "204440","camara","70542783720","CHRISTINO AUREO DA SILVA","Christino Aureo","M","RJ","PP","Exercício","Titular",56,1,"1962-04-26","Macaé - RJ","Anexo 4, 2º andar, sala 227","3215-5227","dep.christinoaureo@camara.leg.br"
 "178939","camara","09598289745","CLARISSA BARROS ASSED MATHEUS DE OLIVEIRA","Clarissa Garotinho","F","RJ","PROS","Exercício","Titular",56,1,"1982-07-02","Campos dos Goytacazes - RJ","Anexo 4, 7º andar, sala 714","3215-5714","dep.clarissagarotinho@camara.leg.br"
 "74537","camara","29474485534","CLÁUDIO CAJADO SAMPAIO","Claudio Cajado","M","BA","PP","Exercício","Titular",56,1,"1963-12-01","Salvador - BA","Anexo 4, 6º andar, sala 630","3215-5630","dep.claudiocajado@camara.leg.br"
-"141408","camara","48357600344","CLEBER VERDE CORDEIRO MENDES","Cleber Verde","M","MA","Rep","Licença","Titular",56,0,"1972-05-10","Santa Luzia - MA",NA,NA,NA
+"141408","camara","48357600344","CLEBER VERDE CORDEIRO MENDES","Cleber Verde","M","MA","Rep","Exercício","Titular",56,1,"1972-05-10","Santa Luzia - MA","Anexo 4, 7º andar, sala 710","3215-5710","dep.cleberverde@camara.leg.br"
 "204376","camara","49906780797","LUIZ ARMANDO SCHROEDER REIS","Coronel Armando","M","SC","PSL","Exercício","Titular",56,1,"1957-06-23","Resende - RJ",NA,"3215-5268","dep.coronelarmando@camara.leg.br"
 "204378","camara","70335591787","JOAO CHRISÓSTOMO DE MOURA","Coronel Chrisóstomo","M","RO","PSL","Exercício","Titular",56,1,"1959-06-23","Tefé - AM","Anexo 4, 4º andar, sala 458","3215-5458","dep.coronelchrisostomo@camara.leg.br"
 "204514","camara","04862780857","MARCIO TADEU ANHAIA DE LEMOS","Coronel Tadeu","M","SP","PSL","Exercício","Titular",56,1,"1965-09-30","SAO PAULO - SP","Anexo 4, 7º andar, sala 756","3215-5756","dep.coroneltadeu@camara.leg.br"
@@ -138,7 +138,7 @@
 "143632","camara","02827898390","DOMINGOS GOMES DE AGUIAR NETO","Domingos Neto","M","CE","PSD","Exercício","Titular",56,1,"1988-04-29","Fortaleza - CE","Anexo 4, 5º andar, sala 546","3215-5546","dep.domingosneto@camara.leg.br"
 "160758","camara","22275150668","DOMINGOS SÁVIO CAMPOS RESENDE","Domingos Sávio","M","MG","PSDB","Exercício","Titular",56,1,"1957-03-25","São Tiago - MG","Anexo 4, 3º andar, sala 345","3215-5345","dep.domingossavio@camara.leg.br"
 "204518","camara","07422257717","FREDERICO DE CASTRO ESCALEIRA","Dr. Frederico","M","MG","PATRIOTA","Exercício","Titular",56,1,"1977-03-24","Teresópolis - RJ",NA,"3215-5568","dep.dr.frederico@camara.leg.br"
-"212625","camara","05461154387","ANTONIO ELIZABETH GONÇALO DE SOUSA","Dr. Gonçalo","M","MA","Rep","Exercício","Suplente",56,1,"1953-07-08","Pastos Bons - MA","Anexo 4, 7º andar, sala 710","3215-5710","dep.dr.goncalo@camara.leg.br"
+"212625","camara","05461154387","ANTONIO ELIZABETH GONÇALO DE SOUSA","Dr. Gonçalo","M","MA","Rep","Suplência","Suplente",56,0,"1953-07-08","Pastos Bons - MA",NA,NA,NA
 "204481","camara","35761113368","JAZIEL PEREIRA DE SOUSA","Dr. Jaziel","M","CE","PL","Exercício","Titular",56,1,"1961-05-03","Camocim - CE","Anexo 4, 7º andar, sala 705","3215-5705","dep.dr.jaziel@camara.leg.br"
 "204439","camara","02309274917","LEONARDO RIBEIRO ALBUQUERQUE","Dr. Leonardo","M","MT","SD","Exercício","Titular",56,1,"1978-06-14","Rio Verde - GO","Anexo 4, 4º andar, sala 445","3215-5445","dep.dr.leonardo@camara.leg.br"
 "204450","camara","02319953779","LUIZ ANTONIO DE SOUZA TEIXEIRA JÚNIOR","Dr. Luiz Antonio Teixeira Jr.","M","RJ","PP","Exercício","Titular",56,1,"1973-12-15","Nova Iguaçu - RJ",NA,"3215-5577","dep.dr.luizantonioteixeirajr@camara.leg.br"
@@ -162,7 +162,7 @@
 "141422","camara","00770338410","EFRAIM DE ARAÚJO MORAIS FILHO","Efraim Filho","M","PB","DEM","Exercício","Titular",56,1,"1979-03-18","João Pessoa - PB","Anexo 4, 7º andar, sala 744","3215-5744","dep.efraimfilho@camara.leg.br"
 "74075","camara","00605387249","ELCIONE THEREZINHA ZAHLUTH BARBALHO","Elcione Barbalho","F","PA","MDB","Exercício","Titular",56,1,"1944-10-05","Belém - PA","Anexo 4, 2º andar, sala 206","3215-5206","dep.elcionebarbalho@camara.leg.br"
 "204364","camara","21821003187","ELI DIAS BORGES","Eli Borges","M","TO","SD","Exercício","Titular",56,1,"1960-09-01","Ipameri - GO","Anexo 4, 2º andar, sala 248","3215-5248","dep.eliborges@camara.leg.br"
-"160532","camara","17610241830","ADRIANO ELI CORRÊA","Eli Corrêa Filho","M","SP","DEM","Licença","Titular",56,0,"1976-01-13","São Paulo - SP",NA,NA,NA
+"160532","camara","17610241830","ADRIANO ELI CORRÊA","Eli Corrêa Filho","M","SP","DEM","Exercício","Titular",56,1,"1976-01-13","São Paulo - SP","Anexo 4, 8º andar, sala 850","3215-5850","dep.elicorreafilho@camara.leg.br"
 "204389","camara","42289440191","ELIAS VAZ DE ANDRADE","Elias Vaz","M","GO","PSB","Exercício","Titular",56,1,"1966-07-04","Goiânia - GO","Anexo 4, 3º andar, sala 303","3215-5303","dep.eliasvaz@camara.leg.br"
 "178854","camara","49465589500","ELMAR JOSE VIEIRA NASCIMENTO","Elmar Nascimento","M","BA","DEM","Exercício","Titular",56,1,"1970-07-06","Campo Formoso - BA","Anexo 4, 9º andar, sala 935","3215-5935","dep.elmarnascimento@camara.leg.br"
 "198783","camara","00558574181","EMANUEL PINHEIRO DA SILVA PRIMO","Emanuel Pinheiro Neto","M","MT","PTB","Exercício","Titular",56,1,"1995-01-05","Cuiabá - MT",NA,"3215-5374","dep.emanuelpinheironeto@camara.leg.br"
@@ -175,7 +175,7 @@
 "204482","camara","06460032670","EUCLYDES MARCOS PETTERSEN NETO","Euclydes Pettersen","M","MG","PSC","Exercício","Titular",56,1,"1984-08-15","Governador Valadares - MG","Anexo 4, 4º andar, sala 456","3215-5456","dep.euclydespettersen@camara.leg.br"
 "178871","camara","02261265794","EVAIR VIEIRA DE MELO","Evair Vieira de Melo","M","ES","PP","Exercício","Titular",56,1,"1972-04-02","Conceição do Castelo - ES","Anexo 4, 4º andar, sala 443","3215-5443","dep.evairvieirademelo@camara.leg.br"
 "178953","camara","93279493234","EXPEDITO GONCALVES FERREIRA NETTO","Expedito Netto","M","RO","PSD","Exercício","Titular",56,1,"1988-10-05","Porto Velho - RO","Anexo 4, 9º andar, sala 943","3215-5943","dep.expeditonetto@camara.leg.br"
-"211866","camara","00452519675","FABIANO GALLETTI TOLENTINO","Fabiano Tolentino","M","MG","CIDADANIA","Exercício","Suplente",56,1,"1974-02-25","Belo Horizonte - MG","Anexo 4, 8º andar, sala 806","3215-5806","dep.fabianotolentino@camara.leg.br"
+"211866","camara","00452519675","FABIANO GALLETTI TOLENTINO","Fabiano Tolentino","M","MG","CIDADANIA","Suplência","Suplente",56,0,"1974-02-25","Belo Horizonte - MG",NA,NA,NA
 "141428","camara","02128728428","FÁBIO SALUSTINO MESQUITA DE FARIA","Fábio Faria","M","RN","PSD","Exercício","Titular",56,1,"1977-09-01","Natal - RN","Anexo 4, 7º andar, sala 706","3215-5706","dep.fabiofaria@camara.leg.br"
 "68720","camara","41330200578","FABIO HENRIQUE SANTANA DE CARVALHO","Fábio Henrique","M","SE","PDT","Exercício","Titular",56,1,"1972-06-19","Simão Dias - SE",NA,"3215-5475","dep.fabiohenrique@camara.leg.br"
 "178969","camara","65242777591","FABIO CRUZ MITIDIERI","Fábio Mitidieri","M","SE","PSD","Exercício","Titular",56,1,"1977-02-24","Aracaju - SE",NA,"3215-5278","dep.fabiomitidieri@camara.leg.br"
@@ -258,7 +258,7 @@
 "74848","camara","43428169700","JANDIRA FEGHALI","Jandira Feghali","F","RJ","PCdoB","Exercício","Titular",56,1,"1957-05-17","Curitiba - PR","Anexo 4, 6º andar, sala 622","3215-5622","dep.jandirafeghali@camara.leg.br"
 "108338","camara","35124032200","DIRLAINE JAQUELINE CASSOL","Jaqueline Cassol","F","RO","PP","Exercício","Titular",56,1,"1974-12-03","São Miguel do Oeste - SC","Anexo 4, 2º andar, sala 242","3215-5242","dep.jaquelinecassol@camara.leg.br"
 "160672","camara","59919230510","JEAN WYLLYS DE MATOS SANTOS","Jean Wyllys","M","RJ","PSOL","Vacância","Eleito",56,0,"1974-03-10","Alagoinhas - BA",NA,NA,NA
-"74273","camara","02684165831","JEFFERSON ALVES DE CAMPOS","Jefferson Campos","M","SP","PSB","Licença","Titular",56,0,"1964-10-26","Ourinhos - SP",NA,NA,NA
+"74273","camara","02684165831","JEFFERSON ALVES DE CAMPOS","Jefferson Campos","M","SP","PSB","Exercício","Titular",56,1,"1964-10-26","Ourinhos - SP","Anexo 4, 3º andar, sala 346","3215-5346","dep.jeffersoncampos@camara.leg.br"
 "160570","camara","73441040082","JERÔNIMO PIZZOLOTTO GOERGEN","Jerônimo Goergen","M","RS","PP","Exercício","Titular",56,1,"1976-01-20","Palmeira das Missões - RS","Anexo 4, 3º andar, sala 316","3215-5316","dep.jeronimogoergen@camara.leg.br"
 "178839","camara","65595564253","JESSICA ROJAS SALES","Jéssica Sales","F","AC","MDB","Exercício","Titular",56,1,"1980-11-28","Cruzeiro do Sul - AC","Anexo 4, 9º andar, sala 952","3215-5952","dep.jessicasales@camara.leg.br"
 "204435","camara","58065083234","JESUS SERGIO DE MENEZES","Jesus Sérgio","M","AC","PDT","Exercício","Titular",56,1,"1973-06-10","Tarauacá - AC","Anexo 4, 9º andar, sala 941","3215-5941","dep.jesussergio@camara.leg.br"
@@ -328,8 +328,8 @@
 "204448","camara","01563114704","LUIZ ANTONIO DA COSTA CARVALHO CORREA DA SILVA","Luiz Antônio Corrêa","M","RJ","PL","Exercício","Titular",56,1,"1940-12-27","Rio de Janeiro - RJ","Anexo 4, 6º andar, sala 610","3215-5610","dep.luizantoniocorrea@camara.leg.br"
 "160645","camara","63223228268","LUIZ CARLOS GOMES DOS SANTOS JUNIOR","Luiz Carlos","M","AP","PSDB","Exercício","Titular",56,1,"1979-08-16","Amapá - AP","Anexo 4, 5º andar, sala 512","3215-5512","dep.luizcarlos@camara.leg.br"
 "204485","camara","03035521824","LUIZ CARLOS MOTTA","Luiz Carlos Motta","M","SP","PL","Exercício","Titular",56,1,"1959-04-24","Ribeirão Preto - SP","Anexo 4, 4º andar, sala 415","3215-5415","dep.luizcarlosmotta@camara.leg.br"
-"204543","camara","70641218834","LUIZ FLAVIO GOMES","Luiz Flávio Gomes","M","SP","PSB","Licença","Titular",56,0,"1957-05-06","Sud Menucci - SP",NA,NA,NA
-"178982","camara","27290596870","LUIZ LAURO FERREIRA FILHO","Luiz Lauro Filho","M","SP","PSDB","Exercício","Suplente",56,1,"1978-06-10","Campinas - SP","Anexo 4, 3º andar, sala 346","3215-5346","dep.luizlaurofilho@camara.leg.br"
+"204543","camara","70641218834","LUIZ FLAVIO GOMES","Luiz Flávio Gomes","M","SP","PSB","Vacância","Titular",56,0,"1957-05-06","Sud Menucci - SP",NA,NA,NA
+"178982","camara","27290596870","LUIZ LAURO FERREIRA FILHO","Luiz Lauro Filho","M","SP","PSDB","Exercício","Efetivado",56,1,"1978-06-10","Campinas - SP","Anexo 4, 9º andar, sala 904","3215-5904","dep.luizlaurofilho@camara.leg.br"
 "204455","camara","07616393730","LUIZ EDUARDO CARNEIRO DA SILVA DE SOUZA LIMA","Luiz Lima","M","RJ","PSL","Exercício","Titular",56,1,"1977-12-10","Rio de Janeiro - RJ","Anexo 4, 5º andar, sala 504","3215-5504","dep.luizlima@camara.leg.br"
 "162332","camara","08781460910","LUIZ HILOSHI NISHIMORI","Luiz Nishimori","M","PR","PL","Exercício","Titular",56,1,"1949-04-09","Marialva - PR","Anexo 4, 9º andar, sala 907","3215-5907","dep.luiznishimori@camara.leg.br"
 "204526","camara","11844856828","LUIZ PHILIPPE DE ORLEANS BRAGANÇA","Luiz Philippe de Orleans e Bragança","M","SP","PSL","Exercício","Titular",56,1,"1969-04-03","Rio de Janeiro - RJ","Anexo 4, 7º andar, sala 719","3215-5719","dep.luizphilippedeorleansebraganca@camara.leg.br"
@@ -378,7 +378,7 @@
 "74749","camara","10901906620","MAURO RIBEIRO LOPES","Mauro Lopes","M","MG","MDB","Exercício","Titular",56,1,"1936-05-24","Entre Folhas - MG","Anexo 4, 8º andar, sala 844","3215-5844","dep.maurolopes@camara.leg.br"
 "141508","camara","70162000782","MAURO NAZIF RASUL","Mauro Nazif","M","RO","PSB","Exercício","Titular",56,1,"1959-01-30","Barra do Piraí - RJ","Anexo 4, 8º andar, sala 818","3215-5818","dep.mauronazif@camara.leg.br"
 "188097","camara","13891820372","MERLONG SOLANO NOGUEIRA","Merlong Solano","M","PI","PT","Licença","Suplente",56,0,"1958-09-17","Valença do Piauí - PI",NA,NA,NA
-"178984","camara","96476850849","MIGUEL MOUBADDA HADDAD","Miguel Haddad","M","SP","PSDB","Exercício","Suplente",56,1,"1957-10-15","Jundiaí - SP","Anexo 4, 8º andar, sala 850","3215-5850","dep.miguelhaddad@camara.leg.br"
+"178984","camara","96476850849","MIGUEL MOUBADDA HADDAD","Miguel Haddad","M","SP","PSDB","Suplência","Suplente",56,0,"1957-10-15","Jundiaí - SP",NA,NA,NA
 "178985","camara","05209979806","MIGUEL LOMBARDI","Miguel Lombardi","M","SP","PL","Exercício","Titular",56,1,"1964-01-29","Limeira - SP","Anexo 4, 8º andar, sala 835","3215-5835","dep.miguellombardi@camara.leg.br"
 "154178","camara","04976912809","MILTON VIEIRA PINTO","Milton Vieira","M","SP","Rep","Exercício","Titular",56,1,"1962-09-16","Iepê - SP","Anexo 4, 3º andar, sala 344","3215-5344","dep.miltonvieira@camara.leg.br"
 "178895","camara","28492803649","MISAEL ARTUR FERREIRA VARELLA","Misael Varella","M","MG","PSD","Exercício","Titular",56,1,"1959-11-27","Muriaé - MG","Anexo 4, 7º andar, sala 721","3215-5721","dep.misaelvarella@camara.leg.br"
@@ -458,7 +458,7 @@
 "204362","camara","95128140997","RICARDO ZANATTA GUIDI","Ricardo Guidi","M","SC","PSD","Exercício","Titular",56,1,"1977-09-28","Criciúma - SC","Anexo 4, 4º andar, sala 407","3215-5407","dep.ricardoguidi@camara.leg.br"
 "160655","camara","10553705873","RICARDO IZAR JUNIOR","Ricardo Izar","M","SP","PP","Exercício","Titular",56,1,"1968-08-01","São Paulo - SP","Anexo 4, 6º andar, sala 634","3215-5634","dep.ricardoizar@camara.leg.br"
 "211649","camara","86487957704","RICARDO DE SOUZA COSTA","Ricardo Pericar","M","RJ","PSL","Suplência","Suplente",56,0,"1966-03-04","Rio de Janeiro - RJ",NA,NA,NA
-"213274","camara","34663733875","RICARDO AUGUSTO MACHADO DA SILVA","Ricardo Silva","M","SP","PSB","Exercício","Suplente",56,1,"1985-09-01","Ribeirão Preto - SP","Anexo 4, 9º andar, sala 904","3215-5904","dep.ricardosilva@camara.leg.br"
+"213274","camara","34663733875","RICARDO AUGUSTO MACHADO DA SILVA","Ricardo Silva","M","SP","PSB","Suplência","Suplente",56,0,"1985-09-01","Ribeirão Preto - SP",NA,NA,NA
 "178920","camara","47329980463","RICARDO TEOBALDO CAVALCANTI","Ricardo Teobaldo","M","PE","PODEMOS","Exercício","Titular",56,1,"1965-10-18","Limoeiro - PE","Anexo 4, 6º andar, sala 603","3215-5603","dep.ricardoteobaldo@camara.leg.br"
 "204489","camara","37788566349","MARCOS ROBERIO RIBEIRO MONTEIRO","Robério Monteiro","M","CE","PDT","Exercício","Titular",56,1,"1970-02-15","Itarema - CE","Anexo 4, 7º andar, sala 733","3215-5733","dep.roberiomonteiro@camara.leg.br"
 "152610","camara","02621206824","BENEDITO ROBERTO ALVES FERREIRA","Roberto Alves","M","SP","Rep","Exercício","Titular",56,1,"1960-05-27","Taubaté - SP","Anexo 4, 9º andar, sala 946","3215-5946","dep.robertoalves@camara.leg.br"
@@ -578,6 +578,7 @@
 "5559","senado",NA,"José Afonso Teixeira","Bispo José","M","AC","PSC",NA,"2º Suplente",56,0,"1964-10-29","Sabinopolis - MG",NA,NA,NA
 "6013","senado",NA,"Carlos Alberto de Castro Almeida","Carlos Alberto","M","AM",NA,NA,"1º Suplente",56,0,"1951-07-17","Rio de Janeiro - RJ",NA,NA,NA
 "5603","senado",NA,"Carlos Augusto Lopes da Costa","Carlos Augusto Costa","M","PE","PV",NA,"1º Suplente",56,0,"1962-07-19","Crato - CE",NA,NA,NA
+"6295","senado",NA,"Carlos Henrique Baqueta Favaro","Carlos Fávaro","M","MT","PSD",NA,"Titular",56,1,"1969-10-19","Bela Vista do Paraiso - MT","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 15","33036408",NA
 "6020","senado",NA,"Carlos Milton Morais","Carlos Milton Morais","M","RO",NA,NA,"2º Suplente",56,0,"1964-03-22","Coxim - MS",NA,NA,NA
 "5990","senado",NA,"Carlos Alberto Dias Viana","Carlos Viana","M","MG","PSD",NA,"Titular",56,1,"1963-03-22","Braunas - MG","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 23","33033100","sen.carlosviana@senado.leg.br"
 "5991","senado",NA,"Castellar Modesto Guimarães Neto","Castellar Guimarães Neto","M","MG",NA,NA,"1º Suplente",56,0,"1982-10-04","Coronel Fabriciano - MG",NA,NA,NA
@@ -586,7 +587,7 @@
 "470","senado",NA,"Francisco de Assis Rodrigues","Chico Rodrigues","M","RR","DEM",NA,"Titular",56,1,"1951-04-23","Recife - PE","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 10","33032281","sen.chicorodrigues@senado.leg.br"
 "611","senado",NA,"Francisco Feitosa de Albuquerque Lima","Chiquinho Feitosa","M","CE","PSDB",NA,"1º Suplente",56,0,"1964-07-03","Tauá - CE",NA,NA,NA
 "5623","senado",NA,"Christopher Belchior Goulart","Christopher Goulart","M","RS","PDT",NA,"1º Suplente",56,0,"1976-10-05","Londres - NA",NA,NA,NA
-"5973","senado",NA,"Cid Ferreira Gomes","Cid Gomes","M","CE","PDT",NA,"Titular",56,0,"1963-04-27","Sobral - CE","Senado Federal Anexo 1  10º Pavimento  ",NA,"sen.cidgomes@senado.leg.br"
+"5973","senado",NA,"Cid Ferreira Gomes","Cid Gomes","M","CE","PDT",NA,"Titular",56,1,"1963-04-27","Sobral - CE","Senado Federal Anexo 1  10º Pavimento  ","33036460","sen.cidgomes@senado.leg.br"
 "739","senado",NA,"Ciro Nogueira Lima Filho","Ciro Nogueira","M","PI","PP",NA,"Titular",56,1,"1968-11-21","Teresina - PI","Senado Federal Anexo 1  3º Pavimento  ","33036187","sen.cironogueira@senado.leg.br"
 "6017","senado",NA,"Cleonice Fabiane Back","Cleonice Back","F","RS",NA,NA,"1º Suplente",56,0,"1983-06-01","Três Passos - RS",NA,NA,NA
 "5933","senado",NA,"Clérie Fabiana Mendes","Clerie Fabiana","M","MT",NA,NA,"2º Suplente",56,0,"1974-02-07","Mirassol - SP",NA,NA,NA
@@ -627,7 +628,7 @@
 "5577","senado",NA,"Fernando Antonio Mendes Façanha Filho","Fernando Façanha","M","CE","PSDB",NA,"2º Suplente",56,0,"1966-06-22","Fortaleza - CE",NA,NA,NA
 "5920","senado",NA,"Flavio Marcelo Gonçalves Vicente","Flavio Vicente","M","PR",NA,NA,"2º Suplente",56,0,"1971-04-17","Paranavai - PR",NA,NA,NA
 "345","senado",NA,"Flávio José Arns","Flávio Arns","M","PR","REDE",NA,"Titular",56,1,"1950-11-09","Curitiba - PR","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 04","33036301","sen.flavioarns@senado.leg.br"
-"5894","senado",NA,"Flávio Nantes Bolsonaro","Flávio Bolsonaro","M","RJ","S/Partido",NA,"Titular",56,1,"1981-04-30","Rio de Janeiro - RJ","Senado Federal Anexo 1  17º Pavimento  ","33031717","sen.flaviobolsonaro@senado.leg.br"
+"5894","senado",NA,"Flávio Nantes Bolsonaro","Flávio Bolsonaro","M","RJ","REPUBLICANOS",NA,"Titular",56,1,"1981-04-30","Rio de Janeiro - RJ","Senado Federal Anexo 1  17º Pavimento  ","33031717","sen.flaviobolsonaro@senado.leg.br"
 "3713","senado",NA,"Maria de Fátima Bezerra","Fátima Bezerra","F","RN","PT",NA,"Titular",56,0,"1955-05-19","Nova Palmeira - PB","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 03",NA,"fatima.bezerra@senadora.leg.br"
 "196","senado",NA,"Geraldo César Althoff","Geraldo Althoff","M","SC",NA,NA,"1º Suplente",56,0,"1947-06-16","Tubarão - SC",NA,NA,"althoff@senado.leg.br"
 "5900","senado",NA,"Gil Marques de Medeiros","Gil Paraibano","M","PI",NA,NA,"2º Suplente",56,0,"1947-08-10","Malta - PB",NA,NA,NA
@@ -666,20 +667,20 @@
 "90","senado",NA,"José Serra","José Serra","M","SP","PSDB",NA,"Titular",56,1,"1942-03-19","São Paulo - SP","Senado Federal Edifício Principal   Ala Dinarte Mariz Gabinete 02","33036651","sen.joseserra@senado.leg.br"
 "5613","senado",NA,"João Batista da Rocha Lemos","João Batista Lemos","M","RJ","PCB",NA,"1º Suplente",56,0,"1953-02-10","Vinhedo - SP",NA,NA,NA
 "5972","senado",NA,"Julio Ventura Neto","Julio Ventura","M","CE",NA,NA,"2º Suplente",56,0,"1959-01-24","Fortaleza - CE",NA,NA,NA
-"5929","senado",NA,"Selma Rosane Santos Arruda","Juíza Selma","F","MT","PODEMOS",NA,"Titular",56,1,"1963-01-20","Camaquã - RS","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 15","33036408","sen.selmaarruda@senado.leg.br"
+"5929","senado",NA,"Selma Rosane Santos Arruda","Juíza Selma","F","MT","PODEMOS",NA,"Titular",56,0,"1963-01-20","Camaquã - RS","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 15",NA,"sen.selmaarruda@senado.leg.br"
 "5965","senado",NA,"Manoel Junior Souto de Souza","Júnior Souto","M","RN",NA,NA,"1º Suplente",56,0,"1958-06-22","Areia Branca - RN",NA,NA,NA
-"1249","senado",NA,"Kátia Regina de Abreu","Kátia Abreu","F","TO","PDT",NA,"Titular",56,1,"1962-02-02","Goiânia - GO","Senado Federal Anexo 1  6º Pavimento  ","33032464","sen.katiaabreu@senado.leg.br"
+"1249","senado",NA,"Kátia Regina de Abreu","Kátia Abreu","F","TO","PP",NA,"Titular",56,1,"1962-02-02","Goiânia - GO","Senado Federal Anexo 1  6º Pavimento  ","33032464","sen.katiaabreu@senado.leg.br"
 "415","senado",NA,"Lael Vieira Varella","Lael Varella","M","MG","DEM",NA,"2º Suplente",56,0,"1939-02-19","Muriaé - MG",NA,NA,NA
 "5533","senado",NA,"Lasier Costa Martins","Lasier Martins","M","RS","PODEMOS",NA,"Titular",56,1,"1942-04-14","General Camara - RS","Senado Federal Anexo 2 Ala Alexandre Costa Subsolo  Gabinete 03","33032323","sen.lasiermartins@senado.leg.br"
 "5977","senado",NA,"Leany Barreiro de Sousa Lemos","Leany Lemos","F","DF",NA,NA,"1º Suplente",56,0,"1970-04-06","Brasília - DF",NA,NA,NA
 "5979","senado",NA,"Leila Gomes de Barros Rêgo","Leila Barros","F","DF","PSB",NA,"Titular",56,1,"1971-09-30","Brasília - DF","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 11","33036427","sen.leilabarros@senado.leg.br"
 "5903","senado",NA,"Leonardo Rodrigues","Leonardo Rodrigues","M","RJ",NA,NA,"2º Suplente",56,0,"1975-10-13","Rio de Janeiro - RJ",NA,NA,NA
-"5926","senado",NA,"Luiz Cantuária Barreto","Lucas Barreto","M","AP","PSD",NA,"Titular",56,0,"1964-11-10","Macapa - AP","Senado Federal Anexo 2   Ala Afonso Arinos Gabinete 02",NA,"sen.lucasbarreto@senado.leg.br"
+"5926","senado",NA,"Luiz Cantuária Barreto","Lucas Barreto","M","AP","PSD",NA,"Titular",56,1,"1964-11-10","Macapa - AP","Senado Federal Anexo 2   Ala Afonso Arinos Gabinete 02",NA,"sen.lucasbarreto@senado.leg.br"
 "6014","senado",NA,"Luciana Leão Muniz","Luciana Leão Muniz","F","BA",NA,NA,"2º Suplente",56,0,"1971-04-06","Sebastião Laranjeira - BA",NA,NA,NA
 "1186","senado",NA,"Luis Carlos Heinze","Luis Carlos Heinze","M","RS","PP",NA,"Titular",56,1,"1950-09-14","Candelária - RS","Senado Federal Anexo 2   Ala Afonso Arinos Gabinete 05","33034124","sen.luiscarlosheinze@senado.leg.br"
 "5968","senado",NA,"Luis Felipe Belmonte dos Santos","Luis Felipe Belmonte","M","DF",NA,NA,"1º Suplente",56,0,"1953-08-01","Santa Cruz do Sul - RS",NA,NA,NA
 "5567","senado",NA,"Luis Augusto Mitoso Junior","Luis Mitoso","M","AM","PSD",NA,"2º Suplente",56,0,"1961-07-03","Manaus - AM",NA,NA,NA
-"151","senado",NA,"Luiz Osvaldo Pastore","Luiz Pastore","M","ES","MDB",NA,"1º Suplente",56,1,"1949-07-10","São Paulo - SP","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 01","33031156",NA
+"151","senado",NA,"Luiz Osvaldo Pastore","Luiz Pastore","M","ES","MDB",NA,"1º Suplente",56,0,"1949-07-10","São Paulo - SP","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 01",NA,NA
 "5585","senado",NA,"Luiz Carlos do Carmo","Luiz do Carmo","M","GO","MDB",NA,"1º Suplente",56,1,"1958-04-02","NA - NA","Senado Federal Anexo 2   Ala Alexandre Costa 1º Pavimento Gabinete 21","33036439","sen.luizcarlosdocarmo@senado.leg.br"
 "5904","senado",NA,"José Eugênio de Leão Braga","Macapá","M","AC",NA,NA,"2º Suplente",56,0,"1937-09-13","Cametá - PA",NA,NA,NA
 "5557","senado",NA,"Mailza Assis da Silva","Mailza Gomes","F","AC","PP",NA,"1º Suplente",56,1,"1976-12-10","Mundo Novo - MS","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 14","33031357","sen.mailzagomes@senado.leg.br"
@@ -720,7 +721,7 @@
 "6022","senado",NA,"Severino dos Ramos Marcelino da Silva","Pastor Severino","M","RO",NA,NA,"2º Suplente",56,0,"1962-10-23","Bonito - PE",NA,NA,NA
 "5617","senado",NA,"Sebastião Valadares Neto","Pastor Valadares","M","RO","PDT",NA,"2º Suplente",56,0,"1963-08-12","Santo Agostinho - ES","Senado Federal Anexo II Bloco A  Ala Tancredo Neves Gabinete 56",NA,"pastor.valadares@senador.leg.br"
 "5928","senado",NA,"Ana Patricia de Carvalho Ribeiro Costa","Patricia Costa","F","AP",NA,NA,"2º Suplente",56,0,"1975-10-16","Macapa - AP",NA,NA,NA
-"5927","senado",NA,"Paulo José de Brito Silva Albuquerque","Paulo Albuquerque","M","AP","PSD",NA,"1º Suplente",56,1,"1974-04-21","Macapa - AP","Senado Federal Anexo 2   Ala Afonso Arinos Gabinete 02","33034851","Sen.PauloAlbuquerque@senado.leg.br"
+"5927","senado",NA,"Paulo José de Brito Silva Albuquerque","Paulo Albuquerque","M","AP","PSD",NA,"1º Suplente",56,0,"1974-04-21","Macapa - AP","Senado Federal Anexo 2   Ala Afonso Arinos Gabinete 02","33034851","Sen.PauloAlbuquerque@senado.leg.br"
 "336","senado",NA,"Paulo Gilberto Gouvêa da Costa","Paulo Gouvêa","M","SC","DEM",NA,"1º Suplente",56,0,"1943-05-13","Cachoeira do Sul - RS",NA,NA,NA
 "5901","senado",NA,"Paulo Roberto Franco Marinho","Paulo Marinho","M","RJ",NA,NA,"1º Suplente",56,0,"1952-03-05","Rio de Janeiro - RJ",NA,NA,NA
 "5589","senado",NA,"Paulo Henrique Campos Matos","Paulo Matos","M","MA","CIDADANIA",NA,"2º Suplente",56,0,"1968-04-28","São Luís - MA",NA,NA,NA
@@ -734,7 +735,7 @@
 "5922","senado",NA,"Plinio Destro","Plinio Destro","M","PR",NA,NA,"2º Suplente",56,0,"1951-01-15","Viaduto - RS",NA,NA,NA
 "5502","senado",NA,"Francisco Plínio Valério Tomaz","Plínio Valério","M","AM","PSDB",NA,"Titular",56,1,"1955-01-31","Eirunepé - AM","Senado Federal Anexo 2  Térreo Ala Alexandre Costa 1º Pavimento Gabinete 01","33032833","sen.pliniovalerio@senado.leg.br"
 "5936","senado",NA,"Carlos Francisco Portinho","Portinho","M","RJ",NA,NA,"1º Suplente",56,0,"1973-07-02","Rio de Janeiro - RJ",NA,NA,NA
-"5971","senado",NA,"Prisco Rodrigues Bezerra","Prisco Bezerra","M","CE","PDT",NA,"1º Suplente",56,1,"1972-07-09","Fortaleza - CE","Senado Federal Anexo 1  10º Pavimento  ","33036460","sen.priscobezerra@senado.leg.br"
+"5971","senado",NA,"Prisco Rodrigues Bezerra","Prisco Bezerra","M","CE","PDT",NA,"1º Suplente",56,0,"1972-07-09","Fortaleza - CE","Senado Federal Anexo 1  10º Pavimento  ",NA,"sen.priscobezerra@senado.leg.br"
 "5984","senado",NA,"Terezinha Bazé de Lima","Professora Bazé","F","MS",NA,NA,"2º Suplente",56,0,"1952-07-20","Três Lagoas - MS",NA,NA,NA
 "5913","senado",NA,"Cicero Rafael Tenorio da Silva","Rafael Tenorio","M","AL",NA,NA,"1º Suplente",56,0,"1954-03-15","Osasco - SP",NA,NA,NA
 "5012","senado",NA,"Randolph Frederich Rodrigues Alves","Randolfe Rodrigues","M","AP","REDE",NA,"Titular",56,1,"1972-11-06","Garanhuns - PE","Senado Federal Anexo 1  9º Pavimento  ","33036777","sen.randolferodrigues@senado.leg.br"
@@ -756,7 +757,7 @@
 "5945","senado",NA,"Ronaldo Libardi","Ronaldo Libardi","M","ES",NA,NA,"2º Suplente",56,0,"1976-08-07","Vitória - ES",NA,NA,NA
 "5601","senado",NA,"Roosevelt Vita","Roosevelt Vita","M","PB","MDB",NA,"2º Suplente",56,0,"1945-06-24","Coremas - PB",NA,NA,NA
 "5944","senado",NA,"Rosana Marcia Foerste da Silva","Rosana Foerst","F","ES",NA,NA,"1º Suplente",56,0,"1968-04-01","Vitória - ES",NA,NA,NA
-"2331","senado",NA,"Rosilda de Freitas","Rose de Freitas","F","ES","PODEMOS",NA,"Titular",56,0,"1949-01-23","Caratinga - MG","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 01",NA,"rose.freitas@senadora.leg.br"
+"2331","senado",NA,"Rosilda de Freitas","Rose de Freitas","F","ES","PODEMOS",NA,"Titular",56,1,"1949-01-23","Caratinga - MG","Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 01","33031156","rose.freitas@senadora.leg.br"
 "5911","senado",NA,"Maria do Rosário de Fátima Biserra Rodrigues","Rosário Bezerra","F","PI",NA,NA,"2º Suplente",56,0,"1954-01-07","União - PI",NA,NA,NA
 "5621","senado",NA,"Rudson Leite da Silva","Rudson Leite","M","RR","PV",NA,"2º Suplente",56,0,"1963-07-29","Boa Vista - RR","Senado Federal Anexo 2   Ala Ruy Carneiro Gabinete 03",NA,"sen.rudsonleite@senado.leg.br"
 "6021","senado",NA,"Samuel Pereira de Araujo","Samuel Araujo","M","RO",NA,NA,"1º Suplente",56,0,"1957-06-01","Goiânia - GO",NA,NA,NA
