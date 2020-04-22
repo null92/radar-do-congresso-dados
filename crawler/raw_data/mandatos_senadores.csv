@@ -12,11 +12,14 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 5529,senado,56,2019-02-01,NA,Titular,NA,NA
 751,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 751,senado,57,2023-02-01,NA,Titular,NA,NA
+6295,senado,56,2020-04-17,2023-01-31,Titular,NA,NA
+6295,senado,57,2023-02-01,NA,Titular,NA,NA
 5990,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 5990,senado,57,2023-02-01,NA,Titular,NA,NA
 470,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 470,senado,57,2023-02-01,NA,Titular,NA,NA
 5973,senado,56,2019-02-01,2019-12-11,Titular,NA,Licença Particular
+5973,senado,56,2020-04-11,2023-01-31,Titular,NA,NA
 5973,senado,57,2023-02-01,NA,Titular,NA,NA
 739,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 739,senado,57,2023-02-01,NA,Titular,NA,NA
@@ -119,7 +122,7 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 90,senado,50,1995-02-01,1995-02-03,Titular,NA,Afastamento do exercício
 90,senado,50,1996-06-03,1998-03-31,Titular,NA,Afastamento do exercício
 90,senado,51,2002-02-22,2003-01-31,Titular,NA,Término do mandato
-5929,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
+5929,senado,56,2019-02-01,2020-04-15,Titular,NA,Perda de mandato
 5929,senado,57,2023-02-01,NA,Titular,NA,NA
 1249,senado,55,2015-02-01,2015-02-02,Titular,NA,Afastamento do exercício
 1249,senado,55,2016-05-12,2018-10-28,Titular,NA,Licença Particular
@@ -133,6 +136,7 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 5979,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 5979,senado,57,2023-02-01,NA,Titular,NA,NA
 5926,senado,56,2019-02-01,2019-12-16,Titular,NA,Licença saúde
+5926,senado,56,2020-04-20,2023-01-31,Titular,NA,NA
 5926,senado,57,2023-02-01,NA,Titular,NA,NA
 1186,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 1186,senado,57,2023-02-01,NA,Titular,NA,NA
@@ -175,7 +179,7 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 5523,senado,56,2019-02-01,NA,Titular,NA,NA
 5617,senado,55,2016-09-14,2017-01-13,2º Suplente,NA,Retorno do titular
 5617,senado,56,2019-02-01,NA,2º Suplente,NA,NA
-5927,senado,56,2019-12-17,2023-01-31,1º Suplente,NA,NA
+5927,senado,56,2019-12-17,2020-04-19,1º Suplente,NA,Retorno do titular
 5927,senado,57,2023-02-01,NA,1º Suplente,NA,NA
 825,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 825,senado,57,2023-02-01,NA,Titular,NA,NA
@@ -189,7 +193,7 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 4606,senado,56,2019-02-01,NA,1º Suplente,NA,NA
 5502,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 5502,senado,57,2023-02-01,NA,Titular,NA,NA
-5971,senado,56,2019-12-11,2023-01-31,1º Suplente,NA,NA
+5971,senado,56,2019-12-11,2020-04-10,1º Suplente,NA,Retorno do titular
 5971,senado,57,2023-02-01,NA,1º Suplente,NA,NA
 5012,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 5012,senado,57,2023-02-01,NA,Titular,NA,NA
@@ -225,7 +229,7 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 456,senado,55,2015-02-01,2019-01-01,Titular,NA,Renúncia
 456,senado,56,2019-02-01,NA,Titular,NA,NA
 2331,senado,55,2015-02-01,2019-11-19,Titular,NA,Licença saúde
-2331,senado,56,2019-02-01,NA,Titular,NA,NA
+2331,senado,56,2020-03-26,NA,Titular,NA,NA
 5621,senado,55,2018-06-05,2018-10-03,2º Suplente,NA,Retorno do titular
 5621,senado,56,2019-02-01,NA,2º Suplente,NA,NA
 5527,senado,55,2015-02-01,2019-01-31,Titular,NA,NA
