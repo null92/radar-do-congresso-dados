@@ -28,7 +28,7 @@ saida <- opt$out
 message("Iniciando processamento...")
 message("Baixando dados...")
 
-gastos_ceap <- processa_gastos_ceap(ano)
+gastos_ceap <- processa_gastos_ceap(2019) %>% rbind(processa_gastos_ceap(2020)) %>% distinct()
 
 message(paste0("Salvando o resultado em ", saida))
 write_csv(gastos_ceap, saida)

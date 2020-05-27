@@ -2,7 +2,7 @@
 #' @description Baixa os dados da assiduidade da legislatura atual para uma lista de anos
 #' @param anos Lista de anos
 #' @return Dataframe contendo informações da assiduidade
-process_assiduidade <- function(anos = c(2019, 2020)) {
+process_assiduidade <- function(anos = seq(2019, format(Sys.Date(), "%Y"))) {
   library(tidyverse)
   library(jsonlite)
   library(fuzzyjoin)

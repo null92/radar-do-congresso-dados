@@ -2,7 +2,7 @@
 #' @description Baixa os dados da assiduidade da legislatura atual para uma lista de anos
 #' @param anos Lista de anos
 #' @return Dataframe contendo informações da assiduidade
-fetch_assiduidade_camara <- function(anos = c(2019, 2020)) {
+fetch_assiduidade_camara <- function(anos = seq(2019, format(Sys.Date(), "%Y"))) {
   library(tidyverse)
   
   assiduidade <- map_df(anos, ~ fetch_assiduidade_camara_por_ano(.x))
@@ -20,7 +20,7 @@ fetch_assiduidade_camara <- function(anos = c(2019, 2020)) {
 #' @param ano Ano de interesse
 #' @param parlamentares_filepath Caminho para o csv dos parlamentares
 #' @return Dataframe contendo informações da assiduidade
-fetch_assiduidade_camara_por_ano <- function(ano = 2019, parlamentares_filepath = here::here("crawler/raw_data/parlamentares.csv")) {
+fetch_assiduidade_camara_por_ano <- function(ano = seq(2019, format(Sys.Date(), "%Y")), parlamentares_filepath = here::here("crawler/raw_data/parlamentares.csv")) {
   library(tidyverse)
   
   deputados <- read_csv(parlamentares_filepath) %>% 

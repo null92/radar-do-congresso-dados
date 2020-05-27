@@ -65,7 +65,7 @@ fetch_votacoes_por_proposicao_camara <- function(id_proposicao, xml = NULL) {
 #' @return Votações da proposição em um ano
 #' @examples
 #' votacoes <- fetch_votacoes_por_ano_camara(2190355, 2019)
-fetch_votacoes_por_ano_camara <- function(id_proposicao, ano = 2019, xml = NULL) {
+fetch_votacoes_por_ano_camara <- function(id_proposicao, ano = seq(2019, format(Sys.Date(), "%Y")), xml = NULL) {
   library(tidyverse)
   source(here::here("crawler/votacoes/utils_votacoes.R"))
   

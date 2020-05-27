@@ -37,7 +37,7 @@ fetch_proposicoes_votadas_por_intervalo_camara <-
 #' @return Dataframe contendo id da proposição, nome e data da votação
 #' @examples
 #' proposicoes_votadas_em_2019 <- fetch_proposicoes_votadas_por_ano_camara(2019)
-fetch_proposicoes_votadas_por_ano_camara <- function(ano = 2019) {
+fetch_proposicoes_votadas_por_ano_camara <- function(ano = seq(2019, format(Sys.Date(), "%Y"))) {
   library(tidyverse)
   library(RCurl)
   library(xml2)

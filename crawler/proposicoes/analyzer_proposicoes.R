@@ -4,7 +4,7 @@
 #' @return Dataframe contendo informações sobre as proposições apresentadas por deputados e senadores no Congresso em um ano
 #' @examples
 #' processa_dados_proposicoes(anos = c(2019, 2020))
-processa_dados_proposicoes <- function(anos = c(2019, 2020)) {
+processa_dados_proposicoes <- function(anos = seq(2019, format(Sys.Date(), "%Y"))) {
   library(tidyverse)
   source(here::here("crawler/proposicoes/fetcher_proposicoes.R"))
   

@@ -32,7 +32,7 @@ fetch_votos_por_sessao_camara <- function(cod_sessao, hora, xml) {
 #' @return Votos dos parlametares para a proposição (inclui várias votações)
 #' @examples
 #' votos <- fetch_votos_por_ano_camara(2190355, 2019)
-fetch_votos_por_ano_camara <- function(id_proposicao, ano = 2019) {
+fetch_votos_por_ano_camara <- function(id_proposicao, ano = seq(2019, format(Sys.Date(), "%Y"))) {
   library(tidyverse)
   library(here)
   source(here::here("crawler/votacoes/utils_votacoes.R"))

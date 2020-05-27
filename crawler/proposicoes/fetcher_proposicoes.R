@@ -4,7 +4,7 @@
 #' @return Dataframe contendo informações sobre as proposições
 #' @examples
 #' fetcher_proposicoes_camara(anos = c(2019, 2020))
-fetcher_proposicoes_camara <- function(anos = seq(2019, 2020)) {
+fetcher_proposicoes_camara <- function(anos = seq(2019, format(Sys.Date(), "%Y"))) {
   library(tidyverse)
 
   proposicoes <- purrr::map_df(anos, ~ fetcher_proposicoes_por_ano_camara(.x))
@@ -61,7 +61,7 @@ fetcher_proposicoes_por_ano_camara <- function(ano) {
 #' @return Dataframe contendo informações sobre as proposições
 #' @examples
 #' fetcher_proposicoes_senado(anos = c(2019, 2020))
-fetcher_proposicoes_senado <- function(anos = seq(2019, 2020)) {
+fetcher_proposicoes_senado <- function(anos = seq(2019, format(Sys.Date(), "%Y"))) {
   library(tidyverse)
   library(here)
 
