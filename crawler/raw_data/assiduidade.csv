@@ -1,4 +1,5 @@
 id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justificadas,dias_com_sessoes_deliberativas,dias_presentes
+66179,camara,2019,9,0,107,98
 66179,camara,2020,2,0,11,9
 66828,camara,2019,8,11,107,88
 66828,camara,2020,1,0,11,10
@@ -9,6 +10,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 69871,camara,2019,0,11,107,96
 69871,camara,2020,1,0,11,10
 72442,camara,2019,6,15,107,86
+72442,camara,2020,0,0,11,11
 73433,camara,2019,5,0,107,102
 73433,camara,2020,1,0,11,10
 73441,camara,2019,2,4,107,101
@@ -100,6 +102,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 74371,camara,2020,1,1,11,9
 74376,camara,2019,7,3,107,97
 74376,camara,2020,1,0,11,10
+74383,camara,2019,42,0,107,65
 74383,camara,2020,2,0,11,9
 74398,camara,2019,12,0,107,95
 74398,camara,2020,1,0,11,10
@@ -208,6 +211,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 141391,camara,2020,1,0,11,10
 141398,camara,2019,10,1,107,96
 141398,camara,2020,6,0,11,5
+141401,camara,2019,20,2,64,42
 141401,camara,2020,2,1,11,8
 141405,camara,2019,4,3,107,100
 141405,camara,2020,0,0,11,11
@@ -254,6 +258,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 141531,camara,2019,4,3,107,100
 141531,camara,2020,3,0,11,8
 141552,camara,2019,1,1,43,41
+141553,camara,2019,7,2,107,98
 141553,camara,2020,1,0,11,10
 141555,camara,2019,11,7,107,89
 141555,camara,2020,1,0,11,10
@@ -383,6 +388,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 160674,camara,2020,0,2,11,9
 160758,camara,2019,6,2,107,99
 160758,camara,2020,2,0,11,9
+160976,camara,2019,21,1,107,85
 160976,camara,2020,1,0,11,10
 161550,camara,2019,0,6,107,101
 161550,camara,2020,0,1,11,10
@@ -500,11 +506,13 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 178939,camara,2020,2,0,11,9
 178945,camara,2019,10,0,107,97
 178945,camara,2020,0,0,11,11
+178946,camara,2019,28,0,107,79
 178946,camara,2020,2,0,11,9
 178947,camara,2019,0,3,107,104
 178947,camara,2020,1,0,11,10
 178948,camara,2019,18,6,107,83
 178948,camara,2020,1,0,11,10
+178951,camara,2019,16,0,107,91
 178951,camara,2020,3,0,11,8
 178952,camara,2019,2,0,107,105
 178952,camara,2020,1,0,11,10
@@ -736,6 +744,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 204429,camara,2020,0,0,11,11
 204430,camara,2019,6,6,107,95
 204430,camara,2020,1,0,11,10
+204431,camara,2019,1,4,107,102
 204431,camara,2020,1,0,11,10
 204432,camara,2019,2,1,107,104
 204432,camara,2020,1,0,11,10
@@ -823,6 +832,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 204476,camara,2020,0,1,11,10
 204477,camara,2019,10,2,107,95
 204477,camara,2020,1,0,11,10
+204478,camara,2019,9,7,107,91
 204478,camara,2020,0,1,11,10
 204479,camara,2019,8,4,107,95
 204479,camara,2020,2,0,11,9
@@ -832,6 +842,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 204481,camara,2020,3,1,11,7
 204482,camara,2019,8,1,107,98
 204482,camara,2020,2,0,11,9
+204483,camara,2019,3,1,107,103
 204483,camara,2020,1,0,11,10
 204484,camara,2019,7,3,107,97
 204484,camara,2020,0,0,11,11
@@ -873,6 +884,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 204503,camara,2020,1,0,11,10
 204504,camara,2019,3,4,107,100
 204504,camara,2020,1,2,11,8
+204505,camara,2019,7,7,107,93
 204505,camara,2020,1,2,11,8
 204506,camara,2019,33,0,107,74
 204506,camara,2020,6,0,11,5
@@ -881,7 +893,6 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 204508,camara,2019,2,8,107,97
 204508,camara,2020,1,5,11,5
 204509,camara,2019,7,7,107,93
-204509,camara,2020,11,0,11,0
 204510,camara,2019,1,1,107,105
 204510,camara,2020,0,0,11,11
 204511,camara,2019,7,13,107,87
@@ -900,6 +911,7 @@ id_parlamentar,casa,ano,dias_ausencias_justificadas,dias_ausencias_nao_justifica
 204517,camara,2020,2,2,11,7
 204518,camara,2019,4,6,107,97
 204518,camara,2020,1,1,11,9
+204519,camara,2019,1,2,107,104
 204519,camara,2020,5,0,11,6
 204520,camara,2019,0,0,107,107
 204520,camara,2020,1,0,11,10
