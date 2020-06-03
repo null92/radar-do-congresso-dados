@@ -13,7 +13,7 @@ Rscript export_gastos_ceap.R -a <ano> -o <output_filepath>
 ```
 
 Argumentos do script:
-- `-a`: Ano de interesse. O valor default é 2019;
+- `-a`: Ano de interesse. O valor default é 2019 e 2020;
 - `-o`: Caminho e nome do arquivo de destino. Neste caso o caminho de saída default utilizado é `../../raw_data/gastos_ceap_congresso.csv`.
 
 Após a execução do script o csv será gerado no caminho especificado.
