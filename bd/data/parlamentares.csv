@@ -50,7 +50,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 174090,74090,camara,00694584215,ÁTILA SIDNEY LINS ALBUQUERQUE,Átila Lins,M,AM,37903,Exercício,Titular,56,1,1950-11-22,Fonte Boa - AM,"Anexo 4, 7º andar, sala 730",3215-5730,dep.atilalins@camara.leg.br
 174459,74459,camara,13023594600,ÁTILA FREITAS LIRA,Átila Lira,M,PI,37903,Exercício,Titular,56,1,1947-04-07,Piripiri - PI,"Anexo 4, 6º andar, sala 640",3215-5640,dep.atilalira@camara.leg.br
 1160665,160665,camara,33155623420,AUGUSTO RODRIGUES COUTINHO DE MELO,Augusto Coutinho,M,PE,36765,Exercício,Titular,56,1,1962-10-22,Recife - PE,"Anexo 4, 3º andar, sala 314",3215-5314,dep.augustocoutinho@camara.leg.br
-1204509,204509,camara,01412895626,ÁUREA CAROLINA DE FREITAS E SILVA,Áurea Carolina,F,MG,36839,Licença,Titular,56,0,1983-11-20,Tucuruí - PA,"Anexo 4, 6º andar, sala 619",3215-5619,NA
+1204509,204509,camara,01412895626,ÁUREA CAROLINA DE FREITAS E SILVA,Áurea Carolina,F,MG,36839,Exercício,Titular,56,1,1983-11-20,Tucuruí - PA,"Anexo 4, 6º andar, sala 619",3215-5619,dep.aureacarolina@camara.leg.br
 1160512,160512,camara,05355525725,AUREO LIDIO MOREIRA RIBEIRO,Aureo Ribeiro,M,RJ,36765,Exercício,Titular,56,1,1979-02-17,Duque de Caxias - RJ,"Anexo 4, 2º andar, sala 212",3215-5212,dep.aureoribeiro@camara.leg.br
 169871,69871,camara,10626409500,JOAO CARLOS BACELAR BATISTA,Bacelar,M,BA,36896,Exercício,Titular,56,1,1957-07-09,Esplanada - BA,NA,3215-5381,dep.bacelar@camara.leg.br
 1178975,178975,camara,17816724829,LUIZ FELIPE BALEIA TENUTO ROSSI,Baleia Rossi,M,SP,36899,Exercício,Titular,56,1,1972-06-09,São Paulo - SP,"Anexo 4, 8º andar, sala 829",3215-5829,dep.baleiarossi@camara.leg.br
@@ -140,6 +140,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204518,204518,camara,07422257717,FREDERICO DE CASTRO ESCALEIRA,Dr. Frederico,M,MG,37907,Exercício,Titular,56,1,1977-03-24,Teresópolis - RJ,NA,3215-5568,dep.dr.frederico@camara.leg.br
 1212625,212625,camara,05461154387,ANTONIO ELIZABETH GONÇALO DE SOUSA,Dr. Gonçalo,M,MA,37908,Suplência,Suplente,56,0,1953-07-08,Pastos Bons - MA,NA,NA,NA
 1204481,204481,camara,35761113368,JAZIEL PEREIRA DE SOUSA,Dr. Jaziel,M,CE,37906,Exercício,Titular,56,1,1961-05-03,Camocim - CE,"Anexo 4, 7º andar, sala 705",3215-5705,dep.dr.jaziel@camara.leg.br
+1213679,213679,camara,01117612120,JOÃO ANTONIO HOLANDA CALDAS,Dr. João,M,BA,36763,Exercício,Suplente,56,1,1990-03-21,Maceió - AL,"Anexo 4, 3º andar, sala 352",3215-5352,dep.dr.joao@camara.leg.br
 1204439,204439,camara,02309274917,LEONARDO RIBEIRO ALBUQUERQUE,Dr. Leonardo,M,MT,36765,Exercício,Titular,56,1,1978-06-14,Rio Verde - GO,"Anexo 4, 4º andar, sala 445",3215-5445,dep.dr.leonardo@camara.leg.br
 1204450,204450,camara,02319953779,LUIZ ANTONIO DE SOUZA TEIXEIRA JÚNIOR,Dr. Luiz Antonio Teixeira Jr.,M,RJ,37903,Exercício,Titular,56,1,1973-12-15,Nova Iguaçu - RJ,NA,3215-5577,dep.dr.luizantonioteixeirajr@camara.leg.br
 1204351,204351,camara,05134552134,LUIZ ALBERTO OVANDO,Dr. Luiz Ovando,M,MS,36837,Exercício,Titular,56,1,1949-09-25,Corumbá - MS,"Anexo 4, 6º andar, sala 644",3215-5644,dep.dr.luizovando@camara.leg.br
@@ -499,7 +500,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 174356,74356,camara,13512951287,SILAS CÂMARA,Silas Câmara,M,AM,37908,Exercício,Titular,56,1,1962-12-15,Rio Branco - AC,"Anexo 4, 5º andar, sala 532",3215-5532,dep.silascamara@camara.leg.br
 1204360,204360,camara,01739396782,SILVIA CRISTINA AMANCIO CHAGAS,Silvia Cristina,F,RO,36786,Exercício,Titular,56,1,1974-01-15,Ji-Paraná - RO,"Anexo 4, 5º andar, sala 524",3215-5524,dep.silviacristina@camara.leg.br
 1204425,204425,camara,03500720439,SILVIO SERAFIM COSTA FILHO,Silvio Costa Filho,M,PE,37908,Exercício,Titular,56,1,1982-03-05,Recife - PE,"Anexo 4, 4º andar, sala 402",3215-5402,dep.silviocostafilho@camara.leg.br
-1168175,168175,camara,33489874315,JOSE SIMPLICIO ALVES DE ARAUJO,Simplício Araújo,M,MA,36765,Licença,Suplente,56,0,1969-04-18,Bacabal - MA,NA,NA,NA
+1168175,168175,camara,33489874315,JOSE SIMPLICIO ALVES DE ARAUJO,Simplício Araújo,M,MA,36765,Suplência,Suplente,56,0,1969-04-18,Bacabal - MA,NA,NA,NA
 1178946,178946,camara,49125290797,SORAYA ALENCAR DOS SANTOS,Soraya Santos,F,RJ,37906,Exercício,Titular,56,1,1958-12-04,Macaé - RJ,"Anexo 4, 3º andar, sala 324",3215-5324,dep.sorayasantos@camara.leg.br
 1178947,178947,camara,95188100606,SOSTENES SILVA CAVALCANTE,Sóstenes Cavalcante,M,RJ,36769,Exercício,Titular,56,1,1975-01-16,Maceió - AL,"Anexo 4, 5º andar, sala 560",3215-5560,dep.sostenescavalcante@camara.leg.br
 192776,92776,camara,00001608657,STEFANO AGUIAR DOS SANTOS,Stefano Aguiar,M,MG,36834,Exercício,Titular,56,1,1976-03-03,Belo Horizonte - MG,"Anexo 4, 3º andar, sala 341",3215-5341,dep.stefanoaguiar@camara.leg.br
