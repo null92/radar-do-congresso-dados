@@ -76,6 +76,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178829,178829,camara,05750251829,JOSE AUGUSTO ROSA,Capitão Augusto,M,SP,37906,Exercício,Titular,56,1,1966-10-04,Ourinhos - SP,"Anexo 4, 3º andar, sala 358",3215-5358,dep.capitaoaugusto@camara.leg.br
 1178924,178924,camara,48140597368,FABIO ABREU COSTA,Capitão Fábio Abreu,M,PI,37906,Exercício,Titular,56,1,1972-12-31,Fortaleza - CE,"Anexo 4, 2º andar, sala 202",3215-5202,dep.capitaofabioabreu@camara.leg.br
 1204487,204487,camara,61496880382,WAGNER SOUSA GOMES,Capitão Wagner,M,CE,36763,Exercício,Titular,56,1,1979-01-21,SAO PAULO - SP,"Anexo 4, 7º andar, sala 711",3215-5711,dep.capitaowagner@camara.leg.br
+1213762,213762,camara,02336272431,HILKEA CARLA DE SOUZA MEDEIROS LIMA,Carla Dickson,F,RN,36763,Exercício,Suplente,56,1,1976-07-02,Belém - PA,"Anexo 4, 7º andar, sala 706",3215-5706,dep.carladickson@camara.leg.br
 1204507,204507,camara,01335594671,CARLA ZAMBELLI SALGADO,Carla Zambelli,F,SP,36837,Exercício,Titular,56,1,1980-07-03,Ribeirão Preto - SP,NA,3215-5482,dep.carlazambelli@camara.leg.br
 1141401,141401,camara,00834939134,CARLOS GOMES BEZERRA,Carlos Bezerra,M,MT,36899,Exercício,Titular,56,1,1941-11-04,Chapada dos Guimarães - MT,"Anexo 4, 8º andar, sala 815",3215-5815,dep.carlosbezerra@camara.leg.br
 1204361,204361,camara,00503190942,CARLOS ALBERTO CHIODINI,Carlos Chiodini,M,SC,36899,Exercício,Titular,56,1,1982-03-08,Jaraguá do Sul - SC,"Anexo 4, 9º andar, sala 925",3215-5925,dep.carloschiodini@camara.leg.br
@@ -299,7 +300,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204520,204520,camara,07554049631,GERALDO JUNIO DO AMARAL,Junio Amaral,M,MG,36837,Exercício,Titular,56,1,1987-06-30,Belo Horizonte - MG,"Anexo 4, 3º andar, sala 302",3215-5302,dep.junioamaral@camara.leg.br
 1204502,204502,camara,21883547881,NICOLINO BOZZELLA JUNIOR,Júnior Bozzella,M,SP,36837,Exercício,Titular,56,1,1980-08-17,Santos - SP,NA,3215-5582,dep.juniorbozzella@camara.leg.br
 1204497,204497,camara,23211253220,JOÃO FERRARI JÚNIOR,Júnior Ferrari,M,PA,36834,Exercício,Titular,56,1,1967-07-13,Oriximiná - PA,"Anexo 4, 9º andar, sala 919",3215-5919,dep.juniorferrari@camara.leg.br
-1204574,204574,camara,78247128349,JOSE LOURENÇO BOMFIM JUNIOR,Junior Lourenço,M,MA,37906,Exercício,Titular,56,1,1978-10-18,São Luís - MA,"Anexo 4, 5º andar, sala 513",3215-5513,dep.juniorlourenco@camara.leg.br
+1204574,204574,camara,78247128349,JOSE LOURENÇO BOMFIM JUNIOR,Junior Lourenço,M,MA,37906,Licença,Titular,56,0,1978-10-18,São Luís - MA,NA,NA,NA
 1204550,204550,camara,97891231320,ANTÔNIO LUIZ RODRIGUES MANO JÚNIOR,Júnior Mano,M,CE,37906,Exercício,Titular,56,1,1985-04-16,Nova Russas - CE,"Anexo 4, 8º andar, sala 807",3215-5807,dep.juniormano@camara.leg.br
 1178886,178886,camara,85290211349,JOSE JUSCELINO DOS SANTOS REZENDE FILHO,Juscelino Filho,M,MA,36769,Exercício,Titular,56,1,1984-11-06,São Luís - MA,"Anexo 4, 2º andar, sala 222",3215-5222,dep.juscelinofilho@camara.leg.br
 1204536,204536,camara,39313495864,KIM PATROCA KATAGUIRI,Kim Kataguiri,M,SP,36769,Exercício,Titular,56,1,1996-01-28,Salto - SP,"Anexo 4, 4º andar, sala 421",3215-5421,dep.kimkataguiri@camara.leg.br
@@ -411,7 +412,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 174319,74319,camara,00309745187,JOSÉ FRANCISCO PAES LANDIM,Paes Landim,M,PI,36845,Suplência,Suplente,56,0,1937-03-23,São João do Piauí - PI,NA,NA,NA
 1160642,160642,camara,23340541434,FRANCISCO EURICO DA SILVA,Pastor Eurico,M,PE,37907,Exercício,Titular,56,1,1962-09-12,Presidente Prudente - SP,"Anexo 4, 9º andar, sala 906",3215-5906,dep.pastoreurico@camara.leg.br
 1204553,204553,camara,22977040544,MANOEL ISIDORIO DE SANTANA JUNIOR,Pastor Sargento Isidório,M,BA,36898,Exercício,Titular,56,1,1962-07-28,Salvador - BA,"Anexo 4, 8º andar, sala 817",3215-5817,dep.pastorsargentoisidorio@camara.leg.br
-1205535,205535,camara,69305617115,PATRICIA LIMA FERRAZ,Patricia Ferraz,F,AP,36896,Exercício,Suplente,56,1,1980-01-09,Belo Horizonte - MG,"Anexo 4, 8º andar, sala 852",3215-5852,dep.patriciaferraz@camara.leg.br
+1205535,205535,camara,69305617115,PATRICIA LIMA FERRAZ,Patricia Ferraz,F,AP,36896,Suplência,Suplente,56,0,1980-01-09,Belo Horizonte - MG,NA,NA,NA
 174160,74160,camara,17486440687,PATRUS ANANIAS DE SOUSA,Patrus Ananias,M,MG,36844,Exercício,Titular,56,1,1952-01-26,Bocaiúva - MG,"Anexo 4, 7º andar, sala 720",3215-5720,dep.patrusananias@camara.leg.br
 1204377,204377,camara,57867100172,PAULA MORENO PARO BELMONTE,Paula Belmonte,F,DF,37905,Exercício,Titular,56,1,1973-06-23,SAO PAULO - SP,"Anexo 4, 4º andar, sala 440",3215-5440,dep.paulabelmonte@camara.leg.br
 1171617,171617,camara,14433290459,PAULO FERNANDO DOS SANTOS,Paulão,M,AL,36844,Exercício,Titular,56,1,1957-09-15,Maceió - AL,NA,3215-5366,dep.paulao@camara.leg.br
@@ -424,7 +425,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204461,204461,camara,09911967751,PAULO GUSTAVO GANIME ALVES TEIXEIRA,Paulo Ganime,M,RJ,37901,Exercício,Titular,56,1,1983-04-19,Rio de Janeiro - RJ,"Anexo 4, 2º andar, sala 230",3215-5230,dep.pauloganime@camara.leg.br
 1204492,204492,camara,86753991620,PAULO JOSE CARLOS GUEDES,Paulo Guedes,M,MG,36844,Exercício,Titular,56,1,1970-10-01,Manga - MG,"Anexo 4, 8º andar, sala 833",3215-5833,dep.pauloguedes@camara.leg.br
 174574,74574,camara,06015530553,PAULO SÉRGIO PARANHOS DE MAGALHÃES,Paulo Magalhães,M,BA,36834,Exercício,Suplente,56,1,1952-11-28,Salvador - BA,"Anexo 4, 9º andar, sala 903",3215-5903,dep.paulomagalhaes@camara.leg.br
-1128760,128760,camara,66488737368,PAULO CELSO FONSECA MARINHO JÚNIOR,Paulo Marinho Jr,M,MA,37906,Suplência,Suplente,56,0,1985-02-09,Caxias - MA,NA,NA,NA
+1128760,128760,camara,66488737368,PAULO CELSO FONSECA MARINHO JÚNIOR,Paulo Marinho Jr,M,MA,37906,Exercício,Suplente,56,1,1985-02-09,Caxias - MA,"Anexo 4, 5º andar, sala 513",3215-5513,dep.paulomarinhojr@camara.leg.br
 1141518,141518,camara,21006768904,PAULO PEREIRA DA SILVA,Paulo Pereira da Silva,M,SP,36765,Exercício,Titular,56,1,1956-02-24,Porecatu - PR,"Anexo 4, 2º andar, sala 217",3215-5217,dep.paulopereiradasilva@camara.leg.br
 174400,74400,camara,42844924034,PAULO ROBERTO SEVERO PIMENTA,Paulo Pimenta,M,RS,36844,Exercício,Titular,56,1,1965-03-19,Santa Maria - RS,"Anexo 4, 5º andar, sala 552",3215-5552,dep.paulopimenta@camara.leg.br
 1133968,133968,camara,03273970715,Paulo Sérgio Ramos Barboza,Paulo Ramos,M,RJ,36786,Exercício,Titular,56,1,1944-10-18,Rio de Janeiro - RJ,"Anexo 4, 8º andar, sala 804",3215-5804,dep.pauloramos@camara.leg.br
@@ -533,7 +534,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204483,204483,camara,36137847934,VILSON LUIZ DA SILVA,Vilson da Fetaemg,M,MG,36832,Exercício,Titular,56,1,1957-05-01,Cláudio - MG,"Anexo 4, 6º andar, sala 648",3215-5648,dep.vilsondafetaemg@camara.leg.br
 1141555,141555,camara,82286019720,VINICIUS RAPOZO DE CARVALHO,Vinicius Carvalho,M,SP,37908,Exercício,Titular,56,1,1966-01-07,Rio de Janeiro - RJ,"Anexo 4, 3º andar, sala 356",3215-5356,dep.viniciuscarvalho@camara.leg.br
 1204478,204478,camara,91804736791,VINICIUS MEDEIROS FARAH,Vinicius Farah,M,RJ,36899,Exercício,Titular,56,1,1965-06-21,Três Rios - RJ,"Anexo 4, 4º andar, sala 429",3215-5429,dep.viniciusfarah@camara.leg.br
-1160591,160591,camara,51004224249,VINICIUS DE AZEVEDO GURGEL,Vinicius Gurgel,M,AP,37906,Licença,Titular,56,0,1978-07-31,Macapá - AP,NA,NA,NA
+1160591,160591,camara,51004224249,VINICIUS DE AZEVEDO GURGEL,Vinicius Gurgel,M,AP,37906,Exercício,Titular,56,1,1978-07-31,Macapá - AP,"Anexo 4, 8º andar, sala 852",3215-5852,dep.viniciusgurgel@camara.leg.br
 1204532,204532,camara,34806872881,VINICIUS LAZZER POIT,Vinicius Poit,M,SP,37901,Exercício,Titular,56,1,1986-01-31,São Bernardo do Campo - SP,"Anexo 4, 5º andar, sala 558",3215-5558,dep.viniciuspoit@camara.leg.br
 1179587,179587,camara,07063842706,VITOR HUGO DE ARAUJO ALMEIDA,Vitor Hugo,M,GO,36837,Exercício,Titular,56,1,1977-05-31,Salvador - BA,"Anexo 4, 8º andar, sala 803",3215-5803,dep.vitorhugo@camara.leg.br
 1178992,178992,camara,00168780860,VITOR LIPPI,Vitor Lippi,M,SP,36835,Exercício,Titular,56,1,1959-05-18,São Paulo - SP,"Anexo 4, 8º andar, sala 823",3215-5823,dep.vitorlippi@camara.leg.br
