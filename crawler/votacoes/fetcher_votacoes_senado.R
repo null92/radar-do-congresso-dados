@@ -11,6 +11,8 @@ fetcher_votacoes_por_intervalo_senado <-
            end_date = format(Sys.Date(), "%d/%m/%Y")) {
     library(tidyverse)
     library(rvest)
+    library(htmltidy)
+    library(httr)
     
     url <-
       paste0(
@@ -61,15 +63,24 @@ fetcher_votacoes_por_intervalo_senado <-
                 
                 id_proposicao =
                   extract_number_from_regex(link_votacao,
-                                            "p_cod_materia_i=[\\d]*&"),
+                                            "(materia/)(\\d+)"),
                 
                 id_votacao =
                   extract_number_from_regex(link_votacao,
-                                            "p_cod_sessao_votacao_i=.*"),
+                                            "(_)(\\d+)"),
                 
                 datetime =
                   extract_data(x, "caption")
-              ) %>% 
+                  
+              ) %>%
+
+              mutate(
+
+                link_votacao = paste0("https://rl.senado.gov.br/reports/rwservlet?legis&report=/forms/parlam/vono_r01.RDF&paramform=no&p_cod_materia_i=",
+                id_proposicao, "&p_cod_materia_f=", id_proposicao, "&p_cod_sessao_votacao_i=", id_votacao, "&p_cod_sessao_votacao_f=", id_votacao)
+
+              ) %>%
+
               select(id_proposicao, 
                      id_votacao, 
                      objeto_votacao, 
@@ -100,7 +111,7 @@ fetcher_votacoes_por_intervalo_senado <-
 
 #' @title Recupera informações das votações nominais do plenário de uma proposição
 #' @description A partir do id de uma proposição, recupera dados de
-#' votações nominais de plenário que aconteceram na Senado Federal
+#' votações nominais de plenário que aconteceram no Senado Federal
 #' @param id_proposicao Id da proposição
 #' @param ano Ano que filtra as proposições. Caso seja null, todas as votações serão retornadas
 #' @return Votações de uma proposição em um ano ou todos, caso nenhum ano seja passado como parâmetro
@@ -110,13 +121,16 @@ fetcher_votacoes_por_proposicao_senado <-
   function(id_proposicao, ano = NULL) {
     library(tidyverse)
     library(xml2)
+    library(htmltidy)
+    library(httr)
+    library(rvest)
     
     print(paste0("Capturando votações da proposição ", id_proposicao))
     
     url <-
-      paste0("http://legis.senado.leg.br/dadosabertos/materia/votacoes/",
+      paste0("https://legis.senado.leg.br/dadosabertos/materia/votacoes/",
              id_proposicao)
-    
+      
     xml <-
       RCurl::getURI(url)
     

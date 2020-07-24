@@ -64,24 +64,23 @@ fetch_votos_por_link_votacao_senado <- function(url) {
   library(rvest)
   library(xml2)
  
-  print(paste0("Extraindo informações de votação de id ", 
+  print(paste0("Extraindo informações da votação de id ", 
                str_extract(url, "\\d*$")))
-  
-  new_url <- 
-    getURL(url, 
-           ssl.verifypeer = FALSE) %>% 
-    read_html() %>% 
-    html_node('a') %>% 
-    html_attr('href')
+
+  #new_url <- 
+   # getURL(url, 
+    #       ssl.verifypeer = FALSE) %>% 
+    #read_html() %>%
+    #html_node('a') %>% 
+    #html_attr('href')
   
   pdf_filepath <- here::here("crawler/votacoes/votos/votacao_senado.pdf")
   
-  download_pdf(new_url, pdf_filepath)
+  download_pdf(url, pdf_filepath)
   
   votos <- scrap_votos_from_pdf_senado(pdf_filepath)
   
   delete_file(pdf_filepath)
-  
   
   return(votos)
 } 

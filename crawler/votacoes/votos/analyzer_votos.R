@@ -34,10 +34,10 @@ processa_votos <- function(votacoes_datapath = here::here("crawler/raw_data/vota
   
   votacoes_senado <- votacoes %>% 
     dplyr::filter(casa == "senado")
-  
+
   votos_camara <- processa_votos_camara(votacoes_camara) %>% 
     select(id_proposicao, id_votacao, id_parlamentar = id_deputado, casa, voto)
-  
+
   votos_senado <- process_votos_senado(votacoes_senado) %>% 
     select(id_proposicao, id_votacao, id_parlamentar, casa, voto)
   

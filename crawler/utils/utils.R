@@ -1,4 +1,4 @@
-#' @title Padroniza os nomes, retirando acentos, cedilhas e colcoando todas as letras em uppercase
+#' @title Padroniza os nomes, retirando acentos, cedilhas, colocando todas as letras em uppercase
 #' @description Recebe um nome e o padroniza no formato: sem acentos, cedilhas, letras maiúsculas
 #' @param nome Nome a ser padronizado
 #' @return Nome padronizado

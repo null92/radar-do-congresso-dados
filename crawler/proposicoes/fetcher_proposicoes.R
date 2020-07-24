@@ -111,7 +111,7 @@ fetcher_proposicoes_senador <- function(id_senador, anos) {
 fetcher_proposicoes_senador_por_ano <- function(ano, id_senador) {
   library(tidyverse)
 
-  url <- paste0("http://legis.senado.leg.br/dadosabertos/senador/", id_senador, "/autorias?ano=", ano)
+  url <- paste0("https://legis.senado.leg.br/dadosabertos/senador/", id_senador, "/autorias?ano=", ano)
 
   print(paste0("Baixando proposições de autoria do senador ", id_senador, " para o ano de ", ano))
 
@@ -227,7 +227,7 @@ fetcher_proposicao_por_id_senado <- function(id) {
   
   print(paste0("Baixando informações da proposição de id ", id))
   
-  url <- paste0("http://legis.senado.leg.br/dadosabertos/materia/", id)
+  url <- paste0("https://legis.senado.leg.br/dadosabertos/materia/", id)
   
   proposicao <- tryCatch({
     xml <- RCurl::getURL(url) %>% xml2::read_xml()
