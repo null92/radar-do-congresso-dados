@@ -789,6 +789,14 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204551,Bosco Saraiva,13717820249,camara,40000610405,2018,Depósito bancário em conta corrente no País,#NULO#,390.87,SOLIDARIEDADE,DEPUTADO FEDERAL
 204551,Bosco Saraiva,13717820249,camara,40000610405,2018,Depósito bancário em conta corrente no País,#NULO#,10,SOLIDARIEDADE,DEPUTADO FEDERAL
 204551,Bosco Saraiva,13717820249,camara,40000610405,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,131601,SOLIDARIEDADE,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Auto Kia Sorento, 2013",103500,PSL,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Auto Kia Sorento, 2016",65473,PSL,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",Fiorino 1997,12000,PSL,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,Quotas ou quinhões de capital,União O. Alvinegro SPE LTDA - CNPJ n. 14.407.789/0001-04,12607.01,PSL,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Nissan Livina, 2012",51000,PSL,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,"Aplicação de renda fixa (CDB, RDB e outros)",CDB,324388.43,PSL,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,Quotas ou quinhões de capital,"Loksão Locação de Máquinas e Equipamentos Ltda-ME, CNPJ: 13.848.737/001-00",187500,PSL,DEPUTADO FEDERAL
+204502,Bozzella,21883547881,camara,250000613292,2018,Dinheiro em espécie - moeda nacional,Disponibilidade Financeira ,500000,PSL,DEPUTADO FEDERAL
 160589,Bruna Furlan,31516410831,camara,250000605403,2018,Outros bens imóveis,"25% APTO 201  Edificio Paris bl A à Av Cauaxi, 431(doação de Rubens Furlan CPF 492.801.398-00) Cart. Reg. Imóveis Barueri/SP: matrícula114246  ",75000,PSDB,DEPUTADO FEDERAL
 160589,Bruna Furlan,31516410831,camara,250000605403,2018,Outros bens imóveis,"Unidade autônoma, 141, Cond. Atria entrega p/ 30/8/20 Conf Contrato de Andromeda Alphaville SPE Empreendimentos LTDA CNPJ 08.405.396/0001-69 em 15/2/17 parcelas pagas em 2017",340890.07,PSDB,DEPUTADO FEDERAL
 160589,Bruna Furlan,31516410831,camara,250000605403,2018,Dinheiro em espécie - moeda nacional,saldo em caixa,425000,PSDB,DEPUTADO FEDERAL
@@ -1418,6 +1426,9 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204542,Denis Bezerra,62156047391,camara,60000611968,2018,Quotas ou quinhões de capital,"Quotas de Capital na Empresa Vitalidade Saúde do Adulto e do Idoso Ltda, 1% do Capital Social - Valor R$ 50,00.",50,PSB,DEPUTADO FEDERAL
 204542,Denis Bezerra,62156047391,camara,60000611968,2018,Apartamento,"Um Apartamento localizado na cidade de Fortaleza - Valor R$ 2.018.100,00.",2018100,PSB,DEPUTADO FEDERAL
 204542,Denis Bezerra,62156047391,camara,60000611968,2018,Depósito bancário em conta corrente no País,"Saldo em Conta Corrente na Caixa Econômica Federal, Ag. 4254, C/C. 00027994-4 - Valor R$ 14.874,78.",14874.78,PSB,DEPUTADO FEDERAL
+213856,Deuzinho Filho,50243950349,camara,60000601219,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",Automóvel Toyota Corolla - ano 2017/2018,95000,PROS,DEPUTADO FEDERAL
+213856,Deuzinho Filho,50243950349,camara,60000601219,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",Automóvel Chevrolet Corsa Super - ano 1996/1996,10000,PROS,DEPUTADO FEDERAL
+213856,Deuzinho Filho,50243950349,camara,60000601219,2018,Casa,Situada na Rua: Edgar Vieira Guerra - Caucaia,300000,PROS,DEPUTADO FEDERAL
 160588,Diego Andrade,99316552672,camara,130000613218,2018,Depósito bancário em conta corrente no País,#NULO#,22898.17,PSD,DEPUTADO FEDERAL
 160588,Diego Andrade,99316552672,camara,130000613218,2018,Depósito bancário em conta corrente no País,#NULO#,319.69,PSD,DEPUTADO FEDERAL
 160588,Diego Andrade,99316552672,camara,130000613218,2018,Outros fundos,#NULO#,10.05,PSD,DEPUTADO FEDERAL
@@ -3278,14 +3289,6 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204457,Juninho do Pneu,07845799700,camara,190000607415,2018,Depósito bancário em conta corrente no País,CONTA CORRENTE BANCO SANTANDER,8.37,DEM,DEPUTADO FEDERAL
 204457,Juninho do Pneu,07845799700,camara,190000607415,2018,Outros fundos,CDB BANCO ITAÚ SA,1887.87,DEM,DEPUTADO FEDERAL
 204520,Junio Amaral,07554049631,camara,130000616536,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,40000,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Auto Kia Sorento, 2013",103500,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Auto Kia Sorento, 2016",65473,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",Fiorino 1997,12000,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,Quotas ou quinhões de capital,União O. Alvinegro SPE LTDA - CNPJ n. 14.407.789/0001-04,12607.01,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Nissan Livina, 2012",51000,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,"Aplicação de renda fixa (CDB, RDB e outros)",CDB,324388.43,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,Quotas ou quinhões de capital,"Loksão Locação de Máquinas e Equipamentos Ltda-ME, CNPJ: 13.848.737/001-00",187500,PSL,DEPUTADO FEDERAL
-204502,Júnior Bozzella,21883547881,camara,250000613292,2018,Dinheiro em espécie - moeda nacional,Disponibilidade Financeira ,500000,PSL,DEPUTADO FEDERAL
 204497,Júnior Ferrari,23211253220,camara,140000606382,2018,Depósito bancário em conta corrente no País,SALDO EM CONTA CORRENTE NO BANCO BANPARÁ. ,40450,PSD,DEPUTADO FEDERAL
 204497,Júnior Ferrari,23211253220,camara,140000606382,2018,Terreno,TERRENO SITUADO NO MUNICÍPIO DE ORIXIMINÁ-PA. ,7138,PSD,DEPUTADO FEDERAL
 204497,Júnior Ferrari,23211253220,camara,140000606382,2018,Quotas ou quinhões de capital,QUOTAS DE CAPITAL DA EMPRESA J F COMÉRCIO E EMPREENDIMENTOS LTDA. ,375000,PSD,DEPUTADO FEDERAL

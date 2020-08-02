@@ -7,7 +7,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 167138,2020,camara,11,11,0,0
 168720,2019,camara,107,107,0,0
 168720,2020,camara,11,10,1,0
-169871,2019,camara,107,96,0,11
+169871,2019,camara,107,96,1,10
 169871,2020,camara,11,10,1,0
 172442,2019,camara,107,86,7,14
 172442,2020,camara,11,11,0,0
@@ -115,7 +115,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 174439,2020,camara,11,10,1,0
 174459,2019,camara,107,101,2,4
 174459,2020,camara,11,10,1,0
-174467,2019,camara,107,101,1,5
+174467,2019,camara,107,101,3,3
 174467,2020,camara,11,10,1,0
 174471,2019,camara,107,103,4,0
 174471,2020,camara,11,10,1,0
@@ -176,10 +176,10 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1112437,2020,camara,11,4,7,0
 1115746,2019,camara,107,102,3,2
 1115746,2020,camara,11,10,0,1
-1116379,2019,camara,107,105,1,1
+1116379,2019,camara,107,105,2,0
 1116379,2020,camara,11,11,0,0
-1121948,2019,camara,107,106,0,1
-1121948,2020,camara,11,10,0,1
+1121948,2019,camara,107,106,1,0
+1121948,2020,camara,11,10,1,0
 1122158,2019,camara,107,94,9,4
 1122158,2020,camara,11,9,2,0
 1122466,2019,camara,27,24,3,0
@@ -264,7 +264,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1141555,2020,camara,11,10,1,0
 1143084,2019,camara,107,101,4,2
 1143084,2020,camara,11,10,1,0
-1143632,2019,camara,107,82,16,9
+1143632,2019,camara,107,82,23,2
 1143632,2020,camara,11,7,4,0
 1146307,2019,camara,107,98,3,6
 1146307,2020,camara,11,11,0,0
@@ -332,9 +332,9 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1160575,2020,camara,11,10,1,0
 1160587,2019,camara,107,107,0,0
 1160587,2020,camara,11,10,1,0
-1160588,2019,camara,107,92,6,9
+1160588,2019,camara,107,92,7,8
 1160588,2020,camara,11,10,1,0
-1160589,2019,camara,107,94,6,7
+1160589,2019,camara,107,94,8,5
 1160589,2020,camara,11,10,1,0
 1160591,2019,camara,102,53,28,21
 1160592,2019,camara,107,98,7,2
@@ -343,8 +343,8 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1160598,2020,camara,11,10,1,0
 1160599,2019,camara,107,105,1,1
 1160599,2020,camara,11,10,1,0
-1160600,2019,camara,107,81,14,12
-1160600,2020,camara,11,7,1,3
+1160600,2019,camara,107,81,15,11
+1160600,2020,camara,11,7,4,0
 1160601,2019,camara,107,87,19,1
 1160601,2020,camara,11,10,1,0
 1160604,2019,camara,107,104,0,3
@@ -510,7 +510,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1178946,2020,camara,11,9,2,0
 1178947,2019,camara,107,104,0,3
 1178947,2020,camara,11,10,1,0
-1178948,2019,camara,107,83,18,6
+1178948,2019,camara,107,83,19,5
 1178948,2020,camara,11,10,1,0
 1178951,2019,camara,107,91,16,0
 1178951,2020,camara,11,8,3,0
@@ -523,7 +523,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1178956,2019,camara,107,95,11,1
 1178956,2020,camara,11,8,2,1
 1178959,2019,camara,107,92,12,3
-1178959,2020,camara,11,7,3,1
+1178959,2020,camara,11,7,4,0
 1178961,2019,camara,107,86,13,8
 1178961,2020,camara,11,9,2,0
 1178962,2019,camara,107,104,2,1
@@ -597,11 +597,11 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204351,2020,camara,11,11,0,0
 1204352,2019,camara,107,98,8,1
 1204352,2020,camara,11,10,1,0
-1204353,2019,camara,107,68,19,20
-1204353,2020,camara,11,8,1,2
+1204353,2019,camara,107,68,21,18
+1204353,2020,camara,11,8,2,1
 1204354,2019,camara,107,92,14,1
 1204354,2020,camara,11,9,2,0
-1204355,2019,camara,107,94,8,5
+1204355,2019,camara,107,94,10,3
 1204355,2020,camara,11,7,4,0
 1204356,2019,camara,107,107,0,0
 1204356,2020,camara,11,10,1,0
@@ -613,7 +613,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204359,2020,camara,11,8,0,3
 1204360,2019,camara,107,103,1,3
 1204360,2020,camara,11,11,0,0
-1204361,2019,camara,107,96,10,1
+1204361,2019,camara,107,96,11,0
 1204361,2020,camara,11,10,1,0
 1204362,2019,camara,107,104,3,0
 1204362,2020,camara,11,11,0,0
@@ -666,7 +666,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204386,2020,camara,11,9,1,1
 1204387,2019,camara,107,104,3,0
 1204387,2020,camara,11,11,0,0
-1204388,2019,camara,107,102,4,1
+1204388,2019,camara,107,102,5,0
 1204388,2020,camara,11,10,1,0
 1204389,2019,camara,107,106,0,1
 1204389,2020,camara,11,11,0,0
@@ -733,7 +733,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204423,2019,camara,107,75,32,0
 1204423,2020,camara,11,6,5,0
 1204425,2019,camara,107,91,8,8
-1204425,2020,camara,11,7,1,3
+1204425,2020,camara,11,7,4,0
 1204426,2019,camara,107,103,3,1
 1204426,2020,camara,11,10,1,0
 1204427,2019,camara,107,97,10,0
@@ -872,15 +872,15 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204497,2020,camara,11,9,2,0
 1204498,2019,camara,107,95,10,2
 1204498,2020,camara,11,8,2,1
-1204499,2019,camara,107,100,4,3
+1204499,2019,camara,107,100,5,2
 1204499,2020,camara,11,9,2,0
 1204500,2019,camara,107,95,9,3
 1204500,2020,camara,11,9,2,0
-1204501,2019,camara,107,102,2,3
+1204501,2019,camara,107,102,3,2
 1204501,2020,camara,11,7,4,0
 1204502,2019,camara,107,93,9,5
 1204502,2020,camara,11,7,1,3
-1204503,2019,camara,107,98,7,2
+1204503,2019,camara,107,98,8,1
 1204503,2020,camara,11,10,1,0
 1204504,2019,camara,107,100,3,4
 1204504,2020,camara,11,8,2,1
@@ -889,7 +889,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204506,2019,camara,107,74,33,0
 1204506,2020,camara,11,5,6,0
 1204507,2019,camara,107,74,21,12
-1204507,2020,camara,11,8,1,2
+1204507,2020,camara,11,8,2,1
 1204508,2019,camara,107,97,5,5
 1204508,2020,camara,11,5,1,5
 1204509,2019,camara,107,93,14,0
@@ -948,7 +948,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204536,2019,camara,107,91,6,10
 1204536,2020,camara,11,10,0,1
 1204537,2019,camara,107,103,4,0
-1204537,2020,camara,11,5,2,4
+1204537,2020,camara,11,5,5,1
 1204538,2019,camara,107,86,21,0
 1204538,2020,camara,11,8,3,0
 1204539,2019,camara,107,97,3,7
@@ -995,7 +995,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204559,2020,camara,11,7,3,1
 1204560,2019,camara,107,98,5,4
 1204560,2020,camara,11,5,4,2
-1204561,2019,camara,107,90,15,2
+1204561,2019,camara,107,90,16,1
 1204561,2020,camara,11,11,0,0
 1204562,2019,camara,107,95,11,1
 1204562,2020,camara,11,10,0,1
@@ -1010,7 +1010,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1204567,2019,camara,107,95,6,6
 1204567,2020,camara,11,10,1,0
 1204569,2019,camara,107,93,14,0
-1204569,2020,camara,11,9,1,1
+1204569,2020,camara,11,9,2,0
 1204570,2019,camara,107,97,4,6
 1204570,2020,camara,11,6,1,4
 1204571,2019,camara,107,100,5,2
@@ -1040,7 +1040,7 @@ id_parlamentar_voz,ano,casa,dias_com_sessoes_deliberativas,dias_presentes,dias_a
 1206231,2019,camara,106,101,4,1
 1206231,2020,camara,11,10,1,0
 1207176,2019,camara,102,94,8,0
-1207176,2020,camara,11,9,1,1
+1207176,2020,camara,11,9,2,0
 1207309,2019,camara,101,96,3,2
 1207309,2020,camara,11,10,1,0
 1209189,2019,camara,93,89,1,3
