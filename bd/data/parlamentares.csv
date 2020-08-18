@@ -139,7 +139,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1160588,160588,camara,99316552672,DIEGO LEONARDO DE ANDRADE CARVALHO,Diego Andrade,M,MG,36834,Exercício,Titular,56,1,1977-08-08,Belo Horizonte - MG,"Anexo 4, 3º andar, sala 307",3215-5307,dep.diegoandrade@camara.leg.br
 1178929,178929,camara,04702291955,DIEGO ALEXSANDER GONCALO PAULA GARCIA,Diego Garcia,M,PR,36896,Exercício,Titular,56,1,1984-10-10,Bandeirantes - PR,"Anexo 4, 9º andar, sala 910",3215-5910,dep.diegogarcia@camara.leg.br
 1160599,160599,camara,03694339639,DIMAS FABIANO TOLEDO JÚNIOR,Dimas Fabiano,M,MG,37903,Exercício,Titular,56,1,1973-05-23,Macaé - RJ,"Anexo 4, 7º andar, sala 736",3215-5736,dep.dimasfabiano@camara.leg.br
-1143632,143632,camara,02827898390,DOMINGOS GOMES DE AGUIAR NETO,Domingos Neto,M,CE,36834,Exercício,Titular,56,1,1988-04-29,Fortaleza - CE,"Anexo 4, 5º andar, sala 546",3215-5546,dep.domingosneto@camara.leg.br
+1143632,143632,camara,02827898390,DOMINGOS GOMES DE AGUIAR NETO,Domingos Neto,M,CE,36834,Licença,Titular,56,0,1988-04-29,Fortaleza - CE,NA,NA,NA
 1160758,160758,camara,22275150668,DOMINGOS SÁVIO CAMPOS RESENDE,Domingos Sávio,M,MG,36835,Exercício,Titular,56,1,1957-03-25,São Tiago - MG,"Anexo 4, 3º andar, sala 345",3215-5345,dep.domingossavio@camara.leg.br
 1213854,213854,camara,09111638320,AGRIPINO RODRIGUES GOMES MAGALHÃES,Dr. Agripino Magalhães,M,CE,36763,Exercício,Suplente,56,1,1954-06-23,Boa Viagem - CE,"Anexo 4, 7º andar, sala 711",3215-5711,dep.dr.agripinomagalhaes@camara.leg.br
 1204518,204518,camara,07422257717,FREDERICO DE CASTRO ESCALEIRA,Dr. Frederico,M,MG,37907,Exercício,Titular,56,1,1977-03-24,Teresópolis - RJ,NA,3215-5568,dep.dr.frederico@camara.leg.br
@@ -477,7 +477,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1160651,160651,camara,16513703034,ROGÉRIO MENDONÇA,Rogério Peninha Mendonça,M,SC,36899,Exercício,Titular,56,1,1953-01-27,Nova Trento - SC,"Anexo 4, 6º andar, sala 656",3215-5656,dep.rogeriopeninhamendonca@camara.leg.br
 1178930,178930,camara,86979728920,EVANDRO ROGERIO ROMAN,Roman,M,PR,37907,Exercício,Suplente,56,1,1973-03-03,Erval Grande - RS,NA,3215-5575,dep.roman@camara.leg.br
 1178861,178861,camara,56041896772,RONALDO CARLETTO,Ronaldo Carletto,M,BA,37903,Exercício,Titular,56,1,1960-01-05,Conceição da Barra - ES,"Anexo 4, 2º andar, sala 262",3215-5262,dep.ronaldocarletto@camara.leg.br
-1122466,122466,camara,63360403304,RONALDO MANCHADO MARTINS,Ronaldo Martins,M,CE,37908,Suplência,Suplente,56,0,1978-01-21,São Paulo - SP,NA,NA,NA
+1122466,122466,camara,63360403304,RONALDO MANCHADO MARTINS,Ronaldo Martins,M,CE,37908,Exercício,Suplente,56,1,1978-01-21,São Paulo - SP,"Anexo 4, 5º andar, sala 546",3215-5546,dep.ronaldomartins@camara.leg.br
 1204525,204525,camara,10851776884,ROSANA DE OLIVEIRA VALLE,Rosana Valle,F,SP,36832,Exercício,Titular,56,1,1969-05-08,Santos - SP,"Anexo 4, 5º andar, sala 529",3215-5529,dep.rosanavalle@camara.leg.br
 1178945,178945,camara,82863989715,ROSANGELA DE SOUZA GOMES,Rosangela Gomes,F,RJ,37908,Exercício,Titular,56,1,1966-12-27,Rio de Janeiro - RJ,"Anexo 4, 4º andar, sala 438",3215-5438,dep.rosangelagomes@camara.leg.br
 1204357,204357,camara,93132620106,ROSIANE MODESTO  DE OLIVEIRA,Rose Modesto,F,MS,36835,Exercício,Titular,56,1,1978-02-20,Fátima do Sul - MS,"Anexo 4, 4º andar, sala 414",3215-5414,dep.rosemodesto@camara.leg.br
