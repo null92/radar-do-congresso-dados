@@ -125,7 +125,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1160528,160528,camara,50903691434,DANILO JORGE DE BARROS CABRAL,Danilo Cabral,M,PE,36832,Exercício,Titular,56,1,1967-04-21,Surubim - PE,"Anexo 4, 4º andar, sala 423",3215-5423,dep.danilocabral@camara.leg.br
 162881,62881,camara,12133728368,FRANCISCO DANILO BASTOS FORTE,Danilo Forte,M,CE,36835,Exercício,Suplente,56,1,1958-09-01,Fortaleza - CE,"Anexo 4, 2º andar, sala 219",3215-5219,dep.daniloforte@camara.leg.br
 1160552,160552,camara,70157324087,DANRLEI DE DEUS HINTERHOLZ,Danrlei de Deus Hinterholz,M,RS,36834,Exercício,Titular,56,1,1973-04-18,Crissiumal - RS,NA,3215-5566,dep.danrleidedeushinterholz@camara.leg.br
-1116379,116379,camara,44828624953,DARCI DE MATOS,Darci de Matos,M,SC,36834,Exercício,Titular,56,1,1961-11-08,Cafelândia - PR,"Anexo 4, 7º andar, sala 709",3215-5709,dep.darcidematos@camara.leg.br
+1116379,116379,camara,44828624953,DARCI DE MATOS,Darci de Matos,M,SC,36834,Licença,Titular,56,0,1961-11-08,Cafelândia - PR,"Anexo 4, 7º andar, sala 709",3215-5709,NA
 173891,73891,camara,08262748034,DARCÍSIO PAULO PERONDI,Darcísio Perondi,M,RS,36899,Suplência,Suplente,56,0,1947-04-02,Ijuí - RS,NA,NA,NA
 1205548,205548,camara,12394073780,DAVID MICHAEL DOS SANTOS MIRANDA,David Miranda,M,RJ,36839,Exercício,Efetivado,56,1,1985-05-10,Rio de Janeiro - RJ,NA,3215-5267,dep.davidmiranda@camara.leg.br
 1204511,204511,camara,02112481770,DAVID BEZERRA RIBEIRO SOARES,David Soares,M,SP,36769,Exercício,Titular,56,1,1973-12-21,Rio de Janeiro - RJ,"Anexo 4, 7º andar, sala 741",3215-5741,dep.davidsoares@camara.leg.br
@@ -633,7 +633,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 25917,5917,senado,NA,Fernando Antonio Caminha Dueire,Fernando Dueire,M,PE,36852,NA,1º Suplente,56,0,1959-04-14,Recife - PE,NA,NA,NA
 25577,5577,senado,NA,Fernando Antonio Mendes Façanha Filho,Fernando Façanha,M,CE,36835,NA,2º Suplente,56,0,1966-06-22,Fortaleza - CE,NA,NA,NA
 25920,5920,senado,NA,Flavio Marcelo Gonçalves Vicente,Flavio Vicente,M,PR,36852,NA,2º Suplente,56,0,1971-04-17,Paranavai - PR,NA,NA,NA
-2345,345,senado,NA,Flávio José Arns,Flávio Arns,M,PR,36886,NA,Titular,56,1,1950-11-09,Curitiba - PR,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 04,33036301,sen.flavioarns@senado.leg.br
+2345,345,senado,NA,Flávio José Arns,Flávio Arns,M,PR,36896,NA,Titular,56,1,1950-11-09,Curitiba - PR,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 04,33036301,sen.flavioarns@senado.leg.br
 25894,5894,senado,NA,Flávio Nantes Bolsonaro,Flávio Bolsonaro,M,RJ,37908,NA,Titular,56,1,1981-04-30,Rio de Janeiro - RJ,Senado Federal Anexo 1  17º Pavimento,33031717,sen.flaviobolsonaro@senado.leg.br
 23713,3713,senado,NA,Maria de Fátima Bezerra,Fátima Bezerra,F,RN,36844,NA,Titular,56,0,1955-05-19,Nova Palmeira - PB,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 03,NA,fatima.bezerra@senadora.leg.br
 2196,196,senado,NA,Geraldo César Althoff,Geraldo Althoff,M,SC,36852,NA,1º Suplente,56,0,1947-06-16,Tubarão - SC,NA,NA,althoff@senado.leg.br
