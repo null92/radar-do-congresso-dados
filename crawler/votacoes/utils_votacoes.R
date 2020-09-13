@@ -83,3 +83,24 @@ mapeia_nome_eleitoral_to_id_senado <- function(target_df) {
   
   return(result)
 }
+
+#' @title Busca o Codigo do Líder do Senado
+#' @return int Codigo do líder
+getLiderSenado <- function(){
+  library(tidyverse)
+  library(RCurl)
+  library(xml2)
+
+  xml <- getURL("https://legis.senado.leg.br/dadosabertos/plenario/lista/liderancas") %>% read_xml()
+  lideranca <- xml_find_all(xml, ".//DadosLiderancas/Lideranca") %>%
+    map_df(function(x) {
+        list(
+          SiglaUnidLideranca = xml_find_first(x, "./SiglaUnidLideranca") %>% xml_text(),
+          CodigoParlamentar = xml_find_first(x, ".//CodigoParlamentar") %>% xml_text()
+        )
+    }) %>%
+    filter(SiglaUnidLideranca == "Governo") %>%
+    select(CodigoParlamentar)
+    
+  return(lideranca)
+}

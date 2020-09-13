@@ -125,7 +125,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1160528,160528,camara,50903691434,DANILO JORGE DE BARROS CABRAL,Danilo Cabral,M,PE,36832,Exercício,Titular,56,1,1967-04-21,Surubim - PE,"Anexo 4, 4º andar, sala 423",3215-5423,dep.danilocabral@camara.leg.br
 162881,62881,camara,12133728368,FRANCISCO DANILO BASTOS FORTE,Danilo Forte,M,CE,36835,Exercício,Suplente,56,1,1958-09-01,Fortaleza - CE,"Anexo 4, 2º andar, sala 219",3215-5219,dep.daniloforte@camara.leg.br
 1160552,160552,camara,70157324087,DANRLEI DE DEUS HINTERHOLZ,Danrlei de Deus Hinterholz,M,RS,36834,Exercício,Titular,56,1,1973-04-18,Crissiumal - RS,NA,3215-5566,dep.danrleidedeushinterholz@camara.leg.br
-1116379,116379,camara,44828624953,DARCI DE MATOS,Darci de Matos,M,SC,36834,Exercício,Titular,56,1,1961-11-08,Cafelândia - PR,"Anexo 4, 7º andar, sala 709",3215-5709,dep.darcidematos@camara.leg.br
+1116379,116379,camara,44828624953,DARCI DE MATOS,Darci de Matos,M,SC,36834,Licença,Titular,56,0,1961-11-08,Cafelândia - PR,NA,NA,NA
 173891,73891,camara,08262748034,DARCÍSIO PAULO PERONDI,Darcísio Perondi,M,RS,36899,Suplência,Suplente,56,0,1947-04-02,Ijuí - RS,NA,NA,NA
 1205548,205548,camara,12394073780,DAVID MICHAEL DOS SANTOS MIRANDA,David Miranda,M,RJ,36839,Exercício,Efetivado,56,1,1985-05-10,Rio de Janeiro - RJ,NA,3215-5267,dep.davidmiranda@camara.leg.br
 1204511,204511,camara,02112481770,DAVID BEZERRA RIBEIRO SOARES,David Soares,M,SP,36769,Exercício,Titular,56,1,1973-12-21,Rio de Janeiro - RJ,"Anexo 4, 7º andar, sala 741",3215-5741,dep.davidsoares@camara.leg.br
@@ -224,12 +224,11 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204575,204575,camara,80405878320,GILLIANO FRED NASCIMENTO CUTRIM,Gil Cutrim,M,MA,36786,Exercício,Titular,56,1,1979-10-26,São Luís - MA,NA,3215-5385,dep.gilcutrim@camara.leg.br
 1204491,204491,camara,08567392861,GILBERTO APARECIDO ABRAMO,Gilberto Abramo,M,MG,37908,Exercício,Titular,56,1,1966-08-06,Porto Ferreira - SP,"Anexo 4, 6º andar, sala 601",3215-5601,dep.gilbertoabramo@camara.leg.br
 174270,74270,camara,64817407891,GILBERTO NASCIMENTO SILVA,Gilberto Nascimento,M,SP,36833,Exercício,Titular,56,1,1956-07-09,São Paulo - SP,"Anexo 4, 8º andar, sala 834",3215-5834,dep.gilbertonascimento@camara.leg.br
-1204570,204570,camara,57088071304,GILDENEMIR DE LIMA SOUSA,Gildenemyr,M,MA,37906,Exercício,Titular,56,1,1971-11-08,São Luís - MA,"Anexo 4, 6º andar, sala 660",3215-5660,dep.gildenemyr@camara.leg.br
 1204365,204365,camara,00824207939,GILSON MARQUES VIEIRA,Gilson Marques,M,SC,37901,Exercício,Titular,56,1,1981-04-12,Rio do Sul - SC,"Anexo 4, 4º andar, sala 431",3215-5431,dep.gilsonmarques@camara.leg.br
 1160673,160673,camara,31050778049,GIOVANI CHERINI,Giovani Cherini,M,RS,37906,Exercício,Titular,56,1,1960-06-23,Soledade - RS,NA,3215-5468,dep.giovanicherini@camara.leg.br
 1178996,178996,camara,26586568072,GIOVANI BATISTA FELTES,Giovani Feltes,M,RS,36899,Exercício,Titular,56,1,1957-04-10,São Leopoldo - RS,NA,3215-5376,dep.giovanifeltes@camara.leg.br
 1152605,152605,camara,09740756719,GLAUBER DE MEDEIROS BRAGA,Glauber Braga,M,RJ,36839,Exercício,Titular,56,1,1982-06-26,Nova Friburgo - RJ,"Anexo 4, 3º andar, sala 362",3215-5362,dep.glauberbraga@camara.leg.br
-1204419,204419,camara,60751266191,GLAUSKSTON BATISTA RIOS,Glaustin Fokus,M,GO,36833,Exercício,Titular,56,1,1973-12-22,Goiânia - GO,NA,3215-5473,dep.glaustinfokus@camara.leg.br
+1204419,204419,camara,60751266191,GLAUSKSTON BATISTA RIOS,Glaustin da Fokus,M,GO,36833,Exercício,Titular,56,1,1973-12-22,Goiânia - GO,NA,3215-5473,dep.glaustindafokus@camara.leg.br
 1107283,107283,camara,67677061915,GLEISI HELENA HOFFMANN,Gleisi Hoffmann,F,PR,36844,Exercício,Titular,56,1,1965-09-06,Curitiba - PR,"Anexo 4, 2º andar, sala 232",3215-5232,dep.gleisihoffmann@camara.leg.br
 174419,74419,camara,01960970453,LUIZ GONZAGA PATRIOTA,Gonzaga Patriota,M,PE,36832,Exercício,Titular,56,1,1946-04-26,Sertânia - PE,"Anexo 4, 4º andar, sala 430",3215-5430,dep.gonzagapatriota@camara.leg.br
 1198197,198197,camara,05132597670,GREYCE DE QUEIROZ ELIAS,Greyce Elias,F,MG,36898,Exercício,Titular,56,1,1981-12-15,Patrocínio - MG,"Anexo 4, 3º andar, sala 340",3215-5340,dep.greyceelias@camara.leg.br
@@ -396,6 +395,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178896,178896,camara,01266637699,NEWTON CARDOSO JUNIOR,Newton Cardoso Jr,M,MG,36899,Exercício,Titular,56,1,1979-11-11,Belo Horizonte - MG,"Anexo 4, 9º andar, sala 932",3215-5932,dep.newtoncardosojr@camara.leg.br
 1204384,204384,camara,98451278949,NEY LEPREVOST NETO,Ney Leprevost,M,PR,36834,Exercício,Titular,56,1,1973-10-26,Curitiba - PR,"Anexo 4, 2º andar, sala 221",3215-5221,dep.neyleprevost@camara.leg.br
 1204479,204479,camara,99445700015,ANTONIO CARLOS NICOLETTI,Nicoletti,M,RR,36837,Exercício,Titular,56,1,1981-07-21,Ijuí - RS,NA,3215-5287,dep.nicoletti@camara.leg.br
+1214445,214445,camara,45816530968,NILSON FRANCISCO STAINSACK,Nilson F. Stainsack,M,SC,37903,Exercício,Suplente,56,1,1963-08-27,Presidente Getúlio - SC,"Anexo 4, 7º andar, sala 709",3215-5709,dep.nilsonf.stainsack@camara.leg.br
 174352,74352,camara,02875900200,NILSON PINTO DE OLIVEIRA,Nilson Pinto,M,PA,36835,Exercício,Titular,56,1,1952-03-25,Belém - PA,"Anexo 4, 5º andar, sala 527",3215-5527,dep.nilsonpinto@camara.leg.br
 1178986,178986,camara,03380916889,NILTO IGNACIO TATTO,Nilto Tatto,M,SP,36844,Exercício,Titular,56,1,1963-07-31,Frederico Westphalen - RS,"Anexo 4, 5º andar, sala 502",3215-5502,dep.niltotatto@camara.leg.br
 1194260,194260,camara,06923503493,NIVALDO FERREIRA DE ALBUQUERQUE NETO,Nivaldo Albuquerque,M,AL,36845,Exercício,Titular,56,1,1988-01-07,Maceió - AL,"Anexo 4, 4º andar, sala 425",3215-5425,dep.nivaldoalbuquerque@camara.leg.br
@@ -408,11 +408,12 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 173692,73692,camara,19971478072,OSMAR GASPARINI TERRA,Osmar Terra,M,RS,36899,Exercício,Titular,56,1,1950-02-18,Porto Alegre - RS,"Anexo 4, 9º andar, sala 927",3215-5927,dep.osmarterra@camara.leg.br
 1204422,204422,camara,39806464753,OSSESIO JOSE DA SILVA,Ossesio Silva,M,PE,37908,Exercício,Titular,56,1,1954-12-09,Rio de Janeiro - RJ,"Anexo 4, 3º andar, sala 328",3215-5328,dep.ossesiosilva@camara.leg.br
 1204441,204441,camara,07217877709,OTONI MOURA DE PAULO JUNIOR,Otoni de Paula,M,RJ,36833,Exercício,Titular,56,1,1976-11-22,Rio de Janeiro - RJ,NA,3215-5484,dep.otonidepaula@camara.leg.br
-1204475,204475,camara,63445557268,JOSE OTACI BARROSO DO NASCIMENTO,Ottaci Nascimento,M,RR,36765,Exercício,Titular,56,1,1977-08-18,Eirunepé - AM,"Anexo 4, 5º andar, sala 521",3215-5521,dep.ottacinascimento@camara.leg.br
+1204475,204475,camara,63445557268,JOSE OTACI BARROSO DO NASCIMENTO,Ottaci Nascimento,M,RR,36765,Licença,Titular,56,0,1977-08-18,Eirunepé - AM,NA,NA,NA
 1204573,204573,camara,67871224549,OTTO ROBERTO MENDONÇA DE ALENCAR FILHO,Otto Alencar Filho,M,BA,36834,Exercício,Titular,56,1,1977-07-07,Salvador - BA,"Anexo 4, 4º andar, sala 444",3215-5444,dep.ottoalencarfilho@camara.leg.br
 1160556,160556,camara,72425610600,JOÃO CARLOS SIQUEIRA,Padre João,M,MG,36844,Exercício,Titular,56,1,1967-02-28,Urucânia - MG,"Anexo 4, 7º andar, sala 743",3215-5743,dep.padrejoao@camara.leg.br
 174319,74319,camara,00309745187,JOSÉ FRANCISCO PAES LANDIM,Paes Landim,M,PI,36845,Suplência,Suplente,56,0,1937-03-23,São João do Piauí - PI,NA,NA,NA
 1160642,160642,camara,23340541434,FRANCISCO EURICO DA SILVA,Pastor Eurico,M,PE,37907,Exercício,Titular,56,1,1962-09-12,Presidente Prudente - SP,"Anexo 4, 9º andar, sala 906",3215-5906,dep.pastoreurico@camara.leg.br
+1204570,204570,camara,57088071304,GILDENEMIR DE LIMA SOUSA,Pastor Gil,M,MA,37906,Exercício,Titular,56,1,1971-11-08,São Luís - MA,"Anexo 4, 6º andar, sala 660",3215-5660,dep.pastorgil@camara.leg.br
 1204553,204553,camara,22977040544,MANOEL ISIDORIO DE SANTANA JUNIOR,Pastor Sargento Isidório,M,BA,36898,Exercício,Titular,56,1,1962-07-28,Salvador - BA,"Anexo 4, 8º andar, sala 817",3215-5817,dep.pastorsargentoisidorio@camara.leg.br
 1205535,205535,camara,69305617115,PATRICIA LIMA FERRAZ,Patricia Ferraz,F,AP,36896,Suplência,Suplente,56,0,1980-01-09,Belo Horizonte - MG,NA,NA,NA
 174160,74160,camara,17486440687,PATRUS ANANIAS DE SOUSA,Patrus Ananias,M,MG,36844,Exercício,Titular,56,1,1952-01-26,Bocaiúva - MG,"Anexo 4, 7º andar, sala 720",3215-5720,dep.patrusananias@camara.leg.br
@@ -633,7 +634,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 25917,5917,senado,NA,Fernando Antonio Caminha Dueire,Fernando Dueire,M,PE,36852,NA,1º Suplente,56,0,1959-04-14,Recife - PE,NA,NA,NA
 25577,5577,senado,NA,Fernando Antonio Mendes Façanha Filho,Fernando Façanha,M,CE,36835,NA,2º Suplente,56,0,1966-06-22,Fortaleza - CE,NA,NA,NA
 25920,5920,senado,NA,Flavio Marcelo Gonçalves Vicente,Flavio Vicente,M,PR,36852,NA,2º Suplente,56,0,1971-04-17,Paranavai - PR,NA,NA,NA
-2345,345,senado,NA,Flávio José Arns,Flávio Arns,M,PR,36886,NA,Titular,56,1,1950-11-09,Curitiba - PR,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 04,33036301,sen.flavioarns@senado.leg.br
+2345,345,senado,NA,Flávio José Arns,Flávio Arns,M,PR,36896,NA,Titular,56,1,1950-11-09,Curitiba - PR,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 04,33036301,sen.flavioarns@senado.leg.br
 25894,5894,senado,NA,Flávio Nantes Bolsonaro,Flávio Bolsonaro,M,RJ,37908,NA,Titular,56,1,1981-04-30,Rio de Janeiro - RJ,Senado Federal Anexo 1  17º Pavimento,33031717,sen.flaviobolsonaro@senado.leg.br
 23713,3713,senado,NA,Maria de Fátima Bezerra,Fátima Bezerra,F,RN,36844,NA,Titular,56,0,1955-05-19,Nova Palmeira - PB,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 03,NA,fatima.bezerra@senadora.leg.br
 2196,196,senado,NA,Geraldo César Althoff,Geraldo Althoff,M,SC,36852,NA,1º Suplente,56,0,1947-06-16,Tubarão - SC,NA,NA,althoff@senado.leg.br
@@ -707,7 +708,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 21023,1023,senado,NA,Maria do Carmo do Nascimento Alves,Maria do Carmo Alves,F,SE,36769,NA,Titular,56,1,1941-08-23,Cedro de São João - SE,Senado Federal Anexo 2   Ala Nilo Coelho Pavimento Térreo Gabinete 08,33031306,sen.mariadocarmoalves@senado.leg.br
 26002,6002,senado,NA,Marcos Antônio Marinho da Cunha,Marinho Cunha,M,PA,36852,NA,2º Suplente,56,0,1964-06-02,Belém - PA,NA,NA,NA
 25575,5575,senado,NA,Marizete Lisboa Fernandes Pereira,Marizete,F,BA,36844,NA,2º Suplente,56,0,1946-06-17,Brumado - BA,NA,NA,NA
-25571,5571,senado,NA,Marco Jeovano Soares Ribas,Marquinho,M,AP,36769,NA,2º Suplente,56,0,1972-01-19,Pinheiro - ES,NA,NA,NA
+25571,5571,senado,NA,Marco Jeovano Soares Ribas,Marquinho,M,AP,36769,NA,2º Suplente,56,0,NA,NA,NA,NA,NA
 26027,6027,senado,NA,Antônio Mecias Pereira de Jesus,Mecias de Jesus,M,RR,37908,NA,Titular,56,1,1962-02-08,Graça Aranha - MA,Senado Federal Anexo 2   Ala Ruy Carneiro Gabinete 02,33035291,sen.meciasdejesus@senado.leg.br
 25935,5935,senado,NA,Miguel Capobiango Neto,Miguel Biango,M,AM,36852,NA,2º Suplente,56,0,1963-01-20,Rio de Janeirpo - RJ,NA,NA,NA
 25897,5897,senado,NA,Milton Jose das Mercêz,Milton Mercêz,M,GO,36852,NA,2º Suplente,56,0,1952-11-30,Tiros - MG,NA,NA,NA

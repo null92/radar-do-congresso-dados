@@ -76,6 +76,11 @@ message("Parte 11/11 - Migrando dados: Assiduidade...")
 file = here::here("bd/scripts/migrations/migration_assiduidade.sql")
 execute_migration(file, log_file)
 
+## Transparencia
+message("Parte 11/11 - Migrando dados: Transparencia...")
+file = here::here("bd/scripts/migrations/migration_transparencia.sql")
+execute_migration(file, log_file)
+
 if (length(grep("ROLLBACK", readLines(log_file), value = TRUE)) > 0) {
   error <- paste0('Um erro ocorreu durante a execução das migrações. Mais informações em ', log_file)  
   message(error)

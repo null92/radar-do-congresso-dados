@@ -11,7 +11,6 @@ fetcher_votacoes_por_intervalo_senado <-
            end_date = format(Sys.Date(), "%d/%m/%Y")) {
     library(tidyverse)
     library(rvest)
-    library(htmltidy)
     library(httr)
     
     url <-
@@ -121,7 +120,6 @@ fetcher_votacoes_por_proposicao_senado <-
   function(id_proposicao, ano = NULL) {
     library(tidyverse)
     library(xml2)
-    library(htmltidy)
     library(httr)
     library(rvest)
     

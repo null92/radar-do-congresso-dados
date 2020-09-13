@@ -5,7 +5,7 @@
 #' @param parlamentares_path Caminho para o arquivo de dados de parlamentares
 #' @return Dataframe com informações das votos
 processa_votos <- function(votos_data_path = here::here("crawler/raw_data/votos.csv"),
-                           votacoes_data_path = here::here("bd/data/votacoes.csv"),
+                           votacoes_data_path = here::here("crawler/raw_data/votacoes_com_orientacao.csv"),
                            parlamentares_path = here::here("bd/data/parlamentares.csv")) {
   library(tidyverse)
   library(here)

@@ -95,6 +95,7 @@ CREATE TABLE IF NOT EXISTS "votacoes" (
     "votacao_secreta" BOOLEAN,
     "apelido" VARCHAR(255),
     "status_importante" BOOLEAN,
+    "orientacao" INTEGER,
     "url_votacao" VARCHAR(500),
     PRIMARY KEY("id_votacao")
 );
@@ -126,4 +127,11 @@ CREATE TABLE IF NOT EXISTS "assiduidade" (
     "dias_ausencias_justificadas" INTEGER, 
     "dias_ausencias_nao_justificadas" INTEGER,
     PRIMARY KEY("id_parlamentar_voz", "ano")
+);
+
+CREATE TABLE IF NOT EXISTS "transparencia" (
+    "id_parlamentar_voz" VARCHAR(40),
+    "casa" VARCHAR(255),
+    "estrelas" INTEGER,
+    PRIMARY KEY("id_parlamentar_voz")
 );

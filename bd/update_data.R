@@ -95,6 +95,19 @@ tryCatch(
 
 tryCatch(
   {
+    message(date(), " - Executando relacionamento de orientações...\n")
+    source(here::here("crawler/votacoes/relaciona_orientacao.R"))
+  },
+  error=function(cond) {
+    log_error <- paste(cond, "Um erro ocorreu durante a execução do Relacionamento de orientações")
+    message(log_error)
+    stop("A execução foi interrompida", call. = FALSE)
+    return(NA)
+  }
+)
+
+tryCatch(
+  {
     message(date(), " - Executando crawler de Patrimônio\n")
     source(here::here("crawler/parlamentares/patrimonio/export_patrimonio.R"))
   },

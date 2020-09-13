@@ -111,3 +111,23 @@ fetch_all_votos_senado <- function(votacoes) {
   return(votos)
   
 }
+
+#' Pega o ID do líder do governo no senado
+getLiderSenado <- function(){
+  library(tidyverse)
+  library(RCurl)
+  library(xml2)
+
+  xml <- getURL("https://legis.senado.leg.br/dadosabertos/plenario/lista/liderancas") %>% read_xml()
+  lideranca <- xml_find_all(xml, ".//DadosLiderancas/Lideranca") %>%
+    map_df(function(x) {
+        list(
+          SiglaUnidLideranca = xml_find_first(x, "./SiglaUnidLideranca") %>% xml_text(),
+          CodigoParlamentar = xml_find_first(x, ".//CodigoParlamentar") %>% xml_text()
+        )
+    }) %>%
+    filter(SiglaUnidLideranca == "Governo") %>%
+    select(CodigoParlamentar)
+    
+  return(lideranca)
+}

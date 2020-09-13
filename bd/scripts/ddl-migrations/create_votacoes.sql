@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS "votacoes" (
     "votacao_secreta" BOOLEAN,
     "apelido" VARCHAR(255),
     "status_importante" BOOLEAN,
+    "orientacao" INTEGER,
     "url_votacao" VARCHAR(500),
     PRIMARY KEY("id_votacao")
 );

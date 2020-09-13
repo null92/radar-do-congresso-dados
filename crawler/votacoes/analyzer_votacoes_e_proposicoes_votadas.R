@@ -63,7 +63,7 @@ process_proposicoes_votadas_e_votacoes <-
       ) %>%
       process_votacoes_status_apelido() %>% 
       select(id_proposicao, id_votacao, casa, obj_votacao, data_hora, votacao_secreta, 
-             apelido, status_importante)
+             apelido, status_importante,orientacao)
     
     votacoes_senado <-
       fetcher_votacoes_por_intervalo_senado(initial_date, end_date)

@@ -42,16 +42,23 @@ fetch_votacoes_por_proposicao_camara <- function(id_proposicao, xml = NULL) {
     
     votacoes <- xml_find_all(xml, ".//Votacao") %>%
       map_df(function(x) {
+        orientacao <- xml_find_all(x, ".//bancada[@Sigla='GOV.']") %>% (function(y){
+                  return(trimws(xml_attr(y, "orientacao")))
+                })
+        if(identical(orientacao, character(0))){
+          orientacao <- "-"
+        }
         list(
           obj_votacao = xml_attr(x, "ObjVotacao"),
           resumo = xml_attr(x, "Resumo"),
           cod_sessao = xml_attr(x, "codSessao"),
           hora = xml_attr(x, "Hora"),
-          data = as.Date(xml_attr(x, "Data"), "%d/%m/%Y")
+          data = as.Date(xml_attr(x, "Data"), "%d/%m/%Y"),
+          orientacao = orientacao
         )
       })
   }, error = function(e) {
-    data <- tribble(~ obj_votacao, ~ resumo, ~ cod_sessao, ~ hora, ~ data)
+    data <- tribble(~ obj_votacao, ~ resumo, ~ cod_sessao, ~ hora, ~ data, ~orientacao)
     return(data)
   })
 
@@ -81,11 +88,11 @@ fetch_votacoes_por_ano_camara <- function(id_proposicao, ano = seq(2019, format(
       filter(ano_votacao == ano) %>% 
       mutate(id_votacao = paste0(cod_sessao, str_remove(hora, ":")),
              id_proposicao = id_proposicao) %>% 
-      select(id_proposicao, obj_votacao, data, cod_sessao, hora, id_votacao)
+      select(id_proposicao, obj_votacao, data, cod_sessao, hora, id_votacao, orientacao)
     
   }, error = function(e){
     return(
-      tribble(~id_proposicao, ~ obj_votacao, ~ data, ~ cod_sessao, ~ hora, ~ id_votacao))
+      tribble(~id_proposicao, ~ obj_votacao, ~ data, ~ cod_sessao, ~ hora, ~ id_votacao, ~orientacao))
   })
   
   return(votacoes)
@@ -124,7 +131,7 @@ fetch_all_votacoes_por_intervalo_camara <- function(initial_date = "01/02/2019",
       proposicoes_votadas$ano_votacao,
       ~ fetch_votacoes_por_ano_camara(.x, .y)
     ) %>%
-    distinct(id_proposicao, obj_votacao, data, cod_sessao, hora, id_votacao)
+    distinct(id_proposicao, obj_votacao, data, cod_sessao, hora, id_votacao, orientacao)
   
   return(votacoes)
 }
