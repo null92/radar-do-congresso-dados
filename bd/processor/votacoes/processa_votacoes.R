@@ -18,8 +18,6 @@ processa_votacoes <- function(
       id_proposicao_voz = paste0(dplyr::if_else(casa == "camara", 1, 2),
                                  id_proposicao))
   votacoes_alt <- votacoes_alt %>%
-    select(id_proposicao_voz, id_votacao, casa, obj_votacao, data_hora, votacao_secreta, 
-           apelido, status_importante, url_votacao, orientacao)
-  
+    select(id_proposicao_voz, id_votacao, casa, obj_votacao, data_hora, votacao_secreta, apelido, status_importante, orientacao, url_votacao)
   return(votacoes_alt)
 }

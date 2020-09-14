@@ -28,7 +28,8 @@ relaciona_orientacoes <- function(votacoes_datapath = here::here("crawler/raw_da
         #TODO: Tratar caso P-NRV: Presente mas não registrou foto
         TRUE ~ 0
       )
-    )
+    ) %>%
+    select(id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,status_importante,orientacao,url_votacao)
   
   votacoes_senado <- votacoes %>% 
     dplyr::filter(casa == "senado")
@@ -43,8 +44,7 @@ relaciona_orientacoes <- function(votacoes_datapath = here::here("crawler/raw_da
     id_proposicao = id_proposicao.x,
     id_votacao = id_votacao.x,
     casa = casa.x,
-    orientacao = voto,
-    obj_votacao = gsub('[\"]', '', obj_votacao)
+    orientacao = voto
   ) %>%
   select(id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,status_importante,orientacao,url_votacao)
   
