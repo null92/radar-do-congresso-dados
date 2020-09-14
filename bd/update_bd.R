@@ -22,62 +22,62 @@ write_log(Sys.time(), log_file)
 write_log("=======================================================", log_file)
 
 ## PARTIDOS
-message("Parte 01/11 - Migrando dados: Partidos...")
+message("Parte 01/12 - Migrando dados: Partidos...")
 file = here::here("bd/scripts/migrations/migration_partidos.sql")
 execute_migration(file, log_file)
 
 ## PARLAMENTARES
-message("Parte 02/11 - Migrando dados: Parlamentares...")
+message("Parte 02/12 - Migrando dados: Parlamentares...")
 file = here::here("bd/scripts/migrations/migration_parlamentares.sql")
 execute_migration(file, log_file)
 
 ## GASTOS CEAP
-message("Parte 03/11 - Migrando dados: Gastos...")
+message("Parte 03/12 - Migrando dados: Gastos...")
 file = here::here("bd/scripts/migrations/migration_gastos_ceap.sql")
 execute_migration(file, log_file)
 
 ## PROPOSIÇÕES
-message("Parte 04/11 - Migrando dados: Proposições...")
+message("Parte 04/12 - Migrando dados: Proposições...")
 file = here::here("bd/scripts/migrations/migration_proposicoes.sql")
 execute_migration(file, log_file)
 
 ## PARLAMENTARES PROPOSIÇÕES
-message("Parte 05/11 - Migrando dados: Parlamentares - Proposições...")
+message("Parte 05/12 - Migrando dados: Parlamentares - Proposições...")
 file = here::here("bd/scripts/migrations/migration_parlamentares_proposicoes.sql")
 execute_migration(file, log_file)
 
 ## PATRIMONIO
-message("Parte 06/11 - Migrando dados: Patrimônio...")
+message("Parte 06/12 - Migrando dados: Patrimônio...")
 file = here::here("bd/scripts/migrations/migration_patrimonio.sql")
 execute_migration(file, log_file)
 
 ## DISCURSOS
-message("Parte 07/11 - Migrando dados: Discursos...")
+message("Parte 07/12 - Migrando dados: Discursos...")
 file = here::here("bd/scripts/migrations/migration_discursos.sql")
 execute_migration(file, log_file)
 
 ## VOTAÇÕES
-message("Parte 08/11 - Migrando dados: Votações...")
+message("Parte 08/12 - Migrando dados: Votações...")
 file = here::here("bd/scripts/migrations/migration_votacoes.sql")
 execute_migration(file, log_file)
 
 ## VOTOS
-message("Parte 09/11 - Migrando dados: Votos...")
+message("Parte 09/12 - Migrando dados: Votos...")
 file = here::here("bd/scripts/migrations/migration_votos.sql")
 execute_migration(file, log_file)
 
 ## VOTOS ELEIÇÃO
-message("Parte 10/11 - Migrando dados: Votos - Eleição...")
+message("Parte 10/12 - Migrando dados: Votos - Eleição...")
 file = here::here("bd/scripts/migrations/migration_votos_eleicao.sql")
 execute_migration(file, log_file)
 
 ## ASSIDUIDADE
-message("Parte 11/11 - Migrando dados: Assiduidade...")
+message("Parte 11/12 - Migrando dados: Assiduidade...")
 file = here::here("bd/scripts/migrations/migration_assiduidade.sql")
 execute_migration(file, log_file)
 
 ## Transparencia
-message("Parte 11/11 - Migrando dados: Transparencia...")
+message("Parte 12/12 - Migrando dados: Transparência...")
 file = here::here("bd/scripts/migrations/migration_transparencia.sql")
 execute_migration(file, log_file)
 
