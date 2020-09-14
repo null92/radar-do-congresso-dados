@@ -43,7 +43,8 @@ relaciona_orientacoes <- function(votacoes_datapath = here::here("crawler/raw_da
     id_proposicao = id_proposicao.x,
     id_votacao = id_votacao.x,
     casa = casa.x,
-    orientacao = voto
+    orientacao = voto,
+    obj_votacao = gsub('[\"]', '', obj_votacao)
   ) %>%
   select(id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,status_importante,orientacao,url_votacao)
   
