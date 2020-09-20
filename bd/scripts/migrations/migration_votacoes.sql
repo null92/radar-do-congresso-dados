@@ -5,8 +5,6 @@ CREATE TEMP TABLE temp_votacoes AS SELECT * FROM votacoes LIMIT 0;
 
 \copy temp_votacoes FROM './data/votacoes.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
 
-ALTER TABLE votacoes ADD COLUMN IF NOT EXISTS orientacao INTEGER;
-
 INSERT INTO votacoes
   SELECT * FROM temp_votacoes
   ON CONFLICT (id_votacao) 
