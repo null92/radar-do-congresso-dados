@@ -12,6 +12,7 @@ id_parlamentar_voz,casa,estrelas
 1204464,camara,5
 1204532,camara,5
 1160592,camara,5
+1204477,camara,5
 1204561,camara,4
 174655,camara,4
 1204407,camara,4
@@ -26,6 +27,8 @@ id_parlamentar_voz,casa,estrelas
 25012,senado,4
 1204530,camara,4
 25959,senado,4
+25895,senado,4
+1204519,camara,4
 1204501,camara,3
 1160545,camara,3
 1178881,camara,3
@@ -50,12 +53,10 @@ id_parlamentar_voz,casa,estrelas
 1204541,camara,3
 25953,senado,3
 1160587,camara,3
-1204477,camara,3
 172442,camara,3
 1204427,camara,3
 1204548,camara,3
 1160570,camara,3
-25895,senado,4
 1178983,camara,3
 1204522,camara,3
 1204540,camara,3
@@ -95,6 +96,7 @@ id_parlamentar_voz,casa,estrelas
 1178947,camara,2
 1160610,camara,2
 1178889,camara,2
+1204485,camara,2
 1204554,camara,1
 1204379,camara,1
 24981,senado,1
@@ -388,7 +390,6 @@ id_parlamentar_voz,casa,estrelas
 1160510,camara,1
 1204410,camara,1
 1204448,camara,1
-1204485,camara,2
 25585,senado,1
 1204455,camara,1
 1162332,camara,1
@@ -557,7 +558,6 @@ id_parlamentar_voz,casa,estrelas
 25535,senado,1
 1204466,camara,1
 1143084,camara,1
-1204519,camara,4
 1160976,camara,1
 1178934,camara,1
 1178863,camara,1
