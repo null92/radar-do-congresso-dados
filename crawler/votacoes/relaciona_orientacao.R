@@ -17,18 +17,6 @@ relaciona_orientacoes <- function(votacoes_datapath = here::here("crawler/raw_da
 
   votacoes_camara <- votacoes %>% 
     dplyr::filter(casa == "camara") %>%
-    mutate(
-      orientacao = case_when(
-        str_detect(orientacao, "Não") ~ -1,
-        str_detect(orientacao, "Sim") ~ 1,
-        str_detect(orientacao, "Obstrução|P-OD") ~ 2,
-        str_detect(orientacao, "Abstenção") ~ 3,
-        str_detect(orientacao, "Art. 17|art. 51 RISF|Art.17") ~ 4,
-        str_detect(orientacao, "Liberado") ~ 5,
-        #TODO: Tratar caso P-NRV: Presente mas não registrou foto
-        TRUE ~ 0
-      )
-    ) %>%
     select(id_proposicao,id_votacao,casa,obj_votacao,data_hora,votacao_secreta,apelido,status_importante,orientacao,url_votacao)
   
   votacoes_senado <- votacoes %>% 

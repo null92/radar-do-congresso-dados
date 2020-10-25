@@ -8,12 +8,9 @@ processa_votos_camara <- function(votacoes) {
   source(here::here("crawler/votacoes/votos/fetcher_votos_camara.R"))
   
   votacoes_alt <- votacoes %>% 
-    mutate(ano = str_extract(data_hora, "\\d{4}")) %>% 
-    distinct(id_proposicao, ano)
-  
-  votos <- map2_df(votacoes_alt$id_proposicao, votacoes_alt$ano,
-                   ~ fetch_votos_por_ano_camara(.x, .y))
-  
+    distinct(id_proposicao,id_votacao)
+
+  votos <- map2_df(votacoes_alt$id_votacao, votacoes_alt$id_proposicao, ~ fetch_votos_por_votacao_camara (.x,.y))
 
   return(votos)
 }

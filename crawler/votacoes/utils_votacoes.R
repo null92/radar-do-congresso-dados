@@ -39,29 +39,20 @@ get_descricao_voto <- function(voto) {
   return(voto_descricao)
 }
 
-#' @title Recupera o título de uma proposição a partir de seu id
-#' @description Recebe o id de uma proposição na câmara e retorna seu título
-#' @param id_proposicao Id da proposição
-#' @return Título da proposicao (ex: MPV 867/2018)
-#' @examples
-#' get_sigla_by_id_camara(2190237) // "MPV 867/2018"
-get_sigla_by_id_camara <- function(id_proposicao) {
-  library(tidyverse)
-  library(RCurl)
-  library(xml2)
+#' @title Recupera valor do voto
+get_val_voto <- function(voto) {
+  voto_descricao <- case_when(
+    str_detect(voto, "Não") ~ -1,
+    str_detect(voto, "Sim") ~ 1,
+    str_detect(voto, "Obstrução|P-OD") ~ 2,
+    str_detect(voto, "Abstenção") ~ 3,
+    str_detect(voto, "Art. 17|art. 51 RISF|Art.17") ~ 4,
+    str_detect(voto, "Liberado") ~ 5,
+    #TODO: Tratar caso P-NRV: Presente mas não registrou foto
+    TRUE ~ 0
+  )
   
-  url <- paste0("https://www.camara.leg.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=", id_proposicao)
-  
-  xml <- getURL(url) %>%
-    read_xml()
-  
-  atributos <- xml_attrs(xml, "id") %>% 
-    as.list() %>% 
-    data.frame(stringsAsFactors = F) %>% 
-    mutate(tipo = trimws(tipo, which = c("both"))) %>% 
-    select(siglaTipo = tipo, numero, ano)
-    
-  return(atributos)
+  return(voto_descricao)
 }
 
 #' @title Mapeia um nome eleitoral para id correspondente
