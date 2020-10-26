@@ -3,6 +3,7 @@ id,sigla,tipo,situacao
 1,Maioria,Maioria,Ativo
 2,Minoria,Minoria,Ativo
 3,Oposição,Oposição,Ativo
+576,"Bloco PSL, PTB, PROS",Bloco,Ativo
 36761,PEN,partido,Ativo
 36762,PPL,partido,Ativo
 36763,PROS,partido,Ativo
@@ -50,7 +51,7 @@ id,sigla,tipo,situacao
 37907,PATRIOTA,partido,Ativo
 37908,Rep,partido,Ativo
 770,Bloco Parlamentar Unidos pelo Brasil,Bloco,Ativo
-754,Bloco Parlamentar Senado Independente,Bloco,Ativo
 771,Bloco Parlamentar PSDB/PSL,Bloco,Ativo
-763,Bloco Parlamentar Vanguarda,Bloco,Ativo
 755,Bloco Parlamentar da Resistência Democrática,Bloco,Ativo
+754,Bloco Parlamentar Senado Independente,Bloco,Ativo
+763,Bloco Parlamentar Vanguarda,Bloco,Ativo
