@@ -29,7 +29,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178927,178927,camara,06908052923,ALIEL MACHADO BARK,Aliel Machado,M,PR,36832,Exercício,Titular,56,1,1989-02-26,Ponta Grossa - PR,"Anexo 4, 2º andar, sala 220",3215-5220,dep.alielmachado@camara.leg.br
 1204353,204353,camara,51150670215,ALINE PARANHOS VARONIL GURGEL,Aline Gurgel,F,AP,37908,Exercício,Titular,56,1,1980-11-25,Macapá - AP,"Anexo 4, 3º andar, sala 342",3215-5342,dep.alinegurgel@camara.leg.br
 1204400,204400,camara,00506342913,ALINE SLEUTJES,Aline Sleutjes,F,PR,36837,Exercício,Titular,56,1,1979-07-26,Castro - PR,"Anexo 4, 5º andar, sala 550",3215-5550,dep.alinesleutjes@camara.leg.br
-1178937,178937,camara,00007487738,ALTINEU CÔRTES FREITAS COUTINHO,Altineu Côrtes,M,RJ,37906,Exercício,Titular,56,1,1968-09-13,São Gonçalo - RJ,"Anexo 4, 3º andar, sala 336",3215-5336,dep.altineucortes@camara.leg.br
+1178937,178937,camara,00007487738,ALTINEU CÔRTES FREITAS COUTINHO,Altineu Côrtes,M,RJ,37906,Exercício,Titular,56,1,1968-09-13,Niterói - RJ,"Anexo 4, 3º andar, sala 336",3215-5336,dep.altineucortes@camara.leg.br
 1178881,178881,camara,66746485749,ALUISIO GUIMARAES MENDES FILHO,Aluisio Mendes,M,MA,36833,Exercício,Titular,56,1,1961-11-11,Belo Horizonte - MG,"Anexo 4, 9º andar, sala 931",3215-5931,dep.aluisiomendes@camara.leg.br
 1204356,204356,camara,06893749767,AMARO ROCHA NASCIMENTO NETO,Amaro Neto,M,ES,37908,Exercício,Titular,56,1,1976-12-04,Vitória - ES,"Anexo 4, 5º andar, sala 515",3215-5515,dep.amaroneto@camara.leg.br
 1178831,178831,camara,31601928220,ANDRE DOS SANTOS ABDON,André Abdon,M,AP,37903,Exercício,Titular,56,1,1970-11-10,Belém - PA,"Anexo 4, 8º andar, sala 831",3215-5831,dep.andreabdon@camara.leg.br
@@ -135,7 +135,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204569,204569,camara,55926169291,PABLO OLIVA SOUZA,Delegado Pablo,M,AM,36837,Exercício,Titular,56,1,1976-07-26,Manaus - AM,NA,3215-5373,dep.delegadopablo@camara.leg.br
 1164359,164359,camara,46228357972,WALDIR SOARES DE OLIVEIRA,Delegado Waldir,M,GO,36837,Exercício,Titular,56,1,1962-11-28,Jacarezinho - PR,"Anexo 4, 6º andar, sala 645",3215-5645,dep.delegadowaldir@camara.leg.br
 1204542,204542,camara,62156047391,DENIS ANDERSON DA ROCHA BEZERRA,Denis Bezerra,M,CE,36832,Exercício,Titular,56,1,1980-03-17,Fortaleza - CE,"Anexo 4, 6º andar, sala 625",3215-5625,dep.denisbezerra@camara.leg.br
-1213856,213856,camara,50243950349,FRANCISCO DEUZINHO DE OLIVEIRA FILHO,Deuzinho Filho,M,CE,37908,Exercício,Suplente,56,1,1975-09-20,Caucaia - CE,"Anexo 4, 5º andar, sala 545",3215-5545,dep.deuzinhofilho@camara.leg.br
+1213856,213856,camara,50243950349,FRANCISCO DEUZINHO DE OLIVEIRA FILHO,Deuzinho Filho,M,CE,37908,Suplência,Suplente,56,0,1975-09-20,Caucaia - CE,NA,NA,NA
 1160588,160588,camara,99316552672,DIEGO LEONARDO DE ANDRADE CARVALHO,Diego Andrade,M,MG,36834,Exercício,Titular,56,1,1977-08-08,Belo Horizonte - MG,"Anexo 4, 3º andar, sala 307",3215-5307,dep.diegoandrade@camara.leg.br
 1178929,178929,camara,04702291955,DIEGO ALEXSANDER GONCALO PAULA GARCIA,Diego Garcia,M,PR,36896,Exercício,Titular,56,1,1984-10-10,Bandeirantes - PR,"Anexo 4, 9º andar, sala 910",3215-5910,dep.diegogarcia@camara.leg.br
 1160599,160599,camara,03694339639,DIMAS FABIANO TOLEDO JÚNIOR,Dimas Fabiano,M,MG,37903,Exercício,Titular,56,1,1973-05-23,Macaé - RJ,"Anexo 4, 7º andar, sala 736",3215-5736,dep.dimasfabiano@camara.leg.br
@@ -149,7 +149,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204439,204439,camara,02309274917,LEONARDO RIBEIRO ALBUQUERQUE,Dr. Leonardo,M,MT,36765,Exercício,Titular,56,1,1978-06-14,Rio Verde - GO,"Anexo 4, 4º andar, sala 445",3215-5445,dep.dr.leonardo@camara.leg.br
 1204450,204450,camara,02319953779,LUIZ ANTONIO DE SOUZA TEIXEIRA JÚNIOR,Dr. Luiz Antonio Teixeira Jr.,M,RJ,37903,Exercício,Titular,56,1,1973-12-15,Nova Iguaçu - RJ,NA,3215-5577,dep.dr.luizantonioteixeirajr@camara.leg.br
 1204351,204351,camara,05134552134,LUIZ ALBERTO OVANDO,Dr. Luiz Ovando,M,MS,36837,Exercício,Titular,56,1,1949-09-25,Corumbá - MS,"Anexo 4, 6º andar, sala 644",3215-5644,dep.dr.luizovando@camara.leg.br
-1178830,178830,camara,88779254853,SINVAL MALHEIROS PINTO JÚNIOR,Dr. Sinval Malheiros,M,SP,36896,Exercício,Suplente,56,1,1951-02-23,São Paulo - SP,"Anexo 4, 7º andar, sala 717",3215-5717,dep.dr.sinvalmalheiros@camara.leg.br
+1178830,178830,camara,88779254853,SINVAL MALHEIROS PINTO JÚNIOR,Dr. Sinval Malheiros,M,SP,36896,Suplência,Suplente,56,0,1951-02-23,São Paulo - SP,NA,NA,NA
 1204412,204412,camara,11833050100,ZACARIAS CALIL HAMU,Dr. Zacharias Calil,M,GO,36769,Exercício,Titular,56,1,1953-11-05,Goiânia - GO,"Anexo 4, 6º andar, sala 616",3215-5616,dep.dr.zachariascalil@camara.leg.br
 181297,81297,camara,82837147753,SORAYA DE SOUZA MANNATO,Dra. Soraya Manato,F,ES,36837,Exercício,Titular,56,1,1961-03-10,Linhares - ES,"Anexo 4, 3º andar, sala 313",3215-5313,dep.dra.sorayamanato@camara.leg.br
 1204434,204434,camara,78581850804,VANDA DENIR MILANI NOGUEIRA,Dra. Vanda Milani,F,AC,36765,Exercício,Titular,56,1,1953-09-17,Cedral - SP,"Anexo 4, 5º andar, sala 516",3215-5516,dep.dra.vandamilani@camara.leg.br
@@ -302,7 +302,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204457,204457,camara,07845799700,ROGERIO TEIXEIRA JUNIOR,Juninho do Pneu,M,RJ,36769,Exercício,Titular,56,1,1976-10-23,Nova Iguaçu - RJ,"Anexo 4, 6º andar, sala 641",3215-5641,dep.juninhodopneu@camara.leg.br
 1204520,204520,camara,07554049631,GERALDO JUNIO DO AMARAL,Junio Amaral,M,MG,36837,Exercício,Titular,56,1,1987-06-30,Belo Horizonte - MG,"Anexo 4, 3º andar, sala 302",3215-5302,dep.junioamaral@camara.leg.br
 1204497,204497,camara,23211253220,JOÃO FERRARI JÚNIOR,Júnior Ferrari,M,PA,36834,Exercício,Titular,56,1,1967-07-13,Oriximiná - PA,"Anexo 4, 9º andar, sala 919",3215-5919,dep.juniorferrari@camara.leg.br
-1204574,204574,camara,78247128349,JOSE LOURENÇO BOMFIM JUNIOR,Junior Lourenço,M,MA,37906,Exercício,Titular,56,1,1978-10-18,São Luís - MA,NA,NA,dep.juniorlourenco@camara.leg.br
+1204574,204574,camara,78247128349,JOSE LOURENÇO BOMFIM JUNIOR,Junior Lourenço,M,MA,37906,Exercício,Titular,56,1,1978-10-18,São Luís - MA,"Anexo 4, 5º andar, sala 513",3215-5513,dep.juniorlourenco@camara.leg.br
 1204550,204550,camara,97891231320,ANTÔNIO LUIZ RODRIGUES MANO JÚNIOR,Júnior Mano,M,CE,37906,Exercício,Titular,56,1,1985-04-16,Nova Russas - CE,"Anexo 4, 8º andar, sala 807",3215-5807,dep.juniormano@camara.leg.br
 1178886,178886,camara,85290211349,JOSE JUSCELINO DOS SANTOS REZENDE FILHO,Juscelino Filho,M,MA,36769,Exercício,Titular,56,1,1984-11-06,São Luís - MA,"Anexo 4, 2º andar, sala 222",3215-5222,dep.juscelinofilho@camara.leg.br
 1204536,204536,camara,39313495864,KIM PATROCA KATAGUIRI,Kim Kataguiri,M,SP,36769,Exercício,Titular,56,1,1996-01-28,Salto - SP,"Anexo 4, 4º andar, sala 421",3215-5421,dep.kimkataguiri@camara.leg.br
@@ -311,6 +311,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1160534,160534,camara,00974976733,LAURIETE RODRIGUES DE JESUS,Lauriete,F,ES,36833,Exercício,Titular,56,1,1970-02-23,Vila Velha - ES,"Anexo 4, 2º andar, sala 223",3215-5223,dep.lauriete@camara.leg.br
 1178832,178832,camara,80635083949,LEANDRE DAL PONTE,Leandre,F,PR,36851,Exercício,Titular,56,1,1975-12-20,Pato Branco - PR,"Anexo 4, 4º andar, sala 454",3215-5454,dep.leandre@camara.leg.br
 1204375,204375,camara,43025900253,LEDA MARIA SADALA BRITO,Leda Sadala,F,AP,36898,Exercício,Titular,56,1,1966-06-11,Almeirim - PA,"Anexo 4, 6º andar, sala 611",3215-5611,dep.ledasadala@camara.leg.br
+1178825,178825,camara,63182246291,LEONARDO CUNHA DE BRITO,LEO DE BRITO,M,AC,36844,Exercício,Titular,56,1,1979-04-13,Rio Branco - AC,NA,3215-5572,dep.leodebrito@camara.leg.br
 1204359,204359,camara,04333073901,LEONARDO BARRETO DE MORAES,Léo Moraes,M,RO,36896,Exercício,Titular,56,1,1984-01-11,Foz do Iguaçu - PR,"Anexo 4, 5º andar, sala 503",3215-5503,dep.leomoraes@camara.leg.br
 1204547,204547,camara,85702609620,ELIEL MÁRCIO DO CARMO,Léo Motta,M,MG,36837,Exercício,Titular,56,1,1973-10-26,Contagem - MG,"Anexo 4, 7º andar, sala 724",3215-5724,dep.leomotta@camara.leg.br
 174156,74156,camara,20811845672,JOSÉ LEONARDO COSTA MONTEIRO,Leonardo Monteiro,M,MG,36844,Exercício,Titular,56,1,1951-10-09,Governador Valadares - MG,"Anexo 4, 9º andar, sala 922",3215-5922,dep.leonardomonteiro@camara.leg.br
@@ -330,7 +331,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204381,204381,camara,90218647115,LUIS CLAUDIO FERNANDES MIRANDA,Luis Miranda,M,DF,36769,Exercício,Titular,56,1,1980-03-27,Brasília - DF,"Anexo 4, 2º andar, sala 241",3215-5241,dep.luismiranda@camara.leg.br
 1160510,160510,camara,81460910672,LUIS HENRIQUE DE OLIVEIRA RESENDE,Luis Tibé,M,MG,36898,Exercício,Titular,56,1,1971-07-23,Belo Horizonte - MG,"Anexo 4, 6º andar, sala 632",3215-5632,dep.luistibe@camara.leg.br
 1204410,204410,camara,05823529910,LUISA CANZIANI DOS SANTOS SILVEIRA,Luisa Canziani,F,PR,36845,Exercício,Titular,56,1,1996-04-11,Londrina - PR,"Anexo 4, 8º andar, sala 842",3215-5842,dep.luisacanziani@camara.leg.br
-1204448,204448,camara,01563114704,LUIZ ANTONIO DA COSTA CARVALHO CORREA DA SILVA,Luiz Antônio Corrêa,M,RJ,37906,Exercício,Titular,56,1,1940-12-27,Rio de Janeiro - RJ,"Anexo 4, 6º andar, sala 610",3215-5610,dep.luizantoniocorrea@camara.leg.br
+1204448,204448,camara,01563114704,LUIZ ANTONIO C. C. CORRÊA DA SILVA,Luiz Antônio Corrêa,M,RJ,37906,Exercício,Titular,56,1,1940-12-27,Rio de Janeiro - RJ,"Anexo 4, 6º andar, sala 610",3215-5610,dep.luizantoniocorrea@camara.leg.br
 1160645,160645,camara,63223228268,LUIZ CARLOS GOMES DOS SANTOS JUNIOR,Luiz Carlos,M,AP,36835,Exercício,Titular,56,1,1979-08-16,Amapá - AP,"Anexo 4, 5º andar, sala 512",3215-5512,dep.luizcarlos@camara.leg.br
 1204485,204485,camara,03035521824,LUIZ CARLOS MOTTA,Luiz Carlos Motta,M,SP,37906,Exercício,Titular,56,1,1959-04-24,Ribeirão Preto - SP,"Anexo 4, 4º andar, sala 415",3215-5415,dep.luizcarlosmotta@camara.leg.br
 1204543,204543,camara,70641218834,LUIZ FLAVIO GOMES,Luiz Flávio Gomes,M,SP,36832,Vacância,Titular,56,0,1957-05-06,Sud Menucci - SP,NA,NA,NA
@@ -343,7 +344,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178866,178866,camara,38208563315,LUIZIANNE DE OLIVEIRA LINS,Luizianne Lins,F,CE,36844,Exercício,Titular,56,1,1968-11-18,Fortaleza - CE,"Anexo 4, 7º andar, sala 713",3215-5713,dep.luiziannelins@camara.leg.br
 1166402,166402,camara,13205285115,MAGDA MOFATTO HON,Magda Mofatto,F,GO,37906,Exercício,Titular,56,1,1948-10-26,Limeira - SP,"Anexo 4, 9º andar, sala 934",3215-5934,dep.magdamofatto@camara.leg.br
 1204458,204458,camara,07862227786,FABIANA SILVA DE SOUZA POUBEL,Major Fabiana,F,RJ,36837,Exercício,Titular,56,1,1980-01-09,Rio de Janeiro - RJ,"Anexo 4, 5º andar, sala 509",3215-5509,dep.majorfabiana@camara.leg.br
-1204469,204469,camara,36089427268,MANUEL MARCOS CARVALHO DE MESQUITA,Manuel Marcos,M,AC,37908,Exercício,Titular,56,1,1972-05-07,Tianguá - CE,NA,3215-5572,dep.manuelmarcos@camara.leg.br
+1204469,204469,camara,36089427268,MANUEL MARCOS CARVALHO DE MESQUITA,Manuel Marcos,M,AC,37908,Vacância,Não Eleito,56,0,1972-05-07,Tianguá - CE,NA,NA,NA
 1204471,204471,camara,41186273291,CYLMARA FERNANDES DA ROCHA GRIPP,Mara Rocha,F,AC,36835,Exercício,Titular,56,1,1973-09-04,Rio Branco - AC,"Anexo 4, 6º andar, sala 607",3215-5607,dep.mararocha@camara.leg.br
 1212749,212749,camara,09300885731,MARCUS WELBER GOMES DA SILVA,Marcão Gomes,M,RJ,37906,Suplência,Suplente,56,0,1974-09-10,Rio de Janeiro - RJ,NA,NA,NA
 1156190,156190,camara,00731302060,MARCEL VAN HATTEM,Marcel van Hattem,M,RS,37901,Exercício,Titular,56,1,1985-11-08,São Leopoldo - RS,NA,3215-5271,dep.marcelvanhattem@camara.leg.br
@@ -429,7 +430,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204461,204461,camara,09911967751,PAULO GUSTAVO GANIME ALVES TEIXEIRA,Paulo Ganime,M,RJ,37901,Exercício,Titular,56,1,1983-04-19,Rio de Janeiro - RJ,"Anexo 4, 2º andar, sala 230",3215-5230,dep.pauloganime@camara.leg.br
 1204492,204492,camara,86753991620,PAULO JOSE CARLOS GUEDES,Paulo Guedes,M,MG,36844,Exercício,Titular,56,1,1970-10-01,Manga - MG,"Anexo 4, 8º andar, sala 833",3215-5833,dep.pauloguedes@camara.leg.br
 174574,74574,camara,06015530553,PAULO SÉRGIO PARANHOS DE MAGALHÃES,Paulo Magalhães,M,BA,36834,Exercício,Suplente,56,1,1952-11-28,Salvador - BA,"Anexo 4, 9º andar, sala 903",3215-5903,dep.paulomagalhaes@camara.leg.br
-1128760,128760,camara,66488737368,PAULO CELSO FONSECA MARINHO JÚNIOR,Paulo Marinho Jr,M,MA,37906,Suplência,Suplente,56,0,1985-02-09,Caxias - MA,"Anexo 4, 5º andar, sala 513",3215-5513,NA
+1128760,128760,camara,66488737368,PAULO CELSO FONSECA MARINHO JÚNIOR,Paulo Marinho Jr,M,MA,37906,Suplência,Suplente,56,0,1985-02-09,Caxias - MA,NA,NA,NA
 1141518,141518,camara,21006768904,PAULO PEREIRA DA SILVA,Paulo Pereira da Silva,M,SP,36765,Exercício,Titular,56,1,1956-02-24,Porecatu - PR,"Anexo 4, 2º andar, sala 217",3215-5217,dep.paulopereiradasilva@camara.leg.br
 174400,74400,camara,42844924034,PAULO ROBERTO SEVERO PIMENTA,Paulo Pimenta,M,RS,36844,Exercício,Titular,56,1,1965-03-19,Santa Maria - RS,"Anexo 4, 5º andar, sala 552",3215-5552,dep.paulopimenta@camara.leg.br
 1133968,133968,camara,03273970715,Paulo Sérgio Ramos Barboza,Paulo Ramos,M,RJ,36786,Exercício,Titular,56,1,1944-10-18,Rio de Janeiro - RJ,"Anexo 4, 8º andar, sala 804",3215-5804,dep.pauloramos@camara.leg.br
@@ -459,7 +460,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 174161,74161,camara,90330862634,REGINALDO LÁZARO DE OLIVEIRA LOPES,Reginaldo Lopes,M,MG,36844,Exercício,Titular,56,1,1973-04-02,Bom Sucesso - MG,"Anexo 4, 4º andar, sala 426",3215-5426,dep.reginaldolopes@camara.leg.br
 1205865,205865,camara,55194770944,REINHOLD STEPHANES JUNIOR,Reinhold Stephanes Junior,M,PR,36834,Exercício,Suplente,56,1,1965-07-26,Curitiba - PR,"Anexo 4, 2º andar, sala 221",3215-5221,dep.reinholdstephanesjunior@camara.leg.br
 1178925,178925,camara,42105560334,REJANE RIBEIRO SOUSA DIAS,Rejane Dias,F,PI,36844,Exercício,Titular,56,1,1972-09-04,Teresina - PI,"Anexo 4, 6º andar, sala 624",3215-5624,dep.rejanedias@camara.leg.br
-1178989,178989,camara,30669688800,RENATA HELLMEISTER DE ABREU,Renata Abreu,F,SP,36896,Licença,Titular,56,0,1982-04-15,São Paulo - SP,NA,NA,NA
+1178989,178989,camara,30669688800,RENATA HELLMEISTER DE ABREU,Renata Abreu,F,SP,36896,Exercício,Titular,56,1,1982-04-15,São Paulo - SP,"Anexo 4, 7º andar, sala 717",3215-5717,dep.renataabreu@camara.leg.br
 1214477,214477,camara,78826942234,RENATO ANDRADE QUEIROZ,Renato Queiroz,M,RR,36899,Exercício,Suplente,56,1,1983-12-31,Boa Vista - RR,"Anexo 4, 5º andar, sala 521",3215-5521,dep.renatoqueiroz@camara.leg.br
 173801,73801,camara,20936079487,RENILDO VASCONCELOS CALHEIROS,Renildo Calheiros,M,PE,36779,Exercício,Titular,56,1,1959-04-20,Murici - AL,"Anexo 4, 9º andar, sala 915",3215-5915,dep.renildocalheiros@camara.leg.br
 173788,73788,camara,42478979934,RICARDO JOSÉ MAGALHÃES BARROS,Ricardo Barros,M,PR,37903,Exercício,Titular,56,1,1959-11-15,Maringá - PR,"Anexo 4, 4º andar, sala 412",3215-5412,dep.ricardobarros@camara.leg.br
@@ -527,7 +528,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178934,178934,camara,18591035968,ANTONIO WANDSCHEER,Toninho Wandscheer,M,PR,36763,Exercício,Titular,56,1,1950-08-31,Foz do Iguaçu - PR,"Anexo 4, 9º andar, sala 902",3215-5902,dep.toninhowandscheer@camara.leg.br
 1157130,157130,camara,06016298417,TÚLIO GADÊLHA SALES DE MELO,Túlio Gadêlha,M,PE,36786,Exercício,Titular,56,1,1987-11-12,Recife - PE,"Anexo 4, 3º andar, sala 360",3215-5360,dep.tuliogadelha@camara.leg.br
 1178863,178863,camara,03746803101,ULDURICO ALENCAR PINTO,Uldurico Junior,M,BA,36763,Exercício,Titular,56,1,1992-01-30,Brasília - DF,"Anexo 4, 7º andar, sala 729",3215-5729,dep.ulduricojunior@camara.leg.br
-1195866,195866,camara,56571739291,FRANCISCO VAIDON OLIVEIRA,Vaidon Oliveira,M,CE,36763,Licença,Titular,56,0,1975-04-02,Acaraú - CE,NA,NA,NA
+1195866,195866,camara,56571739291,FRANCISCO VAIDON OLIVEIRA,Vaidon Oliveira,M,CE,36763,Exercício,Titular,56,1,1975-04-02,Acaraú - CE,"Anexo 4, 5º andar, sala 545",3215-5545,dep.vaidonoliveira@camara.leg.br
 1204385,204385,camara,51752840534,José Valdevan de Jesus Santos,Valdevan Noventa,M,SE,37906,Exercício,Titular,56,1,1969-06-20,Estância - SE,"Anexo 4, 6º andar, sala 637",3215-5637,dep.valdevannoventa@camara.leg.br
 174010,74010,camara,16261577900,VALDIR COLATTO,VALDIR COLATTO,M,SC,36899,Suplência,Suplente,56,0,1949-10-15,Lagoa Vermelha - RS,NA,NA,NA
 1160610,160610,camara,02333314842,VALMIR CARLOS DA ASSUNÇÃO,Valmir Assunção,M,BA,36844,Exercício,Titular,56,1,1964-12-17,Itamaraju - BA,"Anexo 4, 7º andar, sala 739",3215-5739,dep.valmirassuncao@camara.leg.br
@@ -576,7 +577,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 25967,5967,senado,NA,Angelo Mario Coronel de Azevedo Martins,Angelo Coronel,M,BA,36834,NA,Titular,56,1,1958-05-03,Coração de Maria - BA,Senado Federal Anexo 2   Ala Afonso Arinos Gabinete 03,33036103,sen.angelocoronel@senado.leg.br
 25529,5529,senado,NA,Antonio Augusto Junho Anastasia,Antonio Anastasia,M,MG,36834,NA,Titular,56,1,1961-05-09,Belo Horizonte - MG,Senado Federal Anexo 2   Ala Tancredo Neves Gabinete 51,33035717,sen.antonioanastasia@senado.leg.br
 26001,6001,senado,NA,Arlindo Penha da Silva,Arlindo Silva,M,PA,36852,NA,1º Suplente,56,0,1958-10-15,Rio de Janeiro - RJ,NA,NA,NA
-2751,751,senado,NA,Arolde de Oliveira,Arolde de Oliveira,M,RJ,36834,NA,Titular,56,0,1937-03-11,São Luiz Gonzaga - RS,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 19,33036640,sen.aroldedeoliveira@senado.leg.br
+2751,751,senado,NA,Arolde de Oliveira,Arolde de Oliveira,M,RJ,36834,NA,Titular,56,0,1937-03-11,São Luiz Gonzaga - RS,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 19,NA,sen.aroldedeoliveira@senado.leg.br
 26009,6009,senado,NA,Marcos Cesar Pontes,Astronauta Marcos Pontes,M,SP,36852,NA,2º Suplente,56,0,1963-03-11,Bauru - SP,NA,NA,NA
 25633,5633,senado,NA,Atilio Francisco da Silva,Atilio Francisco,M,SP,37908,NA,2º Suplente,56,0,1951-08-02,São Caetano do Sul - SP,NA,NA,NA
 25631,5631,senado,NA,Genésio Ayres Marchetti,Ayres Marchetti,M,SC,36834,NA,2º Suplente,56,0,1938-03-30,Rodeio - SC,NA,NA,NA
@@ -591,6 +592,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 25603,5603,senado,NA,Carlos Augusto Lopes da Costa,Carlos Augusto Costa,M,PE,36851,NA,1º Suplente,56,0,1962-07-19,Crato - CE,NA,NA,NA
 26295,6295,senado,NA,Carlos Henrique Baqueta Fávaro,Carlos Fávaro,M,MT,36834,NA,Titular,56,1,1969-10-19,Bela Vista do Paraiso - PR,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 15,33036408,sen.carlosfavaro@senado.leg.br
 26020,6020,senado,NA,Carlos Milton Morais,Carlos Milton Morais,M,RO,36852,NA,2º Suplente,56,0,1964-03-22,Coxim - MS,NA,NA,NA
+25936,5936,senado,NA,Carlos Francisco Portinho,Carlos Portinho,M,RJ,36834,NA,1º Suplente,56,1,1973-07-02,Rio de Janeiro - RJ,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 19,33036640,sen.carlosportinho@senado.leg.br
 25990,5990,senado,NA,Carlos Alberto Dias Viana,Carlos Viana,M,MG,36834,NA,Titular,56,1,1963-03-22,Braunas - MG,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 23,33033100,sen.carlosviana@senado.leg.br
 25991,5991,senado,NA,Castellar Modesto Guimarães Neto,Castellar Guimarães Neto,M,MG,36852,NA,1º Suplente,56,0,1982-10-04,Coronel Fabriciano - MG,NA,NA,NA
 25593,5593,senado,NA,Celso Dal Lago Rodrigues,Celso Dal Lago Rodrigues,M,MS,36899,NA,1º Suplente,56,0,1942-02-15,Lutécia - SP,NA,NA,NA
@@ -624,7 +626,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 25587,5587,senado,NA,Eladio Barbosa Carneiro,Eladio Carneiro,M,GO,36899,NA,2º Suplente,56,0,1974-11-03,Goiânia - GO,NA,NA,NA
 25898,5898,senado,NA,Eliane e Silva Nogueira Lima,Eliane Nogueira,F,PI,36852,NA,1º Suplente,56,0,1949-07-03,Teresina - PI,NA,NA,NA
 25605,5605,senado,NA,Eliane Rodrigues de Andrade Ferreira,Eliane Rodrigues,F,PE,36832,NA,2º Suplente,56,0,1957-08-03,Nazaré da Mata - PE,NA,NA,NA
-25718,5718,senado,NA,Eliziane Pereira Gama Melo,Eliziane Gama,F,MA,37905,NA,Titular,56,1,1977-02-27,Monção - MA,Senado Federal Anexo 2   Ala Ruy Carneiro Gabinete 04,33036741,sen.elizianegama@senado.leg.br
+25718,5718,senado,NA,Eliziane Pereira Gama Melo,Eliziane Gama,F,MA,37905,NA,Titular,56,1,1977-02-27,Monção - MA,Senado Federal Anexo 2   Pavimento Térreo,33036741,sen.elizianegama@senado.leg.br
 25531,5531,senado,NA,Elmano Férrer de Almeida,Elmano Férrer,M,PI,37903,NA,Titular,56,1,1942-08-01,Lavras da Mangabeira - CE,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 06,33032415,sen.elmanoferrer@senado.leg.br
 26025,6025,senado,NA,Roberta Leontina Xisto Acioly,Enfermeira Roberta,F,RR,36852,NA,1º Suplente,56,0,1978-10-19,Santo André - SP,NA,NA,NA
 222,22,senado,NA,Esperidião Amin Helou Filho,Esperidião Amin,M,SC,37903,NA,Titular,56,1,1947-12-21,Florianópolis - SC,Senado Federal Anexo 2   Ala Nilo Coelho Pavimento Térreo Sala 2,33036446,sen.esperidiaoamin@senado.leg.br
@@ -745,7 +747,6 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 24606,4606,senado,NA,José Eleonildo Soares,Pinto Itamaraty,M,MA,36835,NA,1º Suplente,56,0,1960-05-10,São Luís - MA,Senado Federal Anexo I  25º Andar,NA,pinto.itamaraty@senador.leg.br
 25922,5922,senado,NA,Plinio Destro,Plinio Destro,M,PR,36852,NA,2º Suplente,56,0,1951-01-15,Viaduto - RS,NA,NA,NA
 25502,5502,senado,NA,Francisco Plínio Valério Tomaz,Plínio Valério,M,AM,36835,NA,Titular,56,1,1955-01-31,Eirunepé - AM,Senado Federal Anexo 2 Ala Alexandre Costa 1º Pavimento  Gabinete 01,33032833,sen.pliniovalerio@senado.leg.br
-25936,5936,senado,NA,Carlos Francisco Portinho,Portinho,M,RJ,36852,NA,1º Suplente,56,0,1973-07-02,Rio de Janeiro - RJ,NA,NA,NA
 25971,5971,senado,NA,Prisco Rodrigues Bezerra,Prisco Bezerra,M,CE,36786,NA,1º Suplente,56,0,1972-07-09,Fortaleza - CE,Senado Federal Anexo 1  10º Pavimento,NA,sen.priscobezerra@senado.leg.br
 25984,5984,senado,NA,Terezinha Bazé de Lima,Professora Bazé,F,MS,36852,NA,2º Suplente,56,0,1952-07-20,Três Lagoas - MS,NA,NA,NA
 25913,5913,senado,NA,Cicero Rafael Tenorio da Silva,Rafael Tenorio,M,AL,36852,NA,1º Suplente,56,0,1954-03-15,Osasco - SP,NA,NA,NA

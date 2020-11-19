@@ -14,6 +14,8 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 751,senado,57,2023-02-01,NA,Titular,NA,NA
 6295,senado,56,2020-04-17,2023-01-31,Titular,NA,NA
 6295,senado,57,2023-02-01,NA,Titular,NA,NA
+5936,senado,56,2020-11-03,2023-01-31,1º Suplente,NA,NA
+5936,senado,57,2023-02-01,NA,1º Suplente,NA,NA
 5990,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 5990,senado,57,2023-02-01,NA,Titular,NA,NA
 470,senado,56,2019-02-01,2020-10-19,Titular,NA,Licença Particular
@@ -124,7 +126,7 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 90,senado,50,1995-02-01,1995-02-03,Titular,NA,Afastamento do exercício
 90,senado,50,1996-06-03,1998-03-31,Titular,NA,Afastamento do exercício
 90,senado,51,2002-02-22,2003-01-31,Titular,NA,Término do mandato
-5929,senado,56,2019-02-01,2020-04-15,Titular,NA,Perda de mandato
+5929,senado,56,2019-02-01,2020-04-15,Titular,NA,Cassação de registro/diploma pela Justiça Eleitora
 5929,senado,57,2023-02-01,NA,Titular,NA,NA
 1249,senado,55,2015-02-01,2015-02-02,Titular,NA,Afastamento do exercício
 1249,senado,55,2016-05-12,2018-10-28,Titular,NA,Licença Particular
