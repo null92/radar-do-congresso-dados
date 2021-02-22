@@ -10,3 +10,4 @@
 \copy votos_eleicao FROM './data/votos_eleicao.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
 \copy assiduidade FROM './data/assiduidade.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
 \copy transparencia FROM './data/transparencia.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;
+\copy data FROM './data/data.csv' WITH NULL AS 'NA' DELIMITER ',' CSV HEADER;

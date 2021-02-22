@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS "data";
+
+CREATE TABLE IF NOT EXISTS "data" (
+    "data" VARCHAR(40)
+);

@@ -135,3 +135,7 @@ CREATE TABLE IF NOT EXISTS "transparencia" (
     "estrelas" INTEGER,
     PRIMARY KEY("id_parlamentar_voz")
 );
+
+CREATE TABLE IF NOT EXISTS "data" (
+    "data" VARCHAR(40)
+);
