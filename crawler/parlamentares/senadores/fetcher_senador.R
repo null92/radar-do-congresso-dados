@@ -95,7 +95,7 @@ fetch_senadores_atuais <- function(legislatura_atual = 56) {
 fetch_info_por_senador <- function(id_senador) {
   library(tidyverse)
   
-  print(paste0("Baixando informações do Senador ", id_senador))
+  print(paste0("Baixando informações do senador ", id_senador))
   url <- paste0("https://legis.senado.leg.br/dadosabertos/senador/", id_senador)
   
   senador <- tryCatch({
