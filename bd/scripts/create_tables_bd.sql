@@ -136,6 +136,7 @@ CREATE TABLE IF NOT EXISTS "transparencia" (
     PRIMARY KEY("id_parlamentar_voz")
 );
 
-CREATE TABLE IF NOT EXISTS "data" (
-    "data" DATE
+CREATE TABLE IF NOT EXISTS "data_atualizacao" (
+    "id" INTEGER,
+    "data_atualizacao" DATE
 );

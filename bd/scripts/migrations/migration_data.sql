@@ -2,6 +2,11 @@
 
 BEGIN;
 
-UPDATE data SET data = "03/03/2021";
+UPDATE
+	data_atualizacao
+SET
+	data_atualizacao = "03/15/2021"
+WHERE
+	id = 1;
 
 COMMIT;

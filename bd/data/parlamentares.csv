@@ -318,7 +318,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178825,178825,camara,63182246291,LEONARDO CUNHA DE BRITO,LEO DE BRITO,M,AC,36844,Exercício,Titular,56,1,1979-04-13,Rio Branco - AC,NA,3215-5572,dep.leodebrito@camara.leg.br
 1204359,204359,camara,04333073901,LEONARDO BARRETO DE MORAES,Léo Moraes,M,RO,36896,Exercício,Titular,56,1,1984-01-11,Foz do Iguaçu - PR,"Anexo 4, 5º andar, sala 503",3215-5503,dep.leomoraes@camara.leg.br
 1204547,204547,camara,85702609620,ELIEL MÁRCIO DO CARMO,Léo Motta,M,MG,36837,Exercício,Titular,56,1,1973-10-26,Contagem - MG,"Anexo 4, 7º andar, sala 724",3215-5724,dep.leomotta@camara.leg.br
-174156,74156,camara,20811845672,JOSÉ LEONARDO COSTA MONTEIRO,Leonardo Monteiro,M,MG,36844,Exercício,Titular,56,1,1951-10-09,Governador Valadares - MG,NA,NA,dep.leonardomonteiro@camara.leg.br
+174156,74156,camara,20811845672,JOSÉ LEONARDO COSTA MONTEIRO,Leonardo Monteiro,M,MG,36844,Exercício,Titular,56,1,1951-10-09,Governador Valadares - MG,"Anexo 4, 9º andar, sala 922",3215-5922,dep.leonardomonteiro@camara.leg.br
 174299,74299,camara,12105961304,JOSÉ LEÔNIDAS DE MENEZES CRISTINO,Leônidas Cristino,M,CE,36786,Exercício,Titular,56,1,1957-06-03,Coreaú - CE,"Anexo 4, 9º andar, sala 948",3215-5948,dep.leonidascristino@camara.leg.br
 192102,92102,camara,87594749120,LEUR ANTONIO DE BRITTO LOMANTO JUNIOR,Leur Lomanto Júnior,M,BA,36769,Exercício,Titular,56,1,1976-10-28,Salvador - BA,"Anexo 4, 4º andar, sala 406",3215-5406,dep.leurlomantojunior@camara.leg.br
 1139285,139285,camara,14672049515,LÍDICE DA MATA E SOUZA,Lídice da Mata,F,BA,36832,Exercício,Titular,56,1,1956-03-12,Cachoeira - BA,"Anexo 4, 9º andar, sala 913",3215-5913,dep.lidicedamata@camara.leg.br
@@ -514,7 +514,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178933,178933,camara,75687658904,SERGIO DE SOUZA,Sergio Souza,M,PR,36899,Exercício,Titular,56,1,1971-03-13,Ivaiporã - PR,"Anexo 4, 7º andar, sala 702",3215-5702,dep.sergiosouza@camara.leg.br
 1204438,204438,camara,33205302400,SERGIO TOLEDO DE ALBUQUERQUE,Sergio Toledo,M,AL,37906,Exercício,Titular,56,1,1962-01-29,Maceió - AL,"Anexo 4, 5º andar, sala 539",3215-5539,dep.sergiotoledo@camara.leg.br
 1178874,178874,camara,52549810759,ANTONIO SERGIO ALVES VIDIGAL,Sergio Vidigal,M,ES,36786,Vacância,Titular,56,0,1957-05-08,Vitória - ES,NA,NA,NA
-1204437,204437,camara,66256070453,SEVERINO DE LIRA PESSÔA,Severino Pessoa,M,AL,37908,Exercício,Titular,56,1,1970-02-06,Arapiraca - AL,NA,3215-5467,dep.severinopessoa@camara.leg.br
+1204437,204437,camara,66256070453,SEVERINO DE LIRA PESSÔA,Severino Pessoa,M,AL,37908,Exercício,Titular,56,1,1970-02-06,Arapiraca - AL,NA,3215-5871,dep.severinopessoa@camara.leg.br
 1178961,178961,camara,75096102220,SHÉRIDAN ESTÉRFANY OLIVEIRA,Shéridan,F,RR,36835,Exercício,Titular,56,1,1984-04-11,Boa Vista - RR,"Anexo 4, 2º andar, sala 246",3215-5246,dep.sheridan@camara.leg.br
 1204557,204557,camara,24067857268,SIDNEY RICARDO DE OLIVEIRA LEITE,Sidney Leite,M,AM,36834,Exercício,Titular,56,1,1967-04-08,Manaus - AM,NA,3215-5266,dep.sidneyleite@camara.leg.br
 174356,74356,camara,13512951287,SILAS CÂMARA,Silas Câmara,M,AM,37908,Exercício,Titular,56,1,1962-12-15,Rio Branco - AC,"Anexo 4, 5º andar, sala 532",3215-5532,dep.silascamara@camara.leg.br
@@ -532,7 +532,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1206231,206231,camara,81336357720,JOÃO BATISTA CONTI,Ted Conti,M,ES,36832,Exercício,Suplente,56,1,1964-12-28,Muqui - ES,"Anexo 4, 8º andar, sala 839",3215-5839,dep.tedconti@camara.leg.br
 1178901,178901,camara,20969430604,TEREZA CRISTINA CORREA DA COSTA DIAS,Tereza Cristina,F,MS,36769,Licença,Titular,56,0,1954-07-06,Campo Grande - MS,NA,NA,NA
 1204466,204466,camara,13626167453,TEREZA NELMA DA SILVA PORTO VIANA SOARES,Tereza Nelma,F,AL,36835,Exercício,Titular,56,1,1957-10-07,Maceió - AL,"Anexo 4, 3º andar, sala 322",3215-5322,dep.terezanelma@camara.leg.br
-1178862,178862,camara,66858933549,ERONILDES VASCONCELOS CARVALHO,Tia Eron,F,BA,37908,Exercício,Suplente,56,1,1972-06-02,Salvador - BA,NA,NA,dep.tiaeron@camara.leg.br
+1178862,178862,camara,66858933549,ERONILDES VASCONCELOS CARVALHO,Tia Eron,F,BA,37908,Exercício,Suplente,56,1,1972-06-02,Salvador - BA,NA,3215-5276,dep.tiaeron@camara.leg.br
 1143084,143084,camara,01657051161,Tiago Dimas Braga Pereira,Tiago Dimas,M,TO,36765,Exercício,Titular,56,1,1988-08-04,Uberaba - MG,NA,3215-5269,dep.tiagodimas@camara.leg.br
 1204519,204519,camara,07529510681,TIAGO LIMA MITRAUD DE CASTRO LEITE,Tiago Mitraud,M,MG,37901,Exercício,Titular,56,1,1986-08-15,Brasília - DF,"Anexo 4, 5º andar, sala 544",3215-5544,dep.tiagomitraud@camara.leg.br
 1160976,160976,camara,44833881349,FRANCISCO EVERARDO TIRIRICA OLIVEIRA SILVA,Tiririca,M,SP,37906,Exercício,Titular,56,1,1965-05-01,Itapipoca - CE,"Anexo 4, 3º andar, sala 343",3215-5343,dep.tiririca@camara.leg.br

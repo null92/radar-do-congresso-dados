@@ -1,5 +1,6 @@
-DROP TABLE IF EXISTS "data";
+DROP TABLE IF EXISTS "data_atualizacao";
 
-CREATE TABLE IF NOT EXISTS "data" (
-    "data" DATE
+CREATE TABLE IF NOT EXISTS "data_atualizacao" (
+    "id" INTEGER,
+    "data_atualizacao" DATE
 );
