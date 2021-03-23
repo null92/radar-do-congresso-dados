@@ -66,7 +66,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1141513,141513,camara,45561699687,OLAVO BILAC PINTO NETO,Bilac Pinto,M,MG,36769,Exercício,Titular,56,1,1963-06-08,Rio de Janeiro - RJ,"Anexo 4, 8º andar, sala 806",3215-5806,dep.bilacpinto@camara.leg.br
 1204561,204561,camara,40903974304,UBIRAJARA DO PINDARÉ ALMEIDA SOUSA,Bira do Pindaré,M,MA,36832,Exercício,Titular,56,1,1968-11-01,Pindaré Mirim - MA,NA,3215-5480,dep.biradopindare@camara.leg.br
 1204397,204397,camara,84116730904,EMERSON MIGUEL PETRIV,Boca Aberta,M,PR,36763,Exercício,Titular,56,1,1971-08-07,Londrina - PR,NA,3215-5384,dep.bocaaberta@camara.leg.br
-1160538,160538,camara,12558206249,ELVINO JOSÉ BOHN GASS,Bohn Gass,M,RS,36844,Exercício,Titular,56,1,1962-02-05,Santo Cristo - RS,NA,3215-5469,dep.bohngass@camara.leg.br
+1160538,160538,camara,12558206249,ELVINO JOSÉ BOHN GASS,Bohn Gass,M,RS,36844,Exercício,Titular,56,1,1962-02-05,Santo Cristo - RS,NA,3215-5873,dep.bohngass@camara.leg.br
 174052,74052,camara,02235080553,JOÃO BOSCO DA COSTA,Bosco Costa,M,SE,37906,Exercício,Titular,56,1,1950-09-28,Itabaiana - SE,"Anexo 4, 7º andar, sala 742",3215-5742,dep.boscocosta@camara.leg.br
 1204551,204551,camara,13717820249,JOÃO BOSCO GOMES SARAIVA,Bosco Saraiva,M,AM,36765,Exercício,Titular,56,1,1959-10-10,Manaus - AM,"Anexo 4, 4º andar, sala 404",3215-5404,dep.boscosaraiva@camara.leg.br
 1204502,204502,camara,21883547881,NICOLINO BOZZELLA JUNIOR,Bozzella,M,SP,36837,Exercício,Titular,56,1,1980-08-17,Santos - SP,NA,3215-5582,dep.bozzella@camara.leg.br
@@ -86,7 +86,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178993,178993,camara,21944202153,CARLOS HENRIQUE AMORIM,Carlos Henrique Gaguim,M,TO,36769,Exercício,Titular,56,1,1961-04-21,Ceres - GO,"Anexo 4, 2º andar, sala 214",3215-5214,dep.carloshenriquegaguim@camara.leg.br
 1204460,204460,camara,09650185712,Carlos Roberto Coelho de Mattos Júnior,Carlos Jordy,M,RJ,36837,Exercício,Titular,56,1,1982-02-08,Niterói - RJ,NA,3215-5383,dep.carlosjordy@camara.leg.br
 174262,74262,camara,06197277808,CARLOS HENRIQUE FOCESI SAMPAIO,Carlos Sampaio,M,SP,36835,Exercício,Titular,56,1,1963-03-31,Campinas - SP,"Anexo 4, 2º andar, sala 207",3215-5207,dep.carlossampaio@camara.leg.br
-1204426,204426,camara,03987461411,JOSÉ CARLOS VERAS DOS SANTOS,Carlos Veras,M,PE,36844,Exercício,Titular,56,1,1981-08-10,Tabira - PE,NA,3215-5466,dep.carlosveras@camara.leg.br
+1204426,204426,camara,03987461411,JOSÉ CARLOS VERAS DOS SANTOS,Carlos Veras,M,PE,36844,Exercício,Titular,56,1,1981-08-10,Tabira - PE,NA,3215-5870,dep.carlosveras@camara.leg.br
 1141398,141398,camara,00398099863,CARLOS ALBERTO ROLIM ZARATTINI,Carlos Zarattini,M,SP,36844,Exercício,Titular,56,1,1959-06-08,São Paulo - SP,"Anexo 4, 8º andar, sala 808",3215-5808,dep.carloszarattini@camara.leg.br
 1164360,164360,camara,51434245934,CARMEN EMÍLIA BONFÁ ZANOTTO,Carmen Zanotto,F,SC,37905,Exercício,Titular,56,1,1962-10-06,Lages - SC,"Anexo 4, 4º andar, sala 418",3215-5418,dep.carmenzanotto@camara.leg.br
 1204369,204369,camara,05858392989,CAROLINE RODRIGUES DE TONI,Caroline de Toni,F,SC,36837,Exercício,Titular,56,1,1986-09-01,Chapecó - SC,NA,3215-5476,dep.carolinedetoni@camara.leg.br
@@ -126,7 +126,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1204459,204459,camara,07973687793,DANIELA MOTE DE SOUZA CARNEIRO,Daniela do Waguinho,F,RJ,36899,Exercício,Titular,56,1,1976-02-10,Rio de Janeiro - RJ,"Anexo 4, 9º andar, sala 950",3215-5950,dep.danieladowaguinho@camara.leg.br
 1160528,160528,camara,50903691434,DANILO JORGE DE BARROS CABRAL,Danilo Cabral,M,PE,36832,Exercício,Titular,56,1,1967-04-21,Surubim - PE,"Anexo 4, 4º andar, sala 423",3215-5423,dep.danilocabral@camara.leg.br
 162881,62881,camara,12133728368,FRANCISCO DANILO BASTOS FORTE,Danilo Forte,M,CE,36835,Exercício,Efetivado,56,1,1958-09-01,Fortaleza - CE,"Anexo 4, 2º andar, sala 219",3215-5219,dep.daniloforte@camara.leg.br
-1160552,160552,camara,70157324087,DANRLEI DE DEUS HINTERHOLZ,Danrlei de Deus Hinterholz,M,RS,36834,Exercício,Titular,56,1,1973-04-18,Crissiumal - RS,NA,3215-5566,dep.danrleidedeushinterholz@camara.leg.br
+1160552,160552,camara,70157324087,DANRLEI DE DEUS HINTERHOLZ,Danrlei de Deus Hinterholz,M,RS,36834,Exercício,Titular,56,1,1973-04-18,Crissiumal - RS,NA,3215-5971,dep.danrleidedeushinterholz@camara.leg.br
 1116379,116379,camara,44828624953,DARCI DE MATOS,Darci de Matos,M,SC,36834,Exercício,Titular,56,1,1961-11-08,Cafelândia - PR,"Anexo 4, 7º andar, sala 709",3215-5709,dep.darcidematos@camara.leg.br
 173891,73891,camara,08262748034,DARCÍSIO PAULO PERONDI,Darcísio Perondi,M,RS,36899,Suplência,Suplente,56,0,1947-04-02,Ijuí - RS,NA,NA,NA
 1205548,205548,camara,12394073780,DAVID MICHAEL DOS SANTOS MIRANDA,David Miranda,M,RJ,36839,Exercício,Efetivado,56,1,1985-05-10,Rio de Janeiro - RJ,NA,3215-5267,dep.davidmiranda@camara.leg.br
@@ -223,11 +223,11 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 174374,74374,camara,12896918191,GERALDO RESENDE PEREIRA,Geraldo Resende,M,MS,36835,Licença,Suplente,56,0,1955-04-20,Córrego Danta - MG,NA,NA,NA
 1204394,204394,camara,88623327420,GERVÁSIO AGRIPINO MAIA,Gervásio Maia,M,PB,36832,Exercício,Titular,56,1,1975-04-14,São Paulo - SP,"Anexo 4, 3º andar, sala 308",3215-5308,dep.gervasiomaia@camara.leg.br
 174383,74383,camara,71827404949,FERNANDO LÚCIO GIACOBO,Giacobo,M,PR,37906,Exercício,Titular,56,1,1970-12-17,Pato Branco - PR,"Anexo 4, 7º andar, sala 762",3215-5762,dep.giacobo@camara.leg.br
-1204575,204575,camara,80405878320,GILLIANO FRED NASCIMENTO CUTRIM,Gil Cutrim,M,MA,36786,Exercício,Titular,56,1,1979-10-26,São Luís - MA,NA,3215-5385,dep.gilcutrim@camara.leg.br
+1204575,204575,camara,80405878320,GILLIANO FRED NASCIMENTO CUTRIM,Gil Cutrim,M,MA,37908,Exercício,Titular,56,1,1979-10-26,São Luís - MA,NA,3215-5385,dep.gilcutrim@camara.leg.br
 1204491,204491,camara,08567392861,GILBERTO APARECIDO ABRAMO,Gilberto Abramo,M,MG,37908,Exercício,Titular,56,1,1966-08-06,Porto Ferreira - SP,"Anexo 4, 6º andar, sala 601",3215-5601,dep.gilbertoabramo@camara.leg.br
 174270,74270,camara,64817407891,GILBERTO NASCIMENTO SILVA,Gilberto Nascimento,M,SP,36833,Exercício,Titular,56,1,1956-07-09,São Paulo - SP,"Anexo 4, 8º andar, sala 834",3215-5834,dep.gilbertonascimento@camara.leg.br
 1204365,204365,camara,00824207939,GILSON MARQUES VIEIRA,Gilson Marques,M,SC,37901,Exercício,Titular,56,1,1981-04-12,Rio do Sul - SC,"Anexo 4, 4º andar, sala 431",3215-5431,dep.gilsonmarques@camara.leg.br
-1160673,160673,camara,31050778049,GIOVANI CHERINI,Giovani Cherini,M,RS,37906,Exercício,Titular,56,1,1960-06-23,Soledade - RS,NA,3215-5468,dep.giovanicherini@camara.leg.br
+1160673,160673,camara,31050778049,GIOVANI CHERINI,Giovani Cherini,M,RS,37906,Exercício,Titular,56,1,1960-06-23,Soledade - RS,NA,3215-5872,dep.giovanicherini@camara.leg.br
 1178996,178996,camara,26586568072,GIOVANI BATISTA FELTES,Giovani Feltes,M,RS,36899,Exercício,Titular,56,1,1957-04-10,São Leopoldo - RS,NA,3215-5376,dep.giovanifeltes@camara.leg.br
 1152605,152605,camara,09740756719,GLAUBER DE MEDEIROS BRAGA,Glauber Braga,M,RJ,36839,Exercício,Titular,56,1,1982-06-26,Nova Friburgo - RJ,"Anexo 4, 3º andar, sala 362",3215-5362,dep.glauberbraga@camara.leg.br
 1204419,204419,camara,60751266191,GLAUSKSTON BATISTA RIOS,Glaustin da Fokus,M,GO,36833,Exercício,Titular,56,1,1973-12-22,Goiânia - GO,NA,3215-5473,dep.glaustindafokus@camara.leg.br
@@ -287,7 +287,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 1178857,178857,camara,19530773587,JORGE JOSE SANTOS PEREIRA SOLLA,Jorge Solla,M,BA,36844,Exercício,Titular,56,1,1961-04-11,Salvador - BA,NA,3215-5571,dep.jorgesolla@camara.leg.br
 1141464,141464,camara,09257357368,JOSÉ AIRTON FÉLIX CIRILO DA SILVA,José Airton Félix Cirilo,M,CE,36844,Exercício,Titular,56,1,1957-02-21,Aracati - CE,"Anexo 4, 3º andar, sala 319",3215-5319,dep.joseairtonfelixcirilo@camara.leg.br
 1141470,141470,camara,09324577387,JOSÉ NOBRE GUIMARÃES,José Guimarães,M,CE,36844,Exercício,Titular,56,1,1957-02-13,Quixeramobim - CE,"Anexo 4, 3º andar, sala 306",3215-5306,dep.joseguimaraes@camara.leg.br
-1204386,204386,camara,41877004987,JOSE MARIO SCHREINER,Jose Mario Schreiner,M,GO,36769,Exercício,Titular,56,1,1961-02-08,Porto União - SC,NA,3215-5567,dep.josemarioschreiner@camara.leg.br
+1204386,204386,camara,41877004987,JOSE MARIO SCHREINER,Jose Mario Schreiner,M,GO,36769,Exercício,Titular,56,1,1961-02-08,Porto União - SC,NA,3215-5970,dep.josemarioschreiner@camara.leg.br
 1204472,204472,camara,42442540134,JOSE ANTONIO DOS SANTOS MEDEIROS,José Medeiros,M,MT,36896,Exercício,Titular,56,1,1970-03-19,Caicó - RN,"Anexo 4, 3º andar, sala 335",3215-5335,dep.josemedeiros@camara.leg.br
 1204391,204391,camara,22002570159,JOSÉ NELTO LAGARES DAS MERCEZ,José Nelto,M,GO,36896,Exercício,Titular,56,1,1960-09-19,Tiros - MG,"Anexo 4, 7º andar, sala 703",3215-5703,dep.josenelto@camara.leg.br
 1160619,160619,camara,04653580553,JOSÉ NUNES SOARES,José Nunes,M,BA,36834,Exercício,Titular,56,1,1950-12-18,Belém de São Francisco - PE,"Anexo 4, 7º andar, sala 728",3215-5728,dep.josenunes@camara.leg.br
@@ -712,7 +712,7 @@ id_parlamentar_voz,id_parlamentar,casa,cpf,nome_civil,nome_eleitoral,genero,uf,i
 25904,5904,senado,NA,José Eugênio de Leão Braga,Macapá,M,AC,36852,NA,2º Suplente,56,0,1937-09-13,Cametá - PA,NA,NA,NA
 25557,5557,senado,NA,Mailza Assis da Silva,Mailza Gomes,F,AC,37903,NA,1º Suplente,56,1,1976-12-10,Mundo Novo - MS,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 14,33031357,sen.mailzagomes@senado.leg.br
 25981,5981,senado,NA,Ildomario Santos Gomes,Major Ildomario,M,SE,36852,NA,2º Suplente,56,0,1975-06-18,Aracaju - SE,NA,NA,NA
-25666,5666,senado,NA,Sergio Olimpio Gomes,Major Olimpio,M,SP,36837,NA,Titular,56,1,1962-03-20,Presidente Venceslau - SP,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 07,33034177,sen.majorolimpio@senado.leg.br
+25666,5666,senado,NA,Sergio Olimpio Gomes,Major Olimpio,M,SP,36837,NA,Titular,56,0,1962-03-20,Presidente Venceslau - SP,Senado Federal Anexo 2   Ala Teotônio Vilela Gabinete 07,33034177,sen.majorolimpio@senado.leg.br
 25591,5591,senado,NA,Manoel Francisco de Vasconcelos Motta,Manoel Motta,M,MT,36863,NA,2º Suplente,56,0,1949-12-21,Recife - PE,NA,NA,NA
 25376,5376,senado,NA,Mara Cristina Gabrilli,Mara Gabrilli,F,SP,36835,NA,Titular,56,1,1967-09-28,São Paulo - SP,Senado Federal Edifício Principal  1º Andar  Gabinete 05,33032191,sen.maragabrilli@senado.leg.br
 2742,742,senado,NA,Marcelo Costa e Castro,Marcelo Castro,M,PI,36899,NA,Titular,56,1,1950-06-09,São Raimundo Nonato - PI,Senado Federal Anexo 2   Ala Afonso Arinos Gabinete 01,33036130,sen.marcelocastro@senado.leg.br
