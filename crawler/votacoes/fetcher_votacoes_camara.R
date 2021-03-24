@@ -5,7 +5,7 @@ fetch_votacoes_por_ano_camara <- function(ano = seq(2019, format(Sys.Date(), "%Y
 
   url_orientacoes <- paste0("http://dadosabertos.camara.leg.br/arquivos/votacoesOrientacoes/csv/votacoesOrientacoes-",ano,".csv")
   orientacoes <- read_delim(url_orientacoes, delim = ";") %>%
-                  filter(siglaBancada == "Governo") %>%
+                  filter(siglaBancada == "Governo" | siglaBancada == "GOV.") %>%
                   mutate(id_votacao = idVotacao, orientacao = get_val_voto(orientacao)) %>%
                   select(id_votacao, orientacao)
 
