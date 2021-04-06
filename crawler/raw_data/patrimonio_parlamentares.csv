@@ -3398,6 +3398,15 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 151208,Laercio Oliveira,16853881400,camara,260000623575,2018,Quotas ou quinhões de capital,#NULO#,162450,PP,DEPUTADO FEDERAL
 151208,Laercio Oliveira,16853881400,camara,260000623575,2018,Quotas ou quinhões de capital,#NULO#,10000,PP,DEPUTADO FEDERAL
 151208,Laercio Oliveira,16853881400,camara,260000623575,2018,Caderneta de poupança,#NULO#,421437.87,PP,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,180000,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,220000,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,220000,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Depósito bancário em conta corrente no País,#NULO#,62314.5,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Sala ou conjunto,#NULO#,220000,PR,DEPUTADO FEDERAL
+141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Sala ou conjunto,#NULO#,270000,PR,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,Consórcio não contemplado,Consórcio BB Credito Veículo,26289.45,PRB,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,Depósito bancário em conta corrente no País,"Conta Corrente n. 5349-X, Banco do Brasil, agência 0062-0, Barbacena-MG",25497.16,PRB,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Veículo JEEP Renegate Sport at D 2016/2017, Placa PYY 5952",112000,PRB,DEPUTADO FEDERAL
@@ -3453,6 +3462,9 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204547,Léo Motta,85702609620,camara,130000616624,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,80000,PSL,DEPUTADO FEDERAL
 204547,Léo Motta,85702609620,camara,130000616624,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,34000,PSL,DEPUTADO FEDERAL
 204547,Léo Motta,85702609620,camara,130000616624,2018,Dinheiro em espécie - moeda nacional,#NULO#,358000,PSL,DEPUTADO FEDERAL
+122195,Leonardo Gadelha,76553787115,camara,150000612367,2018,Dinheiro em espécie - moeda nacional,#NULO#,29400,PSC,DEPUTADO FEDERAL
+122195,Leonardo Gadelha,76553787115,camara,150000612367,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,120000,PSC,DEPUTADO FEDERAL
+122195,Leonardo Gadelha,76553787115,camara,150000612367,2018,Apartamento,#NULO#,1100000,PSC,DEPUTADO FEDERAL
 74156,Leonardo Monteiro,20811845672,camara,130000626962,2018,Casa,#NULO#,95000,PT,DEPUTADO FEDERAL
 74156,Leonardo Monteiro,20811845672,camara,130000626962,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,58746.24,PT,DEPUTADO FEDERAL
 74156,Leonardo Monteiro,20811845672,camara,130000626962,2018,Depósito bancário em conta corrente no País,#NULO#,931.77,PT,DEPUTADO FEDERAL
@@ -3916,6 +3928,23 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204522,Marco Bertaiolli,09420275825,camara,250000605485,2018,Depósito bancário em conta corrente no País,#NULO#,145000,PSD,DEPUTADO FEDERAL
 204522,Marco Bertaiolli,09420275825,camara,250000605485,2018,Casa,#NULO#,60000,PSD,DEPUTADO FEDERAL
 204522,Marco Bertaiolli,09420275825,camara,250000605485,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,189000,PSD,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Terreno,"02 terrenos urbanos em Joinville Situados na R: Lages, 144 Sendo o primeiro com 601,12 m² e o segundo continuo A primeiro com 660,55 m²",34650,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,"Aplicação de renda fixa (CDB, RDB e outros)",BB renda Fixa LP 100,51799.87,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Outros fundos,FI- Fundo de Investimento - CEF ,4134.28,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Outros créditos e poupança vinculados,Conta VGBL Banco do Brasil,750074.42,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Hilux SW4 SRV, Placa NHD 9384 / Ano/Modelo 2007",88500,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Quotas ou quinhões de capital,"Quotas de capital da Otica Vision LTDA. R: Abdon Batista, 32 ",25000,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Crédito decorrente de empréstimo,Credito Referente a emprestimo a Ambile Anna Tebaldi,45000,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Terreno,01 terreno urbano no loteamento morada do sol Municipio de Erechim/RS,8662.5,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","veiculo Passat Confort Line, Ano/Modelo 2005/2006",126000,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Casa,"Casa residencial em alvenaria com area total de 346,70 m² em dois pavimentos na R: Lages, 1445",210000,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Quotas ou quinhões de capital,Participação no Capital Social da COOPERCRED - SICOOB,2579.71,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Aquisição de Veiculo Grand Siena Essence 1.6 Ano/Fab 2014/2015, Placa MLG 8129 de Florenca Veiculos S/A",42150,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Apartamento,"01 Apartamento no bloco B, condominio Edificio  Ocean Castle Residence, em Itapema/SC",280000,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Fundo de Investimento Imobiliário,"Domo Fundo de Investimento Imobiliario - FI  (50,000000000 COTAS)",46321.16,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Consórcio não contemplado,BB Consorcio de Automoveis,75573.93,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,Outros créditos e poupança vinculados,Poupança na CEF em nome da minha Filha Venuta Angela Tebaldi,102855.76,PSDB,DEPUTADO FEDERAL
+160536,MARCO TEBALDI,25671235049,camara,240000609634,2018,OUTROS BENS E DIREITOS,Mutuo para Gerson Alecio Strossi,288000,PSDB,DEPUTADO FEDERAL
 160535,Marcon,43434339000,camara,210000611372,2018,Depósito bancário em conta corrente no País,BB CP ESTILO,4038.42,PT,DEPUTADO FEDERAL
 160535,Marcon,43434339000,camara,210000611372,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Caminhonete Ford/F250 ARB Master, ano e modelo 2011, placa MIS 7295, adquirido em 13/02/2015, com entrada de R$ 17.000,00 e crédito consignação em folha pelo Banco do Brasil no valor de R$ 69.000,00. ",125571.11,PT,DEPUTADO FEDERAL
 160535,Marcon,43434339000,camara,210000611372,2018,"Aplicação de renda fixa (CDB, RDB e outros)","Banco do Estado do Rio Grande do Sul S.A , Aplicação Renda Fixa CDB  ",121235.03,PT,DEPUTADO FEDERAL

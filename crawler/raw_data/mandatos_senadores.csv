@@ -78,6 +78,8 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 3713,senado,56,2019-02-01,NA,Titular,NA,NA
 5615,senado,55,2016-09-08,2016-09-14,1º Suplente,NA,Licença Saúde-Particular
 5615,senado,56,2019-02-01,NA,1º Suplente,NA,NA
+6008,senado,56,2021-03-31,2023-01-31,1º Suplente,NA,NA
+6008,senado,57,2023-02-01,NA,1º Suplente,NA,NA
 4558,senado,55,2015-02-01,2019-01-01,Titular,NA,Renúncia
 4558,senado,56,2019-02-01,NA,Titular,NA,NA
 5639,senado,55,2018-10-31,2019-01-30,2º Suplente,NA,Licença Particular
@@ -148,7 +150,7 @@ id_parlamentar,casa,id_legislatura,data_inicio,data_fim,situacao,cod_causa_fim_e
 5585,senado,56,2019-02-01,NA,1º Suplente,NA,NA
 5557,senado,55,2019-01-03,2019-01-31,1º Suplente,NA,NA
 5557,senado,56,2019-02-01,NA,1º Suplente,NA,NA
-5666,senado,56,2019-02-01,2021-03-18,Titular,NA,Falecimento
+5666,senado,56,2019-02-01,2021-03-19,Titular,NA,Falecimento
 5666,senado,57,2023-02-01,NA,Titular,NA,NA
 5376,senado,56,2019-02-01,2023-01-31,Titular,NA,NA
 5376,senado,57,2023-02-01,NA,Titular,NA,NA
