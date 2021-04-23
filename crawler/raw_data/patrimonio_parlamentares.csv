@@ -3398,15 +3398,15 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 151208,Laercio Oliveira,16853881400,camara,260000623575,2018,Quotas ou quinhões de capital,#NULO#,162450,PP,DEPUTADO FEDERAL
 151208,Laercio Oliveira,16853881400,camara,260000623575,2018,Quotas ou quinhões de capital,#NULO#,10000,PP,DEPUTADO FEDERAL
 151208,Laercio Oliveira,16853881400,camara,260000623575,2018,Caderneta de poupança,#NULO#,421437.87,PP,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,180000,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,220000,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Apartamento,#NULO#,220000,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Depósito bancário em conta corrente no País,#NULO#,62314.5,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Sala ou conjunto,#NULO#,220000,PR,DEPUTADO FEDERAL
-141478,LAERTE BESSA,09511172115,camara,70000625531,2018,Sala ou conjunto,#NULO#,270000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Apartamento,#NULO#,180000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Apartamento,#NULO#,220000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Apartamento,#NULO#,320000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Apartamento,#NULO#,220000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Depósito bancário em conta corrente no País,#NULO#,62314.5,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Sala ou conjunto,#NULO#,220000,PR,DEPUTADO FEDERAL
+141478,Laerte Bessa,09511172115,camara,70000625531,2018,Sala ou conjunto,#NULO#,270000,PR,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,Consórcio não contemplado,Consórcio BB Credito Veículo,26289.45,PRB,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,Depósito bancário em conta corrente no País,"Conta Corrente n. 5349-X, Banco do Brasil, agência 0062-0, Barbacena-MG",25497.16,PRB,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Veículo JEEP Renegate Sport at D 2016/2017, Placa PYY 5952",112000,PRB,DEPUTADO FEDERAL
@@ -3825,6 +3825,12 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204458,Major Fabiana,07862227786,camara,190000614683,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",SIENA 2015,25000,PSL,DEPUTADO FEDERAL
 204458,Major Fabiana,07862227786,camara,190000614683,2018,Dinheiro em espécie - moeda nacional,REMUNERAÇÃO SALARIAL,15000,PSL,DEPUTADO FEDERAL
 204458,Major Fabiana,07862227786,camara,190000614683,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",FIAT UNO 2014,18000,PSL,DEPUTADO FEDERAL
+141490,MANOEL JUNIOR,40902650459,camara,150000612368,2018,Depósito bancário em conta corrente no País,#NULO#,13637.2,PSC,DEPUTADO FEDERAL
+141490,MANOEL JUNIOR,40902650459,camara,150000612368,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,180000,PSC,DEPUTADO FEDERAL
+141490,MANOEL JUNIOR,40902650459,camara,150000612368,2018,Apartamento,#NULO#,801289.88,PSC,DEPUTADO FEDERAL
+141490,MANOEL JUNIOR,40902650459,camara,150000612368,2018,Apartamento,#NULO#,110444.64,PSC,DEPUTADO FEDERAL
+141490,MANOEL JUNIOR,40902650459,camara,150000612368,2018,Caderneta de poupança,#NULO#,25053.04,PSC,DEPUTADO FEDERAL
+141490,MANOEL JUNIOR,40902650459,camara,150000612368,2018,Apartamento,#NULO#,574077.47,PSC,DEPUTADO FEDERAL
 204471,Mara Rocha,41186273291,camara,10000602512,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,90000,PSDB,DEPUTADO FEDERAL
 204471,Mara Rocha,41186273291,camara,10000602512,2018,Quotas ou quinhões de capital,#NULO#,35000,PSDB,DEPUTADO FEDERAL
 212749,Marcão Gomes,09300885731,camara,190000604197,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",automovel fiat linea 2012 adquirido em 2014,29000,PR,DEPUTADO FEDERAL
@@ -4519,6 +4525,10 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 74159,Odair Cunha,94892393649,camara,130000626966,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,38000,PT,DEPUTADO FEDERAL
 74159,Odair Cunha,94892393649,camara,130000626966,2018,Aeronave,#NULO#,206000,PT,DEPUTADO FEDERAL
 74159,Odair Cunha,94892393649,camara,130000626966,2018,Caderneta de poupança,#NULO#,5158.31,PT,DEPUTADO FEDERAL
+178868,Odorico Monteiro,19249330391,camara,60000611969,2018,Quotas ou quinhões de capital,"Quotas de Capital na Empresa Saberes Editora LTDA-ME (CNPJ: 10.606.585/0001-41) no valor de R$ 180.500,00",180500,PSB,DEPUTADO FEDERAL
+178868,Odorico Monteiro,19249330391,camara,60000611969,2018,"Aplicação de renda fixa (CDB, RDB e outros)","Aplicação BB curto prazo 200 ¿ Banco do Brasil S/A, Agencia n. 4732-5, Conta n. 1177-0 ¿ Valor: R$ 8.787,44. ",8787.44,PSB,DEPUTADO FEDERAL
+178868,Odorico Monteiro,19249330391,camara,60000611969,2018,Apartamento,"Imóvel ¿ Apartamento n. 802, no Edifício Minas de Prata, situado na Rua Leonardo Mota, n. 2815 nesta capital, com área constituída de 394,64 m² e fração ideal de 5,670% do terreno medindo 78,00m de",400000,PSB,DEPUTADO FEDERAL
+178868,Odorico Monteiro,19249330391,camara,60000611969,2018,Terreno,"Um terreno constituído pelo lote 3, Quadra TA1, no loteamento Alfhaville Ceará, residências 1 e 2, adquirido de Dias Branco incorporada Spe 01 LTDA e Dias Branco Empreendimentos Imobiliários SPE 01",11868,PSB,DEPUTADO FEDERAL
 204498,Olival Marques,66514010253,camara,140000613811,2018,Consórcio não contemplado,"Consórcio de Moto Honda Modelo CRF23OF R$ 14.297,00 ",4174.2,DEM,DEPUTADO FEDERAL
 204498,Olival Marques,66514010253,camara,140000613811,2018,Terreno,"Comp de terreno em 07/08/2015 R$ 44.974,50 entrada em dinh R$ 6.666,66 e 24 parc de R$ 1.588,66 Reg Cartório Imóveis do Ofício Unico Benevides Mat. 00231",13021.3,DEM,DEPUTADO FEDERAL
 204498,Olival Marques,66514010253,camara,140000613811,2018,Terreno,Terreno no município de Salinópolis Valle do Sal Qd 059 Lote 005,50000,DEM,DEPUTADO FEDERAL
@@ -5417,6 +5427,24 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 204357,Rose Modesto,93132620106,camara,120000613457,2018,Dinheiro em espécie - moeda nacional,Disponibilidade Financeira,18600,PSDB,DEPUTADO FEDERAL
 204357,Rose Modesto,93132620106,camara,120000613457,2018,Depósito bancário em conta corrente no País,"BANCO BRADESCO - CC 76152-4, Ag. 5247",19.01,PSDB,DEPUTADO FEDERAL
 204357,Rose Modesto,93132620106,camara,120000613457,2018,Outras aplicações e Investimentos,"BANCO DO BRASIL - Saldo Aplicação Financeira - Conta 70000-2, Ag. 5783",75486.93,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,VGBL - Vida Gerador de Benefício Livre,"Prêmios acumulados em VGBL Banco do Brasil, matrícula 1858910-3",264484.41,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Apartamento,"Apartamento n° 218 condomínio Sol Inn Graciosa, situado na Rua Alberto Santos Dumont, 747 Quatro Barras-PR",54939,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Caderneta de poupança,"Saldo em conta poupança Banco do Brasil, agência 1348-x conta 34999",2431.02,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Automóvel Mercedes Bens C 180 CGI, ano 2010, RENAVAM 109691 Placa AVR 4546",115000,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Depósito bancário em conta corrente no País,"Saldo em conta corrente Banco do Brasil, agência 1348, conta 34999-248",12526.06,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Dinheiro em espécie - moeda nacional,Dinheiro em moeda nacional,250000,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,"Aplicação de renda fixa (CDB, RDB e outros)","Aplicação renda fixa Banco do Brasil, BB REF DI 500, CNPJ 00.000.000/1925-97",9879.1,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Casa,"Casa n° 18 no condomínio Residencial Graciosa Village, na Av.  N.S. da Luz Curitiba-PR, adquirido de Luiz Antoinio Schiochet e Olita Bartolotto,, CPF 276.975.250-20",350000,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Quotas ou quinhões de capital,"80% do capital social da Empresa Ecoplast Agroindustrial Ltda, CNPJ 00.469.159/0001-50",425000,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Terreno,"Terreno rural, núcleo Armado Cunha, matrícula 12.801 em Bituruna-PR",112333.49,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Quotas ou quinhões de capital,"Quotas na empresa Fibrapar Participações Empresariais Ltda, CNPJ 27.346.367/0001-18",14850,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Veículo VW Tiguan 2.0 TSI ano 2013, adquirido de Servopa S/A CNPJ 76.564.624/0001-01, NF 411376",145000,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Casa,"Casa com lotes urbanos 08 e 210 na Rua João Agostini s/n , Bituruna-PR",155595.71,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",Caminhão basculante Chevrolet 1300 ano 1986 Placa AEN 8722,30000,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Quotas ou quinhões de capital,"Quotas na empresa Brasfibra Indústria e Comércio de Madeira, CNPJ 79.129.151/0001-02",5000,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,VGBL - Vida Gerador de Benefício Livre,"Prêmios acumulados em VGBL Banco do Brasil, matrícula 2924734-9",67750.07,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,Depósito bancário em conta corrente no País,"Saldo em conta corrente Banco do Brasil, agência 4884-4, conta 6512-9",16069.65,PSDB,DEPUTADO FEDERAL
+178935,ROSSONI,21471037991,camara,160000623162,2018,VGBL - Vida Gerador de Benefício Livre,"Prêmios acumulados VGBL KIrton Vida e Previdencia S/A , em nome da cônjuge ,CNPJ 05.607.427/0001-79",24025.02,PSDB,DEPUTADO FEDERAL
 73466,Rubens Bueno,18746420959,camara,160000619729,2018,Apartamento,#NULO#,460000,PPS,DEPUTADO FEDERAL
 73466,Rubens Bueno,18746420959,camara,160000619729,2018,Apartamento,#NULO#,602257.46,PPS,DEPUTADO FEDERAL
 73466,Rubens Bueno,18746420959,camara,160000619729,2018,Crédito decorrente de empréstimo,#NULO#,28655,PPS,DEPUTADO FEDERAL
