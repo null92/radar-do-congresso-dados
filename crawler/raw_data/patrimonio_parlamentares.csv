@@ -2715,6 +2715,8 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 178909,Hélio Leite,08575878204,camara,140000613810,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",AUTOMÓVEL MARCA MITSUBISH ASX 4X4-AT 2.0 16V ANO FAB E MOD 2011 PLACA OCA 6387 ADQUIRIDO ATRAVÉS DE FINANCIAMENTO JUNTO AO BANCO DO BRASIL S/A,91649.35,DEM,DEPUTADO FEDERAL
 178909,Hélio Leite,08575878204,camara,140000613810,2018,Apartamento,"SITUADO NO RESIDENCIAL ODILARDO RAMOS DE ARAUJO, AV. BARÃO DO RIO BRANCO, 1515 CASTANHAL/PA",120000,DEM,DEPUTADO FEDERAL
 178909,Hélio Leite,08575878204,camara,140000613810,2018,Casa,"CASA EM ALVENARIA EDIFICADA NO TERRENO RUA SOUZA IRMÃOS, VILA BALNEARIA DE MARUDA MUNICÍPIO MARAPANIM/PA",25000,DEM,DEPUTADO FEDERAL
+217036,Henrique do Paraíso,34709948895,camara,250000606236,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",Caminhonete GM S10 LTZ ano/modelo 2013/2013,60000,PRB,DEPUTADO FEDERAL
+217036,Henrique do Paraíso,34709948895,camara,250000606236,2018,Caderneta de poupança,Banco Santander Ag 4645 ,90323.17,PRB,DEPUTADO FEDERAL
 73482,Henrique Fontana,33410518053,camara,210000611373,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Camioneta KIA Motors Carens EX 2.0L Mod. 2009, adquirido em 23/12/2008, de Sun Motors Com. Veic. Ltda",70500,PT,DEPUTADO FEDERAL
 73482,Henrique Fontana,33410518053,camara,210000611373,2018,Construção,"Gastos com a construção de uma casa de alvenaria no terreno da rua Dolores Duran, 2210, Porto Alegre/RS",72473.18,PT,DEPUTADO FEDERAL
 73482,Henrique Fontana,33410518053,camara,210000611373,2018,Linha telefônica,Linha telefônica ,3053.47,PT,DEPUTADO FEDERAL
@@ -3342,6 +3344,27 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 73586,Júlio Delgado,81993358668,camara,130000627016,2018,Depósito bancário em conta corrente no País,#NULO#,2.61,PSB,DEPUTADO FEDERAL
 73586,Júlio Delgado,81993358668,camara,130000627016,2018,Outras aplicações e Investimentos,#NULO#,6278.24,PSB,DEPUTADO FEDERAL
 73586,Júlio Delgado,81993358668,camara,130000627016,2018,Apartamento,#NULO#,550000,PSB,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,"Jóia, quadro, objeto de arte, de coleção, antiguidade, etc.",5 QUADROS ADQUIRIDOS DE LIBRAL E MARINI LTDA EM 29/11/1993,1930.03,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,"Jóia, quadro, objeto de arte, de coleção, antiguidade, etc.","2 QUADROS ADQUIRIDOS DE GALERIA DE ARTE SARAMENHA LTDA, EM 10/02/1993",10302.05,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Caderneta de poupança,BANCO DO BRASILN: 00.269.010-1 BBCP ESTILO,133.23,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,VGBL - Vida Gerador de Benefício Livre,BRASIL PREV SEGUROS E PREVIDÊNCIA SA - DEPEDENTE JULIA MONTE ALTO LOPES,41154.23,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,"Aplicação de renda fixa (CDB, RDB e outros)",BANCO ITAU RDB/CBD AGENCIA 9242 CONTA 10173-2,1201.65,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Depósito bancário em conta corrente no País,BANCO DO BRASIL AGENCIA 4884 CONTA 289010-0,3923.21,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Depósito bancário em conta corrente no País,"BLOQUEIO JUDICIAL, BANCO ITAU AGENCIA 9242 CONTA 10173-2",0.34,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Quotas ou quinhões de capital,QUOTAS DE CAPITAL DA EMPRESA PRODUTO PLANEJAMENTO E CONSULTORIA EMPRESARIAL LTDA,9990,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Quotas ou quinhões de capital,QUOTAS DA FIRMA MELHOR PAPEL - PAPELARIA E LIVRARIA LTDA,12246,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Linha telefônica,NUMERO 2422-4482 E 2422-3458,2359.51,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Linha telefônica,NUMERO 2266-1042 E 2266-3616,4765.8,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Prédio residencial,"PRÉDIO SITUADO NA RUA MARIA ANGELICA, N: 310, JARDIM BOTÂNICO, RIO DE JANEIRO DOADA POR ANTONIO FERNANDES CUQUEJO",346986.4,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Quotas ou quinhões de capital,QUOTAS DE FIRMA ATENDE - ATENDIMENTO ESPECIALIZADO S/C LTDA,0.01,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Quotas ou quinhões de capital,QUOTAS DE CAPITAL DO CELTEC CENTRO EDUCACIONAL DA LAGOA TECNOLOGIA LTDA,120000,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Apartamento,"APARTAMENTO SITUADO NA RUA GENERAL DIONÍSIO N: 19, APTO 301, HUMAITÁ, RIO DE JANEIRO, DOADO POR ANTONIO FERNANDES CUQUEJO",97156.2,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Quotas ou quinhões de capital,QUOTAS DE CAPITAL DA EMPRESA CEL CONSULTORIA TÉCNICA E SERVIÇOS E INTERMEDIAÇÕES DE NEGÓCIOS LTDA,7000,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Apartamento,"50% DO IMOVEL SITUADO NA RUA SACOPA, 150 APT: 203 LAGOA, RIO DE JANEIRO",104095.92,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Quotas ou quinhões de capital,QUOTAS DA FIRMA CELTEC CENTRO EDUCACIONAL DA LAGOA TECNOLOGIA LTDA ,110214,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Quotas ou quinhões de capital,QUOTAS DE CAPITAL MELHOR PAPEL - PAPELARIA E LIVRARIA LTDA,7500,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Dinheiro em espécie - moeda nacional,DINHEIRO EM DOMICILIO,50000,PP,DEPUTADO FEDERAL
+74253,Julio Lopes,59245220753,camara,190000607440,2018,Depósito bancário em conta corrente no País,SALDO BANCO ITAU AGENCIA 9242 CONTA 10173-2,10,PP,DEPUTADO FEDERAL
 204457,Juninho do Pneu,07845799700,camara,190000607415,2018,Quotas ou quinhões de capital,95% DO CAPITAL SOCIAL DA EMPRESA JUNIOR DE IGUAÇU LOCAÇÕES DE MÁQUINAS E VEÍCULOS LTDA,1971250,DEM,DEPUTADO FEDERAL
 204457,Juninho do Pneu,07845799700,camara,190000607415,2018,"Aplicação de renda fixa (CDB, RDB e outros)",APLICAÇÃO DE RENDA FIXA BANCO SANTANDER SA,8889.46,DEM,DEPUTADO FEDERAL
 204457,Juninho do Pneu,07845799700,camara,190000607415,2018,Depósito bancário em conta corrente no País,CONTA CORRENTE BANCO SANTANDER,8.37,DEM,DEPUTADO FEDERAL
@@ -3415,6 +3438,30 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,Apartamento,"30,70% do apartamento 203 do Edifício Imperador Dom Pedro, situado na Rua Pium-i, n. 31, Bairro Cruzeiro, Belo Horizonte - MG",92634.8,PRB,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Veículo VW FOX 1.0 GII 2013/2014, Placa OQF 6036",31500,PRB,DEPUTADO FEDERAL
 98057,Lafayette de Andrada,38105195100,camara,130000620803,2018,Terreno,"02 Lotes de terreno no município de Barbacena-MG, localizado no Bairro Colônia Rodrigo Silva, 01.",20000,PRB,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,OUTROS BENS E DIREITOS,"Direito de Lavra, jazida no município de Saúde-BA",10000,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,OUTROS BENS E DIREITOS,Empréstimo a Maria Helena dos Santos,25000,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Título de clube e assemelhado,"50% de título da Disney Vacation Club (0,1264% da unidade de n. 50).",4180.36,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Apartamento,Apartamento 207 do bl C da SQN 207 em BSB,43491.94,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Sala ou conjunto,"Grupo 113 da Rua Álvaro Alvin, 27 - Centro - Rio de Janeiro.",35543.74,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Caderneta de poupança,Poupança Ouro - Banco do Brasil,380.62,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Dinheiro em espécie - moeda nacional,Dinheiro em espécie,65000,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Fundo de Curto Prazo,BB Curto prazo Estilo,324.61,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Linha telefônica,Linha telefônica 2533-2347,1117,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Automóvel Volkswagem, Fox, ano 2010 vermelho",21000,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Linha telefônica,Linha telefônica Celular ,1367.87,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Linha telefônica,Linhas telefônicas 2220-6889 e 2220-8689,2637.09,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Sala ou conjunto,"50% do Grupo 112 da Rua Álvaro Alvin, 27 - Centro - Rio de Janeiro.",28104.57,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","Automóvel GM, Opala",6000,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,"Fundos: Ações, Mútuos de Privatização, Invest. Empresas Emergentes, Invest.Participação e Invest. Índice Mercado",BB Ref di Plus Estilo,399663.67,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",Automóvel GM - Vectra GLS Ano 1997/1996 - Cor Prata,20000,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Linha telefônica,Linha telefônica 3005087 alterada 2231013 em Brasília,1102.14,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Quotas ou quinhões de capital,50% das cotas do capital social da empresa Mina Maravilha Mineração LTDA,500,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Apartamento,"Apartamento 609 da Rua Otaviano Hudson, 16",2500,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Sala ou conjunto,"50% do conjunto 112 da Rua Álvaro Alvin, 27",15500,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Loja,Loja 111A no Barra World Shopping,76961.17,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,"Jóia, quadro, objeto de arte, de coleção, antiguidade, etc.",Jóias de família e pessoais,59500,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Casa,"75% do Imóvel da Av. das Américas, 2300 A - Casa 56.",292500,DEM,DEPUTADO FEDERAL
+74856,Laura Carneiro,79401546720,camara,190000607431,2018,Depósito bancário em conta corrente no País,Conta Corrente - Banco do Brasil S.A.,20234.13,DEM,DEPUTADO FEDERAL
 160534,Lauriete,00974976733,camara,80000607498,2018,Apartamento,#NULO#,335000,PR,DEPUTADO FEDERAL
 160534,Lauriete,00974976733,camara,80000607498,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,35000,PR,DEPUTADO FEDERAL
 160534,Lauriete,00974976733,camara,80000607498,2018,Apartamento,#NULO#,490000,PR,DEPUTADO FEDERAL
@@ -3469,6 +3516,18 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 74156,Leonardo Monteiro,20811845672,camara,130000626962,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,58746.24,PT,DEPUTADO FEDERAL
 74156,Leonardo Monteiro,20811845672,camara,130000626962,2018,Depósito bancário em conta corrente no País,#NULO#,931.77,PT,DEPUTADO FEDERAL
 74156,Leonardo Monteiro,20811845672,camara,130000626962,2018,Casa,#NULO#,240000,PT,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Depósito bancário em conta corrente no País,BRADESCO - EM NOME DE OUTRO,20178.52,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Depósito bancário em conta corrente no País,BRADESCO - EM NOME DE OUTRO,25312.04,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,OUTROS BENS E DIREITOS,DIREITO A RECEBER DE AGROBILARA COMÉRCIO E PARTICIPAÇÕES LTDA,250000,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",MOTO - HARLEY,39000,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Outras aplicações e Investimentos,AQUISIÇÃO EMPRESA CORUMANDEL,1734572,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Outros fundos,SALDO EM CARTÕES BANCO DO BRASIL,225.3,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Depósito bancário em conta corrente no País,BANCO DO BRASIL ,43168.64,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",CARRO - MERCEDEZ BENS,164181.84,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Depósito bancário em conta corrente no País,BANCO DO BRASIL,1019.17,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Depósito bancário em conta corrente no País,BANCO DO BRASIL,76542.03,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Caderneta de poupança,BRADESCO,1,MDB,DEPUTADO FEDERAL
+74254,Leonardo Picciani,08436066731,camara,190000607475,2018,Quotas ou quinhões de capital,8.000 QUOTAS DA EMPRESA AGROBILARA COMÉRCIO E PARTICIPAÇÕES LTDA,6673221,MDB,DEPUTADO FEDERAL
 74299,Leônidas Cristino,12105961304,camara,60000611956,2018,Terreno,"UMA ÁREA DE TERRAS com 20 (vinte) braças de frente e fundos correspondentes de meia légua, no lugar VÁRZEA DAS PEDRAS, em Coreaú",19600,PDT,DEPUTADO FEDERAL
 74299,Leônidas Cristino,12105961304,camara,60000611956,2018,Depósito bancário em conta corrente no País,Saldo em conta corrente no Banco do Brasil Ag. 0085-x ¿ Sobral-Ce,272.15,PDT,DEPUTADO FEDERAL
 74299,Leônidas Cristino,12105961304,camara,60000611956,2018,Casa,"Uma casa localizada na Rua Campos Novos n.. 57, Pavimento Térreo, Bairro Damas, Fortaleza ¿ Ceará, com uma área edificada de 83,64m2",52500,PDT,DEPUTADO FEDERAL
@@ -5651,6 +5710,14 @@ id_parlamentar,nome_eleitoral,cpf,casa,sq_candidato,ano_eleicao,ds_tipo_bem,ds_b
 178874,Sergio Vidigal,52549810759,camara,80000622443,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,26000,PDT,DEPUTADO FEDERAL
 178874,Sergio Vidigal,52549810759,camara,80000622443,2018,Casa,#NULO#,180000,PDT,DEPUTADO FEDERAL
 178874,Sergio Vidigal,52549810759,camara,80000622443,2018,Sala ou conjunto,#NULO#,322482.76,PDT,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,Apartamento,#NULO#,35000,PSB,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,Apartamento,#NULO#,70000,PSB,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,Depósito bancário em conta corrente no País,#NULO#,49.44,PSB,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,Depósito bancário em conta corrente no País,#NULO#,1623.64,PSB,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,Depósito bancário em conta corrente no País,#NULO#,548.11,PSB,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.",#NULO#,20000,PSB,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,Depósito bancário em conta corrente no País,#NULO#,4616.37,PSB,DEPUTADO FEDERAL
+167614,SEVERINO NINHO,12581909404,camara,170000610295,2018,Depósito bancário em conta corrente no País,#NULO#,1864.56,PSB,DEPUTADO FEDERAL
 204437,Severino Pessoa,66256070453,camara,20000616806,2018,Outros bens móveis,"TOYOTA HILUX SWSRX 4FD, ANO/MODELO 2017/2018, COR PRETA, PLACA QLL-4340",281352.88,PRB,DEPUTADO FEDERAL
 178961,Shéridan,75096102220,camara,230000604574,2018,"Veículo automotor terrestre: caminhão, automóvel, moto, etc.","VEICULO TOYOTA HILUX CDRXA4FD ANO 2016 MODELO 2016, PLACA NAD4652, DE KAELE LTDA - EPP CNPJ NO04.819.2323/0004-05",140000,PSDB,DEPUTADO FEDERAL
 178961,Shéridan,75096102220,camara,230000604574,2018,Caderneta de poupança,CAIXA ECONÔMICA FEDERAL - SALDO EM CONTA POUPANÇA,5.64,PSDB,DEPUTADO FEDERAL
