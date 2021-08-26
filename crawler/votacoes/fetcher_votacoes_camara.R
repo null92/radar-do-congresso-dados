@@ -9,7 +9,6 @@ fetch_votacoes_por_ano_camara <- function(ano = seq(2019, format(Sys.Date(), "%Y
                   mutate(id_votacao = idVotacao, orientacao = get_val_voto(orientacao)) %>%
                   select(id_votacao, orientacao)
 
-
   url_votacoes <- paste0("http://dadosabertos.camara.leg.br/arquivos/votacoes/csv/votacoes-",ano,".csv")
   votacoes <- read_delim(url_votacoes, delim = ";") %>%
     mutate(
@@ -18,7 +17,7 @@ fetch_votacoes_por_ano_camara <- function(ano = seq(2019, format(Sys.Date(), "%Y
       obj_votacao = ifelse(nchar(ultimaApresentacaoProposicao_descricao) > 150, paste0(substring(ultimaApresentacaoProposicao_descricao, 1, 147), "..."), ultimaApresentacaoProposicao_descricao),
       data = as.Date(data, format = "%Y-%m-%d"),
       data_hora = dataHoraRegistro,
-      apelido = NA,
+      apelido = "indisponivel",
       status_importante = 0
     ) %>%
     select(

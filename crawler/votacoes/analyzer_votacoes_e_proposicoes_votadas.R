@@ -56,21 +56,22 @@ process_proposicoes_votadas_e_votacoes <-
     votacoes_camara <-
       fetch_all_votacoes_por_intervalo_camara(initial_date, end_date)
 
-
     votacoes_camara_alt <- votacoes_camara %>%
       mutate(
         data_hora = as.character(data_hora),
         votacao_secreta = 0,
+        url_votacao = "indisponivel",
         casa = "camara"
       ) %>%
       #process_votacoes_status_apelido() %>% 
       select(id_proposicao, id_votacao, casa, obj_votacao, data_hora, votacao_secreta, 
-             apelido, status_importante,orientacao)      
+             apelido, status_importante, orientacao, url_votacao)
     
     votacoes_senado <-
       fetcher_votacoes_por_intervalo_senado(initial_date, end_date)
     votacoes_senado_alt <- votacoes_senado %>%
       mutate(data_hora = as.character(datetime),
+             #apelido = "indisponivel",
              casa = "senado") %>%
       rename(obj_votacao = objeto_votacao,
              data = datetime) %>% 

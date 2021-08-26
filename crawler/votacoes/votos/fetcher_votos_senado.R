@@ -64,12 +64,9 @@ fetch_votos_por_link_votacao_senado <- function(url) {
   library(rvest)
   library(xml2)
  
-  print(paste0("Extraindo informações da votação de id ", 
-               str_extract(url, "\\d*$")))
+  print(paste0("Extraindo informações da votação de id ", str_extract(url, "\\d*$")))
 
-  #new_url <- 
-   # getURL(url, 
-    #       ssl.verifypeer = FALSE) %>% 
+  #new_url <- getURL(url, ssl.verifypeer = FALSE) %>% 
     #read_html() %>%
     #html_node('a') %>% 
     #html_attr('href')
