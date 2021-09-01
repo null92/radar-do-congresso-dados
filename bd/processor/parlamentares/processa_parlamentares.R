@@ -9,7 +9,7 @@ processa_parlamentares <- function(parlamentares_data_path = here::here("crawler
   source(here::here("crawler/parlamentares/partidos/utils_partidos.R"))
   
   parlamentares <- read_csv(parlamentares_data_path, col_types = cols(cpf = "c", data_nascimento = "c"))
-  
+
   parlamentares_partidos <- parlamentares %>% 
     group_by(sg_partido) %>% 
     summarise(n = n()) %>% 
@@ -18,10 +18,11 @@ processa_parlamentares <- function(parlamentares_data_path = here::here("crawler
     ungroup()
   
   parlamentares_alt <- parlamentares %>%
+    mutate(situacao = dplyr::if_else(casa == "senado", paste0(condicao_eleitoral, " - ", em_exercicio), situacao)) %>%
     mutate(id_parlamentar_voz = paste0(
-      dplyr::if_else(casa == "camara", 1, 2), 
-      id)) %>% 
-    left_join(parlamentares_partidos %>% select(id_partido, sg_partido), by = c("sg_partido")) %>% 
+      dplyr::if_else(casa == "camara", 1, 2),
+      id)) %>%
+    left_join(parlamentares_partidos %>% select(id_partido, sg_partido), by = c("sg_partido")) %>%
     select(
       id_parlamentar_voz,
       id_parlamentar = id,
@@ -42,6 +43,6 @@ processa_parlamentares <- function(parlamentares_data_path = here::here("crawler
       telefone,
       email
     )
-  
+
   return(parlamentares_alt)
 }
