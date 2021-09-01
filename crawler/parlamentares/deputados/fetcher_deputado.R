@@ -55,7 +55,7 @@ fetch_deputados_with_backoff <- function(legislatura = 56) {
 #' @examples
 #' deputado <- fetch_deputado_with_backoff(73874)
 fetch_deputado_with_backoff <- function(id_deputado, max_attempts = 10) {
-  print(paste0("Baixando informações do deputado de id ", id_deputado, "..."))
+  print(paste0("Baixando informações do deputado de id ", id_deputado))
   url <- paste0("https://dadosabertos.camara.leg.br/api/v2/deputados/", id_deputado)
   
   
