@@ -5,7 +5,8 @@ WORKDIR /app
 ## Adiciona client do postgres para atualização do banco de dados remoto
 RUN apt-get update && apt-get install -y gnupg2
 RUN echo 'deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main' >  /etc/apt/sources.list.d/pgdg.list
-RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
+RUN sudo wget http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc
+RUN sudo apt-key add ACCC4CF8.asc
 RUN apt-get update
 RUN yes Y | apt-get install postgresql-client-10
 
